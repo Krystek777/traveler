@@ -32,7 +32,7 @@
     </action-mappings>
 
     <!-- Message Resources -->
-    <message-resources parameter="com.opitz.ApplicationResources" />
+    <message-resources parameter="com.opitz.ApplicationResources2" />
 
     <!--Validator Configuration -->
     <plug-in className="org.apache.struts.validator.ValidatorPlugIn">

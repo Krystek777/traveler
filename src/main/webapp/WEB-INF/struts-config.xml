@@ -22,7 +22,6 @@
     <!--Action Mappings-->
     <action-mappings>
         <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="/addClaim.jsp">
-            <forward name="failure" path="/failure.jsp" />
             <forward name="success" path="/success.jsp" />
         </action>
         <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="login.jsp">
@@ -32,7 +31,7 @@
     </action-mappings>
 
     <!-- Message Resources -->
-    <message-resources parameter="com.opitz.ApplicationResources" />
+    <message-resources parameter="com.opitz.ApplicationResources2" />
 
     <!--Validator Configuration -->
     <plug-in className="org.apache.struts.validator.ValidatorPlugIn">

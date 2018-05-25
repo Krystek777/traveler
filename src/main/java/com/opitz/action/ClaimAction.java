@@ -27,16 +27,10 @@ public class ClaimAction extends Action {
         ClaimConverter claimConverter = new ClaimConverter();
 
         ClaimForm claimForm = (ClaimForm)form;
-        if (claimForm.getName() == "" || !validator.validateEmail(claimForm.getEmail())|| claimForm.getClaimType() == null
-             || !validator.validateNumber(claimForm.getClaimAmount()) || !validator.validateDate(claimForm.getDateOccurred()) || !validator.validateNumber(claimForm.getPolicy())) {
-            return mapping.findForward("failure");
-
-        }
 
         ClaimService claimService = ServiceLocator.findClaimService();
         Claim claim = claimConverter.toClaim(claimForm);
         claimService.saveClaim(claim);
-//       request.setAttribute("claims", claimService.getClaims());
 
         HttpSession session = request.getSession(true);
         session.setAttribute("claims", claimService.getClaims());
