@@ -5,14 +5,23 @@
         "http://struts.apache.org/dtds/struts-config_1_3.dtd">
 
 <struts-config>
-
+    <!-- Form Beans -->
     <form-beans>
         <form-bean name="claimForm" type="com.opitz.form.ClaimForm"/>
         <form-bean name="loginForm" type="com.opitz.form.LoginForm"/>
     </form-beans>
 
+    <!-- Global Exceptions -->
+    <global-exceptions>
+    </global-exceptions>
+
+    <!-- Global Forwards -->
+    <global-forwards>
+    </global-forwards>
+
+    <!--Action Mappings-->
     <action-mappings>
-        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="addClaim.jsp">
+        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="/addClaim.jsp">
             <forward name="failure" path="/failure.jsp" />
             <forward name="success" path="/success.jsp" />
         </action>
@@ -22,7 +31,12 @@
         </action>
     </action-mappings>
 
+    <!-- Message Resources -->
+    <message-resources parameter="com.opitz.ApplicationResources" />
+
+    <!--Validator Configuration -->
     <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
-        <set-property property="pathnames" value="/WEB-INF/validator-rules.xml" />
+        <set-property property="pathnames"
+                      value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
     </plug-in>
 </struts-config>

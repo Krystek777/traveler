@@ -13,8 +13,7 @@
 <body>
 
 <html:form action="/addClaim" focus="name">
-    <%--<html:errors property="name"/>--%>
-    claim.name : <html:text property="name"/><br/>
+    claim.name : <html:text property="claimType"/><br/>
     Email : <html:text property="email"/><br/>
     Policy : <html:text property="policy"/><br/><br/>
     Claim Type:
