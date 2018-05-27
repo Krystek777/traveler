@@ -46,7 +46,6 @@
     <br/><html:text property="dateOccurred"/><br/>
     <html:submit value="Submit"/><br/><br/>
 
-    <br><br><a href="./login.jsp">Log in</a>
 </html:form>
 </p>
 </body>

@@ -1,0 +1,40 @@
+body{
+    background-color:lightblue;
+}
+
+
+
+.header{
+    background-color:mediumseagreen;
+    padding: 20px;
+    text-align: center;
+    margin:10px;
+}
+
+.sidebar{
+    background-color:mediumseagreen;
+    float:left;
+    width: 15%;
+    height: 450px;
+    margin: 1%;
+    padding: 1%;
+}
+
+.content{
+    background-color:mediumseagreen;
+    width: 72%;
+    float:left;
+    height: 450px;
+    padding: 2%;
+    margin:1%;
+
+
+}
+
+.footer{
+    background-color:mediumseagreen;
+    clear: both;
+    text-align:center;
+    padding: 50px;
+    margin:1%;
+}

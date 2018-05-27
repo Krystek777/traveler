@@ -28,6 +28,10 @@
             <forward name="failure" path="/loginFailure.jsp"/>
             <forward name="success" path="/all.jsp"/>
         </action>
+            <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
+                <forward name="addclaim" path="/addClaim.jsp"/>
+                <forward name="login" path="/login.jsp"/>
+            </action>
     </action-mappings>
 
     <!-- Message Resources -->
@@ -38,4 +42,6 @@
         <set-property property="pathnames"
                       value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
     </plug-in>
+
+
 </struts-config>
