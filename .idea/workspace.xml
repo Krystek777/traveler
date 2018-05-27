@@ -8,6 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,439 +22,402 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6539749">
-      <split-first>
-        <splitter split-orientation="horizontal" split-proportion="0.614317">
-          <split-first>
-            <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-              <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="374">
-                      <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="FieldChecks.java" pinned="false" current-in-tab="false">
-                <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="532">
-                      <caret line="1066" selection-start-line="1066" selection-end-line="1066" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="88">
-                      <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="loginFailure.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFailure.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="198">
-                      <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ApplicationResources2.properties" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="154">
-                      <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="110">
-                      <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/pom.xml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="202">
-                      <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="440">
-                      <caret line="20" selection-start-line="20" selection-end-line="20" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="MAVEN/com.opitz:traveler:1.0-SNAPSHOT" pinned="false" current-in-tab="false">
-                <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
-                  <provider selected="true" editor-type-id="UmlEditorProvider">
-                    <state>
-                      <ID>MAVEN</ID>
-                      <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
-                      <nodes>
-                        <node x="476.2500000000001" y="514.0">com.opitz:traveler:1.0-SNAPSHOT</node>
-                        <node x="351.0000000000001" y="405.0">javax.servlet:jstl:jar:1.2</node>
-                        <node x="706.7500000000001" y="326.0">org.apache.struts:struts-core:jar:1.3.10</node>
-                        <node x="1062.5" y="237.0">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
-                        <node x="883.8750000000001" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-                        <node x="887.375" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
-                        <node x="691.2500000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
-                        <node x="831.2500000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
-                        <node x="750.5000000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-                        <node x="909.5000000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
-                        <node x="390.6250000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
-                        <node x="504.1250000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
-                        <node x="602.2500000000001" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-                        <node x="583.1250000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
-                        <node x="434.1250000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
-                        <node x="764.0000000000001" y="405.0">org.apache.struts:struts-tiles:jar:1.3.10</node>
-                        <node x="871.0000000000001" y="405.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
-                        <node x="418.0000000000001" y="405.0">org.projectlombok:lombok:jar:1.16.20</node>
-                        <node x="511.0000000000001" y="405.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-                        <node x="647.0000000000001" y="405.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
-                        <node x="0.0" y="405.0">javax.servlet:servlet-api:jar:2.5</node>
-                        <node x="183.0000000000001" y="405.0">commons-collections:commons-collections:jar:3.2.1</node>
-                        <node x="107.00000000000011" y="405.0">junit:junit:jar:4.11</node>
-                        <node x="80.50000000000011" y="326.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-                      </nodes>
-                      <notes />
-                      <edges>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-                          <point x="-3.5499999999999545" y="-14.5" />
-                          <point x="508.20000000000016" y="454.0" />
-                          <point x="454.5000000000001" y="454.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
-                          <point x="10.649999999999977" y="-14.5" />
-                          <point x="522.4000000000001" y="464.0" />
-                          <point x="695.0000000000001" y="464.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-                          <point x="0.0" y="-14.5" />
-                          <point x="807.5000000000001" y="380.0" />
-                          <point x="780.9166666666667" y="380.0" />
-                          <point x="29.66666666666663" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
-                          <point x="45.66666666666663" y="-14.5" />
-                          <point x="618.2916666666667" y="212.0" />
-                          <point x="649.6250000000001" y="212.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
-                          <point x="31.950000000000045" y="-14.5" />
-                          <point x="543.7000000000002" y="494.0" />
-                          <point x="905.0000000000001" y="494.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-                          <point x="-45.66666666666663" y="-14.5" />
-                          <point x="526.9583333333335" y="212.0" />
-                          <point x="489.6250000000001" y="212.0" />
-                          <point x="33.0" y="14.5" />
-                        </edge>
-                        <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-                          <point x="0.0" y="-14.5" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-taglib:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-                          <point x="0.0" y="-14.5" />
-                          <point x="695.0000000000001" y="380.0" />
-                          <point x="721.5833333333335" y="380.0" />
-                          <point x="-29.66666666666663" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
-                          <point x="38.14285714285711" y="-14.5" />
-                          <point x="789.3928571428572" y="306.0" />
-                          <point x="1090.5" y="306.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-                          <point x="3.5499999999999545" y="-14.5" />
-                          <point x="515.3000000000001" y="454.0" />
-                          <point x="569.0000000000001" y="454.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
-                          <point x="-25.428571428571445" y="-14.5" />
-                          <point x="725.8214285714287" y="296.0" />
-                          <point x="459.1250000000001" y="296.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:jstl:jar:1.2">
-                          <point x="-10.649999999999977" y="-14.5" />
-                          <point x="501.10000000000014" y="464.0" />
-                          <point x="374.5000000000001" y="464.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8">
-                          <point x="12.714285714285666" y="-14.5" />
-                          <point x="763.9642857142858" y="286.0" />
-                          <point x="897.7500000000001" y="286.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
-                          <point x="34.75" y="-14.5" />
-                          <point x="854.7500000000001" y="133.0" />
-                          <point x="918.6250000000001" y="133.0" />
-                          <point x="-34.75" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0">
-                          <point x="-33.25" y="-14.5" />
-                          <point x="864.5000000000001" y="212.0" />
-                          <point x="820.0000000000001" y="212.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-tiles:jar:1.3.10">
-                          <point x="24.850000000000023" y="-14.5" />
-                          <point x="536.6000000000001" y="484.0" />
-                          <point x="807.5000000000001" y="484.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
-                          <point x="-1.1368683772161603E-13" y="-14.5" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
-                          <point x="-31.94999999999999" y="-14.5" />
-                          <point x="479.8000000000001" y="494.0" />
-                          <point x="43.5" y="494.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-                          <point x="-24.850000000000023" y="-14.5" />
-                          <point x="486.9000000000001" y="484.0" />
-                          <point x="135.0000000000001" y="484.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2">
-                          <point x="0.0" y="-14.5" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
-                          <point x="-17.75" y="-14.5" />
-                          <point x="494.0000000000001" y="474.0" />
-                          <point x="257.0000000000001" y="474.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
-                          <point x="-34.75" y="-14.5" />
-                          <point x="785.2500000000001" y="133.0" />
-                          <point x="706.5000000000001" y="133.0" />
-                          <point x="34.75" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-                          <point x="-38.14285714285711" y="-14.5" />
-                          <point x="713.107142857143" y="306.0" />
-                          <point x="423.6250000000001" y="306.0" />
-                          <point x="-33.0" y="14.5" />
-                        </edge>
-                        <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
-                          <point x="17.75" y="-14.5" />
-                          <point x="529.5000000000001" y="474.0" />
-                          <point x="753.5000000000001" y="474.0" />
-                          <point x="753.5000000000001" y="380.0" />
-                          <point x="751.2500000000001" y="380.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
-                          <point x="25.428571428571445" y="-14.5" />
-                          <point x="776.6785714285716" y="296.0" />
-                          <point x="1052.0" y="296.0" />
-                          <point x="1052.0" y="133.0" />
-                          <point x="988.1250000000001" y="133.0" />
-                          <point x="34.75" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
-                          <point x="0.0" y="-14.5" />
-                          <point x="572.6250000000001" y="133.0" />
-                          <point x="637.0000000000001" y="133.0" />
-                          <point x="-34.75" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1">
-                          <point x="-12.714285714285666" y="-14.5" />
-                          <point x="738.5357142857144" y="286.0" />
-                          <point x="572.6250000000001" y="286.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                        <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
-                          <point x="33.25" y="-14.5" />
-                          <point x="931.0000000000001" y="212.0" />
-                          <point x="975.5000000000001" y="212.0" />
-                          <point x="0.0" y="14.5" />
-                        </edge>
-                      </edges>
-                      <settings layout="Hierarchic Group" zoom="1.0" x="-18.139858797116688" y="220.0" />
-                      <SelectedNodes>
-                        <node>org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-                      </SelectedNodes>
-                      <Categories />
-                      <VISIBILITY>All</VISIBILITY>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="traveler.iml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/traveler.iml">
-                  <provider selected="true" editor-type-id="text-editor" />
-                </entry>
-              </file>
-              <file leaf-file-name="ValidatorAction.java" pinned="false" current-in-tab="false">
-                <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/ValidatorAction.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="372">
-                      <caret line="568" selection-start-line="568" selection-end-line="568" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="validator-rules.xml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="3114">
-                      <caret line="272" column="29" selection-start-line="272" selection-start-column="29" selection-end-line="272" selection-end-column="29" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="505">
-                      <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-                      <folding>
-                        <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-                  <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="286">
-                      <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
-                <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="11745">
-                      <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="validation.xml" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="242">
-                      <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="520">
-                      <caret line="32" selection-start-line="32" selection-end-line="32" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="ClaimForm.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-286">
-                      <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-                      <folding>
-                        <element signature="imports" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="286">
-                      <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-first>
-          <split-second>
-            <leaf>
-              <file leaf-file-name="Claim.java" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-22">
-                      <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-            </leaf>
-          </split-second>
-        </splitter>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="220">
-                  <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="failure.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationResources2.properties" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="failure.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldChecks.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-98">
+              <caret line="753" column="28" lean-forward="true" selection-start-line="753" selection-start-column="28" selection-end-line="753" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LazyValidatorForm.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/LazyValidatorForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginFailure.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFailure.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationResources2.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1025">
+              <caret line="157" column="55" lean-forward="true" selection-start-line="157" selection-start-column="55" selection-end-line="157" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MAVEN/com.opitz:traveler:1.0-SNAPSHOT" pinned="false" current-in-tab="false">
+        <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MAVEN</ID>
+              <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
+              <nodes>
+                <node x="619.0" y="356.0">com.opitz:traveler:1.0-SNAPSHOT</node>
+                <node x="1009.25" y="247.0">javax.servlet:jstl:jar:1.2</node>
+                <node x="555.5" y="168.0">org.apache.struts:struts-core:jar:1.3.10</node>
+                <node x="977.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
+                <node x="821.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+                <node x="824.5" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+                <node x="685.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
+                <node x="533.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
+                <node x="608.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+                <node x="458.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
+                <node x="308.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
+                <node x="152.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
+                <node x="152.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+                <node x="0.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
+                <node x="82.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
+                <node x="585.25" y="247.0">org.apache.struts:struts-tiles:jar:1.3.10</node>
+                <node x="921.25" y="247.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
+                <node x="829.25" y="247.0">org.projectlombok:lombok:jar:1.16.20</node>
+                <node x="692.25" y="247.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+                <node x="469.25" y="247.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
+                <node x="361.25" y="247.0">javax.servlet:servlet-api:jar:2.5</node>
+                <node x="196.25" y="247.0">commons-collections:commons-collections:jar:3.2.1</node>
+                <node x="121.25" y="247.0">junit:junit:jar:4.11</node>
+                <node x="94.75" y="168.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
+                  <point x="18.0" y="-14.5" />
+                  <point x="673.0" y="316.0" />
+                  <point x="865.25" y="316.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+                  <point x="0.0" y="-14.5" />
+                  <point x="628.25" y="227.0" />
+                  <point x="599.5" y="227.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
+                  <point x="-10.800000000000011" y="-14.5" />
+                  <point x="644.2" y="306.0" />
+                  <point x="517.25" y="306.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
+                  <point x="-45.0" y="-14.5" />
+                  <point x="175.0" y="54.0" />
+                  <point x="66.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+                  <point x="45.0" y="-14.5" />
+                  <point x="265.0" y="54.0" />
+                  <point x="340.5" y="54.0" />
+                  <point x="-32.5" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
+                  <point x="25.200000000000045" y="-14.5" />
+                  <point x="680.2" y="326.0" />
+                  <point x="955.25" y="326.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-taglib:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+                  <point x="0.0" y="-14.5" />
+                  <point x="517.25" y="227.0" />
+                  <point x="570.1666666666666" y="227.0" />
+                  <point x="-29.33333333333337" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
+                  <point x="37.714285714285666" y="-14.5" />
+                  <point x="637.2142857142857" y="148.0" />
+                  <point x="1005.5" y="148.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
+                  <point x="10.799999999999955" y="-14.5" />
+                  <point x="665.8" y="306.0" />
+                  <point x="750.75" y="306.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
+                  <point x="-37.71428571428578" y="-14.5" />
+                  <point x="561.7857142857142" y="148.0" />
+                  <point x="107.5" y="148.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:jstl:jar:1.2">
+                  <point x="32.39999999999998" y="-14.5" />
+                  <point x="687.4" y="336.0" />
+                  <point x="1032.75" y="336.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0">
+                  <point x="33.0" y="-14.5" />
+                  <point x="632.5" y="54.0" />
+                  <point x="676.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-tiles:jar:1.3.10">
+                  <point x="-3.6000000000000227" y="-14.5" />
+                  <point x="651.4" y="296.0" />
+                  <point x="628.25" y="296.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+                  <point x="-18.0" y="-14.5" />
+                  <point x="637.0" y="316.0" />
+                  <point x="405.25" y="316.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+                  <point x="-32.400000000000034" y="-14.5" />
+                  <point x="622.5999999999999" y="336.0" />
+                  <point x="148.75" y="336.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2">
+                  <point x="12.571428571428555" y="-14.5" />
+                  <point x="612.0714285714286" y="128.0" />
+                  <point x="743.5" y="128.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
+                  <point x="-25.200000000000045" y="-14.5" />
+                  <point x="629.8" y="326.0" />
+                  <point x="268.75" y="326.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
+                  <point x="3.6000000000000227" y="-14.5" />
+                  <point x="658.6" y="296.0" />
+                  <point x="681.75" y="296.0" />
+                  <point x="681.75" y="217.0" />
+                  <point x="628.8333333333334" y="217.0" />
+                  <point x="29.33333333333337" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+                  <point x="-12.571428571428555" y="-14.5" />
+                  <point x="586.9285714285714" y="128.0" />
+                  <point x="405.5" y="128.0" />
+                  <point x="32.5" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
+                  <point x="25.14285714285711" y="-14.5" />
+                  <point x="624.6428571428571" y="138.0" />
+                  <point x="889.5" y="138.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
+                  <point x="0.0" y="-14.5" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1">
+                  <point x="-25.142857142857224" y="-14.5" />
+                  <point x="574.3571428571428" y="138.0" />
+                  <point x="220.0" y="138.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
+                  <point x="-33.0" y="-14.5" />
+                  <point x="566.5" y="54.0" />
+                  <point x="523.0" y="54.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.42142230026338895" x="559.5" y="271.5" />
+              <SelectedNodes>
+                <node>com.opitz:traveler:1.0-SNAPSHOT</node>
+              </SelectedNodes>
+              <Categories />
+              <VISIBILITY>All</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValidatorAction.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/ValidatorAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="568" selection-start-line="568" selection-end-line="568" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validator-rules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="29" column="79" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimConverter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -463,13 +429,17 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>validateDate</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/consulting/form/AddClaimForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/consulting/action/AddClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ClaimForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
@@ -515,11 +485,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
       </list>
     </option>
   </component>
@@ -575,8 +546,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -699,86 +669,12 @@
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.3.1" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-validator-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-validator:commons-validator:1.3.1" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-validator-1.3.1.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -873,6 +769,7 @@
       <listeners />
     </configuration>
     <configuration name="Tomcat 8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8090/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="traveler:war exploded">
@@ -883,6 +780,8 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_traveler" />
+        <option name="HTTP_PORT" value="8090" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -965,14 +864,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58365000" />
+    <option name="totallyTimeSpent" value="59491000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32942098" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.53069943" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
@@ -989,27 +889,52 @@
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3834116" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34976527" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16732909" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25925925" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.8917379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16375838" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3834116" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16732909" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.53069943" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34976527" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39827856" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32629108" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Struts Assistant" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3834116" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3834116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Struts Assistant" order="4" />
@@ -1018,6 +943,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34976527" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32629108" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1027,7 +953,6 @@
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.53069943" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1035,6 +960,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827856" />
     </layout-to-restore>
   </component>
@@ -1046,14 +972,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager>
@@ -1120,16 +1038,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -1137,9 +1045,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,9 +1052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1157,9 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1177,9 +1076,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1187,18 +1083,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-            <element signature="e#622#623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -1289,13 +1173,10 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/ValidatorAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
+        <state relative-caret-position="33">
           <caret line="568" selection-start-line="568" selection-end-line="568" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traveler.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -1303,68 +1184,68 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="476.2500000000001" y="514.0">com.opitz:traveler:1.0-SNAPSHOT</node>
-            <node x="351.0000000000001" y="405.0">javax.servlet:jstl:jar:1.2</node>
-            <node x="706.7500000000001" y="326.0">org.apache.struts:struts-core:jar:1.3.10</node>
-            <node x="1062.5" y="237.0">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
-            <node x="883.8750000000001" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="887.375" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="691.2500000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
-            <node x="831.2500000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
-            <node x="750.5000000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="909.5000000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
-            <node x="390.6250000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="504.1250000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
-            <node x="602.2500000000001" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="583.1250000000001" y="158.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
-            <node x="434.1250000000001" y="237.0">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
-            <node x="764.0000000000001" y="405.0">org.apache.struts:struts-tiles:jar:1.3.10</node>
-            <node x="871.0000000000001" y="405.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
-            <node x="418.0000000000001" y="405.0">org.projectlombok:lombok:jar:1.16.20</node>
-            <node x="511.0000000000001" y="405.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="647.0000000000001" y="405.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
-            <node x="0.0" y="405.0">javax.servlet:servlet-api:jar:2.5</node>
-            <node x="183.0000000000001" y="405.0">commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="107.00000000000011" y="405.0">junit:junit:jar:4.11</node>
-            <node x="80.50000000000011" y="326.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="619.0" y="356.0">com.opitz:traveler:1.0-SNAPSHOT</node>
+            <node x="1009.25" y="247.0">javax.servlet:jstl:jar:1.2</node>
+            <node x="555.5" y="168.0">org.apache.struts:struts-core:jar:1.3.10</node>
+            <node x="977.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
+            <node x="821.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="824.5" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="685.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
+            <node x="533.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
+            <node x="608.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node x="458.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
+            <node x="308.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="152.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
+            <node x="152.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="0.0" y="0.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
+            <node x="82.5" y="79.0">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
+            <node x="585.25" y="247.0">org.apache.struts:struts-tiles:jar:1.3.10</node>
+            <node x="921.25" y="247.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="829.25" y="247.0">org.projectlombok:lombok:jar:1.16.20</node>
+            <node x="692.25" y="247.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
+            <node x="469.25" y="247.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
+            <node x="361.25" y="247.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="196.25" y="247.0">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="121.25" y="247.0">junit:junit:jar:4.11</node>
+            <node x="94.75" y="168.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
           </nodes>
           <notes />
           <edges>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-              <point x="-3.5499999999999545" y="-14.5" />
-              <point x="508.20000000000016" y="454.0" />
-              <point x="454.5000000000001" y="454.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
-              <point x="10.649999999999977" y="-14.5" />
-              <point x="522.4000000000001" y="464.0" />
-              <point x="695.0000000000001" y="464.0" />
+              <point x="18.0" y="-14.5" />
+              <point x="673.0" y="316.0" />
+              <point x="865.25" y="316.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
               <point x="0.0" y="-14.5" />
-              <point x="807.5000000000001" y="380.0" />
-              <point x="780.9166666666667" y="380.0" />
-              <point x="29.66666666666663" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
-              <point x="45.66666666666663" y="-14.5" />
-              <point x="618.2916666666667" y="212.0" />
-              <point x="649.6250000000001" y="212.0" />
+              <point x="628.25" y="227.0" />
+              <point x="599.5" y="227.0" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
-              <point x="31.950000000000045" y="-14.5" />
-              <point x="543.7000000000002" y="494.0" />
-              <point x="905.0000000000001" y="494.0" />
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
+              <point x="-10.800000000000011" y="-14.5" />
+              <point x="644.2" y="306.0" />
+              <point x="517.25" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
+              <point x="-45.0" y="-14.5" />
+              <point x="175.0" y="54.0" />
+              <point x="66.0" y="54.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="-45.66666666666663" y="-14.5" />
-              <point x="526.9583333333335" y="212.0" />
-              <point x="489.6250000000001" y="212.0" />
-              <point x="33.0" y="14.5" />
+              <point x="45.0" y="-14.5" />
+              <point x="265.0" y="54.0" />
+              <point x="340.5" y="54.0" />
+              <point x="-32.5" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
+              <point x="25.200000000000045" y="-14.5" />
+              <point x="680.2" y="326.0" />
+              <point x="955.25" y="326.0" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
               <point x="0.0" y="-14.5" />
@@ -1372,144 +1253,121 @@
             </edge>
             <edge source="org.apache.struts:struts-taglib:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
               <point x="0.0" y="-14.5" />
-              <point x="695.0000000000001" y="380.0" />
-              <point x="721.5833333333335" y="380.0" />
-              <point x="-29.66666666666663" y="14.5" />
+              <point x="517.25" y="227.0" />
+              <point x="570.1666666666666" y="227.0" />
+              <point x="-29.33333333333337" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
-              <point x="38.14285714285711" y="-14.5" />
-              <point x="789.3928571428572" y="306.0" />
-              <point x="1090.5" y="306.0" />
+              <point x="37.714285714285666" y="-14.5" />
+              <point x="637.2142857142857" y="148.0" />
+              <point x="1005.5" y="148.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="3.5499999999999545" y="-14.5" />
-              <point x="515.3000000000001" y="454.0" />
-              <point x="569.0000000000001" y="454.0" />
+              <point x="10.799999999999955" y="-14.5" />
+              <point x="665.8" y="306.0" />
+              <point x="750.75" y="306.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
-              <point x="-25.428571428571445" y="-14.5" />
-              <point x="725.8214285714287" y="296.0" />
-              <point x="459.1250000000001" y="296.0" />
+              <point x="-37.71428571428578" y="-14.5" />
+              <point x="561.7857142857142" y="148.0" />
+              <point x="107.5" y="148.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:jstl:jar:1.2">
-              <point x="-10.649999999999977" y="-14.5" />
-              <point x="501.10000000000014" y="464.0" />
-              <point x="374.5000000000001" y="464.0" />
+              <point x="32.39999999999998" y="-14.5" />
+              <point x="687.4" y="336.0" />
+              <point x="1032.75" y="336.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8">
-              <point x="12.714285714285666" y="-14.5" />
-              <point x="763.9642857142858" y="286.0" />
-              <point x="897.7500000000001" y="286.0" />
+              <point x="0.0" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
-              <point x="34.75" y="-14.5" />
-              <point x="854.7500000000001" y="133.0" />
-              <point x="918.6250000000001" y="133.0" />
-              <point x="-34.75" y="14.5" />
-            </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0">
-              <point x="-33.25" y="-14.5" />
-              <point x="864.5000000000001" y="212.0" />
-              <point x="820.0000000000001" y="212.0" />
+              <point x="33.0" y="-14.5" />
+              <point x="632.5" y="54.0" />
+              <point x="676.0" y="54.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-tiles:jar:1.3.10">
-              <point x="24.850000000000023" y="-14.5" />
-              <point x="536.6000000000001" y="484.0" />
-              <point x="807.5000000000001" y="484.0" />
+              <point x="-3.6000000000000227" y="-14.5" />
+              <point x="651.4" y="296.0" />
+              <point x="628.25" y="296.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
-              <point x="-1.1368683772161603E-13" y="-14.5" />
+              <point x="0.0" y="-14.5" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
-              <point x="-31.94999999999999" y="-14.5" />
-              <point x="479.8000000000001" y="494.0" />
-              <point x="43.5" y="494.0" />
+              <point x="-18.0" y="-14.5" />
+              <point x="637.0" y="316.0" />
+              <point x="405.25" y="316.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-              <point x="-24.850000000000023" y="-14.5" />
-              <point x="486.9000000000001" y="484.0" />
-              <point x="135.0000000000001" y="484.0" />
+              <point x="-32.400000000000034" y="-14.5" />
+              <point x="622.5999999999999" y="336.0" />
+              <point x="148.75" y="336.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2">
-              <point x="0.0" y="-14.5" />
+              <point x="12.571428571428555" y="-14.5" />
+              <point x="612.0714285714286" y="128.0" />
+              <point x="743.5" y="128.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
-              <point x="-17.75" y="-14.5" />
-              <point x="494.0000000000001" y="474.0" />
-              <point x="257.0000000000001" y="474.0" />
+              <point x="-25.200000000000045" y="-14.5" />
+              <point x="629.8" y="326.0" />
+              <point x="268.75" y="326.0" />
               <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
-              <point x="-34.75" y="-14.5" />
-              <point x="785.2500000000001" y="133.0" />
-              <point x="706.5000000000001" y="133.0" />
-              <point x="34.75" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="-38.14285714285711" y="-14.5" />
-              <point x="713.107142857143" y="306.0" />
-              <point x="423.6250000000001" y="306.0" />
-              <point x="-33.0" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="17.75" y="-14.5" />
-              <point x="529.5000000000001" y="474.0" />
-              <point x="753.5000000000001" y="474.0" />
-              <point x="753.5000000000001" y="380.0" />
-              <point x="751.2500000000001" y="380.0" />
-              <point x="0.0" y="14.5" />
+              <point x="3.6000000000000227" y="-14.5" />
+              <point x="658.6" y="296.0" />
+              <point x="681.75" y="296.0" />
+              <point x="681.75" y="217.0" />
+              <point x="628.8333333333334" y="217.0" />
+              <point x="29.33333333333337" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+              <point x="-12.571428571428555" y="-14.5" />
+              <point x="586.9285714285714" y="128.0" />
+              <point x="405.5" y="128.0" />
+              <point x="32.5" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
-              <point x="25.428571428571445" y="-14.5" />
-              <point x="776.6785714285716" y="296.0" />
-              <point x="1052.0" y="296.0" />
-              <point x="1052.0" y="133.0" />
-              <point x="988.1250000000001" y="133.0" />
-              <point x="34.75" y="14.5" />
+              <point x="25.14285714285711" y="-14.5" />
+              <point x="624.6428571428571" y="138.0" />
+              <point x="889.5" y="138.0" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
               <point x="0.0" y="-14.5" />
-              <point x="572.6250000000001" y="133.0" />
-              <point x="637.0000000000001" y="133.0" />
-              <point x="-34.75" y="14.5" />
+              <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1">
-              <point x="-12.714285714285666" y="-14.5" />
-              <point x="738.5357142857144" y="286.0" />
-              <point x="572.6250000000001" y="286.0" />
+              <point x="-25.142857142857224" y="-14.5" />
+              <point x="574.3571428571428" y="138.0" />
+              <point x="220.0" y="138.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
-              <point x="33.25" y="-14.5" />
-              <point x="931.0000000000001" y="212.0" />
-              <point x="975.5000000000001" y="212.0" />
+              <point x="-33.0" y="-14.5" />
+              <point x="566.5" y="54.0" />
+              <point x="523.0" y="54.0" />
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-18.139858797116688" y="220.0" />
+          <settings layout="Hierarchic Group" zoom="0.42142230026338895" x="559.5" y="271.5" />
           <SelectedNodes>
-            <node>org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node>com.opitz:traveler:1.0-SNAPSHOT</node>
           </SelectedNodes>
           <Categories />
           <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="1066" selection-start-line="1066" selection-end-line="1066" />
         </state>
       </provider>
     </entry>
@@ -1550,8 +1408,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="49">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1564,22 +1422,8 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11745">
+        <state relative-caret-position="341">
           <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1590,16 +1434,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
+        <state relative-caret-position="22">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1616,7 +1453,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
+        <state relative-caret-position="462">
           <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1638,42 +1475,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        <state relative-caret-position="1025">
+          <caret line="157" column="55" lean-forward="true" selection-start-line="157" selection-start-column="55" selection-end-line="157" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
+        <state relative-caret-position="22">
           <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/LazyValidatorForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-98">
+          <caret line="753" column="28" lean-forward="true" selection-start-line="753" selection-start-column="28" selection-end-line="753" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3114">
-          <caret line="272" column="29" selection-start-line="272" selection-start-column="29" selection-end-line="272" selection-end-column="29" />
+        <state relative-caret-position="209">
+          <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="102" column="19" selection-start-line="102" selection-start-column="19" selection-end-line="102" selection-end-column="19" />
+        <state relative-caret-position="880">
+          <caret line="40" column="16" lean-forward="true" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="47" column="44" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="261">
+          <caret line="38" column="28" lean-forward="true" selection-start-line="38" selection-start-column="28" selection-end-line="38" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="79" selection-start-line="29" selection-start-column="79" selection-end-line="29" selection-end-column="79" />
         </state>
       </provider>
     </entry>

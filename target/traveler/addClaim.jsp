@@ -42,7 +42,8 @@
     <html:text property="claimAmount"/><br/>
 
     <bean:message key="claimForm.dateOccurred"/>
-    <bean:message key="date.format"/><br/><html:text property="dateOccurred"/><br/>
+    <bean:message key="date.format"/>
+    <br/><html:text property="dateOccurred"/><br/>
     <html:submit value="Submit"/><br/><br/>
 
     <br><br><a href="./login.jsp">Log in</a>

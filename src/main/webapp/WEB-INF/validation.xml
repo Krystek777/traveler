@@ -27,6 +27,7 @@
 
             <field property="dateOccurred" depends="required, date">
                 <arg0 key="claimForm.dateOccurred"/>
+                <var><var-name>datePattern</var-name><var-value>yyyy/MM/dd</var-value></var>
             </field>
 
 
