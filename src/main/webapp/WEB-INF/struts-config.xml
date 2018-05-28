@@ -24,12 +24,12 @@
         <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="/addClaim.jsp">
             <forward name="success" path="/success.jsp" />
         </action>
-        <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="login.jsp">
+        <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="loginTile.jsp">
             <forward name="failure" path="/loginFailure.jsp"/>
             <forward name="success" path="/all.jsp"/>
         </action>
             <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
-                <forward name="addclaim" path="/addClaim.jsp"/>
+                <forward name="addclaim" path="/index.jsp"/>
                 <forward name="login" path="/login.jsp"/>
             </action>
     </action-mappings>

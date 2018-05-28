@@ -7,20 +7,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/allTile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/loginTile.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/failure.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/loginFailure.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/loginFailure.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/utility/ClaimConverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/all.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/all.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/failure.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/loginFailure.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/loginFailure.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/success.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,17 +47,8 @@
       <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="failure.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
+            <state relative-caret-position="286">
+              <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -54,7 +56,7 @@
       <file leaf-file-name="FieldChecks.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
+            <state relative-caret-position="15730">
               <caret line="753" column="28" selection-start-line="753" selection-start-column="28" selection-end-line="753" selection-end-column="28" />
             </state>
           </provider>
@@ -63,7 +65,7 @@
       <file leaf-file-name="LazyValidatorForm.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/LazyValidatorForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
+            <state relative-caret-position="2222">
               <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
             </state>
           </provider>
@@ -72,8 +74,11 @@
       <file leaf-file-name="success.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+              <folding>
+                <element signature="e#348#367#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +87,19 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFailure.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+              <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Validator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Validator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -99,8 +116,56 @@
       <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-250">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="110">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InMemoryClaimRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InMemoryUserRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -108,27 +173,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
+            <state relative-caret-position="1958">
               <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+            <state>
+              <caret selection-end-line="10" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -136,8 +191,17 @@
       <file leaf-file-name="all.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/all.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+            <state relative-caret-position="198">
+              <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="allTile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/allTile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -146,7 +210,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -154,8 +218,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state relative-caret-position="242">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -164,7 +228,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
-              <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -173,7 +237,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -181,17 +245,17 @@
       <file leaf-file-name="baseLayout.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="256">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LinkAction.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LinkAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,11 +263,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="loginTile.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/loginTile.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            <state>
+              <caret selection-end-line="2" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -235,6 +308,7 @@
                 <node x="829.25" y="247.0">org.projectlombok:lombok:jar:1.16.20</node>
                 <node x="692.25" y="247.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
                 <node x="469.25" y="247.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
+                <node x="419.0" y="247.0">org.apache.struts:struts-extras:jar:1.3.10</node>
                 <node x="361.25" y="247.0">javax.servlet:servlet-api:jar:2.5</node>
                 <node x="196.25" y="247.0">commons-collections:commons-collections:jar:3.2.1</node>
                 <node x="121.25" y="247.0">junit:junit:jar:4.11</node>
@@ -248,16 +322,16 @@
                   <point x="865.25" y="316.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
-                <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-                  <point x="0.0" y="-14.5" />
-                  <point x="628.25" y="227.0" />
-                  <point x="599.5" y="227.0" />
-                  <point x="0.0" y="14.5" />
-                </edge>
                 <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
                   <point x="-10.800000000000011" y="-14.5" />
                   <point x="644.2" y="306.0" />
                   <point x="517.25" y="306.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+                  <point x="0.0" y="-14.5" />
+                  <point x="628.25" y="227.0" />
+                  <point x="599.5" y="227.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
                 <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
@@ -266,17 +340,17 @@
                   <point x="66.0" y="54.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
-                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-                  <point x="45.0" y="-14.5" />
-                  <point x="265.0" y="54.0" />
-                  <point x="340.5" y="54.0" />
-                  <point x="-32.5" y="14.5" />
-                </edge>
                 <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
                   <point x="25.200000000000045" y="-14.5" />
                   <point x="680.2" y="326.0" />
                   <point x="955.25" y="326.0" />
                   <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+                  <point x="45.0" y="-14.5" />
+                  <point x="265.0" y="54.0" />
+                  <point x="340.5" y="54.0" />
+                  <point x="-32.5" y="14.5" />
                 </edge>
                 <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
                   <point x="0.0" y="-14.5" />
@@ -288,16 +362,22 @@
                   <point x="570.1666666666666" y="227.0" />
                   <point x="-29.33333333333337" y="14.5" />
                 </edge>
-                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
-                  <point x="37.714285714285666" y="-14.5" />
-                  <point x="637.2142857142857" y="148.0" />
-                  <point x="1005.5" y="148.0" />
-                  <point x="0.0" y="14.5" />
+                <edge source="org.apache.struts:struts-extras:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+                  <point x="0.0" y="-14.5" />
+                  <point x="467.0" y="227.0" />
+                  <point x="574.375" y="227.0" />
+                  <point x="-33.375" y="14.5" />
                 </edge>
                 <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
                   <point x="10.799999999999955" y="-14.5" />
                   <point x="665.8" y="306.0" />
                   <point x="750.75" y="306.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
+                  <point x="37.714285714285666" y="-14.5" />
+                  <point x="637.2142857142857" y="148.0" />
+                  <point x="1005.5" y="148.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
                 <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
@@ -356,6 +436,12 @@
                   <point x="268.75" y="326.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
+                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+                  <point x="-12.571428571428555" y="-14.5" />
+                  <point x="586.9285714285714" y="128.0" />
+                  <point x="405.5" y="128.0" />
+                  <point x="32.5" y="14.5" />
+                </edge>
                 <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
                   <point x="3.6000000000000227" y="-14.5" />
                   <point x="658.6" y="296.0" />
@@ -364,16 +450,16 @@
                   <point x="628.8333333333334" y="217.0" />
                   <point x="29.33333333333337" y="14.5" />
                 </edge>
-                <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-                  <point x="-12.571428571428555" y="-14.5" />
-                  <point x="586.9285714285714" y="128.0" />
-                  <point x="405.5" y="128.0" />
-                  <point x="32.5" y="14.5" />
-                </edge>
                 <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
                   <point x="25.14285714285711" y="-14.5" />
                   <point x="624.6428571428571" y="138.0" />
                   <point x="889.5" y="138.0" />
+                  <point x="0.0" y="14.5" />
+                </edge>
+                <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-extras:jar:1.3.10">
+                  <point x="-12.909090909090878" y="-14.5" />
+                  <point x="681.5909090909091" y="306.0" />
+                  <point x="467.0" y="306.0" />
                   <point x="0.0" y="14.5" />
                 </edge>
                 <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
@@ -393,7 +479,7 @@
                   <point x="0.0" y="14.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="0.42142230026338895" x="559.5" y="271.5" />
+              <settings layout="Hierarchic Group" zoom="0.4456824512534819" x="528.5" y="192.5" />
               <SelectedNodes>
                 <node>com.opitz:traveler:1.0-SNAPSHOT</node>
               </SelectedNodes>
@@ -406,7 +492,7 @@
       <file leaf-file-name="ValidatorAction.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/ValidatorAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="33">
+            <state relative-caret-position="11066">
               <caret line="568" selection-start-line="568" selection-end-line="568" />
             </state>
           </provider>
@@ -424,8 +510,8 @@
       <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="58">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -433,7 +519,7 @@
       <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
+            <state relative-caret-position="16016">
               <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
             </state>
           </provider>
@@ -448,23 +534,51 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+          <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="726">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
+            <state relative-caret-position="462">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClaimConverter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ClaimConverter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+            <state relative-caret-position="132">
+              <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Logger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Logger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServiceLocator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -472,11 +586,29 @@
       <file leaf-file-name="LoginAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="454">
+              <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimTypeString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimTypeString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -502,16 +634,43 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="ClaimStatusString.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatusString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClaimStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
         <option value="CSS File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -526,16 +685,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/opitz/action/utility/ClaimConverter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/opitz/model/ClaimStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/opitz/utility/ClaimConverterTest.java" />
-        <option value="$PROJECT_DIR$/tests/opitz/utility/ClaimConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/opitz/model/ClaimType.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/repositories/InMemoryClaimRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/form/LoginForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/utility/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/action/ClaimAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/loginFailure.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/model/Claim.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/model/ClaimStatusString.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/model/ClaimTypeString.java" />
@@ -548,15 +701,11 @@
         <option value="$PROJECT_DIR$/src/main/java/opitz/utility/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/opitz/action/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/failure.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/all.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/com/opitz/Application.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/com/opitz/Application_pl.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/opitz/registration.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" />
         <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
@@ -567,9 +716,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/office.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/body.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
@@ -577,6 +723,19 @@
         <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/loginFailure.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/temp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/temp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/all.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/styles/styles.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/allTile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" />
       </list>
     </option>
   </component>
@@ -620,10 +779,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="217" />
-    <option name="y" value="22" />
-    <option name="width" value="1808" />
-    <option name="height" value="809" />
+    <option name="x" value="-2057" />
+    <option name="y" value="115" />
+    <option name="width" value="1804" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -632,7 +791,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -771,8 +929,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -794,11 +953,8 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="opitz.utility" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\traveler\src\main\webapp" />
-      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
-      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="opitz.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
@@ -809,8 +965,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="opitz.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\traveler\src\main\webapp" />
+      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
+      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -959,74 +1118,49 @@
       <workItem from="1527116930773" duration="6409000" />
       <workItem from="1527145265706" duration="20644000" />
       <workItem from="1527233540166" duration="12232000" />
+      <workItem from="1527491114645" duration="5569000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65434000" />
+    <option name="totallyTimeSpent" value="71323000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-2568" y="-2" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32942098" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.53069943" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39827856" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.14814815" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22934473" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.014245015" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2543624" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3834116" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16732909" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.53069943" />
-      <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.53069943" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34976527" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827856" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32629108" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3834116" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15805946" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16852146" />
+      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info id="Struts Assistant" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="7" />
@@ -1047,18 +1181,18 @@
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32629108" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.050476946" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.53069943" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.050476946" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39827856" />
     </layout-to-restore>
@@ -1071,7 +1205,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1109,91 +1243,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimTypeString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/registration.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1.jar!/org/apache/commons/validator/Field.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="456" selection-start-line="456" selection-end-line="456" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-16">
-          <caret line="2057" column="18" selection-start-line="2057" selection-start-column="18" selection-end-line="2057" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="350" selection-start-line="350" selection-end-line="350" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/ValidatorForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/impl/ChainBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="191" selection-start-line="191" selection-end-line="191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/ValidatorPlugIn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0-sources.jar!/org/apache/commons/beanutils/PropertyUtilsBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="904">
-          <caret line="1965" column="12" lean-forward="true" selection-start-line="1965" selection-start-column="12" selection-end-line="1965" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/ValidatorAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="568" selection-start-line="568" selection-end-line="568" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1220,6 +1269,7 @@
             <node x="829.25" y="247.0">org.projectlombok:lombok:jar:1.16.20</node>
             <node x="692.25" y="247.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
             <node x="469.25" y="247.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
+            <node x="419.0" y="247.0">org.apache.struts:struts-extras:jar:1.3.10</node>
             <node x="361.25" y="247.0">javax.servlet:servlet-api:jar:2.5</node>
             <node x="196.25" y="247.0">commons-collections:commons-collections:jar:3.2.1</node>
             <node x="121.25" y="247.0">junit:junit:jar:4.11</node>
@@ -1233,16 +1283,16 @@
               <point x="865.25" y="316.0" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="0.0" y="-14.5" />
-              <point x="628.25" y="227.0" />
-              <point x="599.5" y="227.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
               <point x="-10.800000000000011" y="-14.5" />
               <point x="644.2" y="306.0" />
               <point x="517.25" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+              <point x="0.0" y="-14.5" />
+              <point x="628.25" y="227.0" />
+              <point x="599.5" y="227.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
@@ -1251,17 +1301,17 @@
               <point x="66.0" y="54.0" />
               <point x="0.0" y="14.5" />
             </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="45.0" y="-14.5" />
-              <point x="265.0" y="54.0" />
-              <point x="340.5" y="54.0" />
-              <point x="-32.5" y="14.5" />
-            </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
               <point x="25.200000000000045" y="-14.5" />
               <point x="680.2" y="326.0" />
               <point x="955.25" y="326.0" />
               <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+              <point x="45.0" y="-14.5" />
+              <point x="265.0" y="54.0" />
+              <point x="340.5" y="54.0" />
+              <point x="-32.5" y="14.5" />
             </edge>
             <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
               <point x="0.0" y="-14.5" />
@@ -1273,16 +1323,22 @@
               <point x="570.1666666666666" y="227.0" />
               <point x="-29.33333333333337" y="14.5" />
             </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
-              <point x="37.714285714285666" y="-14.5" />
-              <point x="637.2142857142857" y="148.0" />
-              <point x="1005.5" y="148.0" />
-              <point x="0.0" y="14.5" />
+            <edge source="org.apache.struts:struts-extras:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
+              <point x="0.0" y="-14.5" />
+              <point x="467.0" y="227.0" />
+              <point x="574.375" y="227.0" />
+              <point x="-33.375" y="14.5" />
             </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
               <point x="10.799999999999955" y="-14.5" />
               <point x="665.8" y="306.0" />
               <point x="750.75" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
+              <point x="37.714285714285666" y="-14.5" />
+              <point x="637.2142857142857" y="148.0" />
+              <point x="1005.5" y="148.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
@@ -1341,6 +1397,12 @@
               <point x="268.75" y="326.0" />
               <point x="0.0" y="14.5" />
             </edge>
+            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+              <point x="-12.571428571428555" y="-14.5" />
+              <point x="586.9285714285714" y="128.0" />
+              <point x="405.5" y="128.0" />
+              <point x="32.5" y="14.5" />
+            </edge>
             <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
               <point x="3.6000000000000227" y="-14.5" />
               <point x="658.6" y="296.0" />
@@ -1349,16 +1411,16 @@
               <point x="628.8333333333334" y="217.0" />
               <point x="29.33333333333337" y="14.5" />
             </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="-12.571428571428555" y="-14.5" />
-              <point x="586.9285714285714" y="128.0" />
-              <point x="405.5" y="128.0" />
-              <point x="32.5" y="14.5" />
-            </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
               <point x="25.14285714285711" y="-14.5" />
               <point x="624.6428571428571" y="138.0" />
               <point x="889.5" y="138.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-extras:jar:1.3.10">
+              <point x="-12.909090909090878" y="-14.5" />
+              <point x="681.5909090909091" y="306.0" />
+              <point x="467.0" y="306.0" />
               <point x="0.0" y="14.5" />
             </edge>
             <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
@@ -1378,7 +1440,7 @@
               <point x="0.0" y="14.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.42142230026338895" x="559.5" y="271.5" />
+          <settings layout="Hierarchic Group" zoom="0.4456824512534819" x="528.5" y="192.5" />
           <SelectedNodes>
             <node>com.opitz:traveler:1.0-SNAPSHOT</node>
           </SelectedNodes>
@@ -1422,10 +1484,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/LazyValidatorForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="2222">
+          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15730">
+          <caret line="753" column="28" selection-start-line="753" selection-start-column="28" selection-end-line="753" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16016">
+          <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1958">
+          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/body.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFailure.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="65" lean-forward="true" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="26" column="61" lean-forward="true" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#348#367#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginTile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/all.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/allTile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="61" lean-forward="true" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -1439,13 +1681,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="88">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Validator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-250">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatusString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimTypeString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1456,195 +1747,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/LazyValidatorForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LoginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/FieldChecks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="753" column="28" selection-start-line="753" selection-start-column="28" selection-end-line="753" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="18" column="63" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+        <state relative-caret-position="454">
+          <caret line="29" column="77" lean-forward="true" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-validator/commons-validator/1.3.1/commons-validator-1.3.1-sources.jar!/org/apache/commons/validator/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="802" column="21" selection-start-line="802" selection-start-column="21" selection-end-line="802" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="89" column="19" selection-start-line="89" selection-start-column="19" selection-end-line="89" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="200" column="62" selection-start-line="200" selection-start-column="62" selection-end-line="200" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="32" column="58" lean-forward="true" selection-start-line="32" selection-start-column="58" selection-end-line="32" selection-end-column="58" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/friends.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/office.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/loginFailure.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="36" lean-forward="true" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="506">
+          <caret line="29" column="63" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/body.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="88">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="110">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/all.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Logger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        <state relative-caret-position="88">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/failure.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="5" selection-end-column="70" />
+        <state relative-caret-position="88">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="51" lean-forward="true" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="53" selection-start-line="30" selection-start-column="53" selection-end-line="30" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="132">
+          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

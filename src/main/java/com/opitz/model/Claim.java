@@ -1,6 +1,7 @@
 package com.opitz.model;
 
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Claim {
@@ -14,7 +15,7 @@ public class Claim {
     private String status;
 
     public Claim() {
-        this("","","",null,0, new Date(2010, 10,10), "new");
+        this("","","",null,0, new Date(2010, 10,10), ClaimStatusString.NEW);
     }
 
     public Claim(String name, String email, String policy,
@@ -68,8 +69,9 @@ public class Claim {
         this.claimAmount = claimAmount;
     }
 
-    public Date getDateOccurred() {
-        return dateOccurred;
+    public String getDateOccurred() {
+        SimpleDateFormat ft =  new SimpleDateFormat ("yyyy/MM/dd");
+        return(ft.format(dateOccurred));
     }
 
     public void setDateOccurred(Date dateOccurred) {

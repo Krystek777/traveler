@@ -1,24 +1,14 @@
-
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1"%>
-<%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
-<%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
-<%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-    <title>Login Form</title>
-</head>
-<body>
+<%@page contentType="text/html"%>
+<%@page pageEncoding="UTF-8"%>
+<%@taglib uri="http://struts.apache.org/tags-tiles" prefix="tiles" %>
 
 
-<h2> Username or password is incorrect</h2>
+<tiles:insert page="/baseLayout.jsp" flush="true">
+    <tiles:put name="title" value="Claim Manager" />
+    <tiles:put name="header" value="/header.jsp" />
+    <tiles:put name="menu" value="/menu.jsp" />
+    <h3 style="color:red"> Username or password is incorrect</h3>
 
-<html:form action="/login" focus="username">
-    Username : <html:text property="username"/><br/>
-    Password : <html:password property="password"/><br/>
-    <html:submit value="Submit"/>
-</html:form>
-</body>
-</html>
+    <tiles:put name="body" value="/loginTile.jsp" />
+    <tiles:put name="footer" value="/footer.jsp" />
+</tiles:insert>

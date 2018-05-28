@@ -2,7 +2,11 @@ body{
     background-color:lightblue;
 }
 
+table, td, th {
 
+    border: 1px solid black;
+    border-collapse: collapse;
+}
 
 .header{
     background-color:mediumseagreen;
