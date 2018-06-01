@@ -2,6 +2,7 @@
 <%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 <html>
 
    <head>
@@ -11,24 +12,39 @@
 <body>
 <table>
     <tr>
-        <td><bean:message key="claimForm.name"/></td>
-        <td><bean:message key="claimForm.email"/></td>
-        <td><bean:message key="claimForm.policy"/></td>
-        <td><bean:message key="claimForm.claimType"/></td>
-        <td><bean:message key="claimForm.claimAmount"/></td>
-        <td><bean:message key="claimForm.dateOccurred"/></td>
-        <td><bean:message key="claimForm.status"/></td>
+        <th>id</th>
+        <th><bean:message key="claimForm.name"/></th>
+        <th><bean:message key="claimForm.email"/></th>
+        <th><bean:message key="claimForm.policy"/></th>
+        <th><bean:message key="claimForm.claimType"/></th>
+        <th><bean:message key="claimForm.claimAmount"/></th>
+        <th><bean:message key="claimForm.dateOccurred"/></th>
+        <th><bean:message key="claimForm.status"/></th>
+        <th><bean:message key="claimForm.changeStatus"/></th>
 
     </tr>
-    <logic:iterate name="claims" id="claimId">
+    <logic:iterate name="claims" id="claimItem">
         <tr>
-            <td><bean:write name="claimId" property="name"/></td>
-            <td><bean:write name="claimId" property="email"/></td>
-            <td><bean:write name="claimId" property="policy"/></td>
-            <td><bean:write name="claimId" property="claimType"/></td>
-            <td><bean:write name="claimId" property="claimAmount"/></td>
-            <td><bean:write name="claimId" property="dateOccurred" /></td>
-            <td><bean:write name="claimId" property="status" /></td>
+            <td><bean:write name="claimItem" property="id"/></td>
+            <td><bean:write name="claimItem" property="name"/></td>
+            <td><bean:write name="claimItem" property="email"/></td>
+            <td><bean:write name="claimItem" property="policy"/></td>
+            <td><bean:write name="claimItem" property="claimType"/></td>
+            <td><bean:write name="claimItem" property="claimAmount"/></td>
+            <td><bean:write name="claimItem" property="dateOccurred" /></td>
+            <td><bean:write name="claimItem" property="status" /></td>
+        <td>
+            <html:link action="/update.do?method=acceptClaim" titleKey="claimForm.approve">
+                <html:param name="id"><c:out value="${claimItem.id}" /></html:param>
+                <bean:message key="claimForm.approve"/>
+            </html:link>
+
+            <html:link action="/update.do?method=rejectClaim" titleKey="claimForm.reject">
+                <html:param name="id"><c:out value="${claimItem.id}" /></html:param>
+                <bean:message key="claimForm.reject"/>
+            </html:link>
+
+        </td>
         <tr/>
     </logic:iterate>
 </table>

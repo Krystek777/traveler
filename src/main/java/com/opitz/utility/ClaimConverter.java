@@ -3,6 +3,7 @@ package com.opitz.utility;
 import com.opitz.form.ClaimForm;
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatusString;
+import com.opitz.service.ClaimService;
 
 
 import java.sql.Date;
@@ -13,7 +14,7 @@ public class ClaimConverter {
     public Claim toClaim(ClaimForm claimForm) {
 //        Claim claim = new Claim();
 //        return BeanUtils.copyProperties(claim, claimForm);
-        Claim claim = new Claim(claimForm.getName(), claimForm.getEmail(),
+        Claim claim = new Claim(0L,claimForm.getName(), claimForm.getEmail(),
                 claimForm.getPolicy(), claimForm.getClaimType(), Integer.parseInt(claimForm.getClaimAmount()),
                 null, ClaimStatusString.NEW);
     String dateString = claimForm.getDateOccurred();
@@ -22,6 +23,9 @@ public class ClaimConverter {
         int day =    Integer.parseInt(dateString.substring(8,10));
         Date date = new Date(year, month, day);
         claim.setDateOccurred(date);
+
+        ClaimService claimService = ServiceLocator.findClaimService();
+        claim.setId((long)(claimService.getClaims().size()));
 
         return claim;
 

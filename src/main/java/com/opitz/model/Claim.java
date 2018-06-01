@@ -1,11 +1,15 @@
 package com.opitz.model;
 
 
+import lombok.Data;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+@Data
 public class Claim {
 
+    private long id;
     private String name;
     private String email;
     private String policy;
@@ -15,11 +19,12 @@ public class Claim {
     private String status;
 
     public Claim() {
-        this("","","",null,0, new Date(2010, 10,10), ClaimStatusString.NEW);
+        this(1, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatusString.NEW);
     }
 
-    public Claim(String name, String email, String policy,
+    public Claim(long id, String name, String email, String policy,
                  String claimType, int claimAmount, Date dateOccurred, String status) {
+        this.id = id;
         this.name = name;
         this.email = email;
         this.policy = policy;
@@ -29,60 +34,14 @@ public class Claim {
         this.status = status;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPolicy() {
-        return policy;
-    }
-
-    public void setPolicy(String policy) {
-        this.policy = policy;
-    }
-
-    public String getClaimType() {
-        return claimType;
-    }
-
-    public void setClaimType(String claimType) {
-        this.claimType = claimType;
-    }
-
-    public int getClaimAmount() {
-        return claimAmount;
-    }
-
-    public void setClaimAmount(int claimAmount) {
-        this.claimAmount = claimAmount;
-    }
-
     public String getDateOccurred() {
-        SimpleDateFormat ft =  new SimpleDateFormat ("yyyy/MM/dd");
-        return(ft.format(dateOccurred));
+        SimpleDateFormat ft = new SimpleDateFormat("yyyy/MM/dd");
+        return (ft.format(dateOccurred));
     }
 
     public void setDateOccurred(Date dateOccurred) {
         this.dateOccurred = dateOccurred;
     }
 
-    public String getStatus() {
-        return status;
-    }
 
-    public void setStatus(String status) {
-        this.status = status;
-    }
 }

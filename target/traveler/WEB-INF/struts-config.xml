@@ -32,10 +32,14 @@
                 <forward name="addclaim" path="/index.jsp"/>
                 <forward name="login" path="/login.jsp"/>
             </action>
+
+        <action path="/update" parameter="method" type="com.opitz.action.UpdateAction">
+            <forward name="updated" path="/all.jsp"/>
+        </action>
     </action-mappings>
 
     <!-- Message Resources -->
-    <message-resources parameter="com.opitz.ApplicationResources2" />
+    <message-resources parameter="com.opitz.ApplicationResources" />
 
     <!--Validator Configuration -->
     <plug-in className="org.apache.struts.validator.ValidatorPlugIn">

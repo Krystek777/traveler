@@ -18,4 +18,12 @@ public class ClaimService {
         ClaimRepository repository = ServiceLocator.findClaimRepository();
         repository.saveClaim(claim);
     }
+
+    public void setStatus(Long id, String status) {
+        for(Claim claim: getClaims()) {
+            if(claim.getId() == id) {
+                claim.setStatus(status);
+            }
+        }
+    }
 }
