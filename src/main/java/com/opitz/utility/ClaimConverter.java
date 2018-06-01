@@ -12,9 +12,7 @@ public class ClaimConverter {
 
 
     public Claim toClaim(ClaimForm claimForm) {
-//        Claim claim = new Claim();
-//        return BeanUtils.copyProperties(claim, claimForm);
-        Claim claim = new Claim(0L,claimForm.getName(), claimForm.getEmail(),
+        Claim claim = new Claim(0,claimForm.getName(), claimForm.getEmail(),
                 claimForm.getPolicy(), claimForm.getClaimType(), Integer.parseInt(claimForm.getClaimAmount()),
                 null, ClaimStatusString.NEW);
     String dateString = claimForm.getDateOccurred();
@@ -25,7 +23,7 @@ public class ClaimConverter {
         claim.setDateOccurred(date);
 
         ClaimService claimService = ServiceLocator.findClaimService();
-        claim.setId((long)(claimService.getClaims().size()));
+        claim.setId((long)(claimService.getClaims().size()) + 1);
 
         return claim;
 

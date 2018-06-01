@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+        "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+    <definition name="baseLayout" path="/baseLayout.jsp">
+        <put name="title"  value="Tiles Example" />
+        <put name="header" value="/header.jsp" />
+        <put name="menu"   value="/menu.jsp" />
+        <put name="body"   value="/addClaim.jsp" />
+        <put name="footer" value="/footer.jsp" />
+    </definition>
+
+    <definition name="add" extends="baseLayout">
+        <put name="title" value="Add Claim" />
+    </definition>
+
+    <definition name="login" extends="baseLayout">
+        <put name="title" value="Add Claim" />
+        <put name="body" value="loginTile.jsp"/>
+    </definition>
+
+</tiles-definitions>

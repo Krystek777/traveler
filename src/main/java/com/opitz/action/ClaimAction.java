@@ -23,7 +23,6 @@ public class ClaimAction extends Action {
     public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                  HttpServletResponse response) throws Exception {
 
-        Validator validator = new Validator();
         ClaimConverter claimConverter = new ClaimConverter();
 
         ClaimForm claimForm = (ClaimForm)form;

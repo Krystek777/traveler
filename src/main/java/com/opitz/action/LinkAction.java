@@ -11,10 +11,10 @@ import javax.servlet.http.HttpServletResponse;
 public class LinkAction extends DispatchAction {
 
     public ActionForward addClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return mapping.findForward("addclaim");
+        return mapping.findForward("addClaim");
     }
 
-    public ActionForward login(ActionMapping mapping, ActionForm  form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    public ActionForward login(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         return mapping.findForward("login");
     }
 }
