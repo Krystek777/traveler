@@ -15,21 +15,18 @@
     <global-exceptions>
     </global-exceptions>
 
-    <!-- Global Forwards -->
-    <global-forwards>
-    </global-forwards>
 
     <!--Action Mappings-->
     <action-mappings>
-        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="/index.jsp">
-            <forward name="success" path="/success.jsp" />
+        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="add">
+            <forward name="success" path="claimAdded" />
         </action>
         <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="/loginTile.jsp">
-            <forward name="failure" path="/loginFailure.jsp"/>
-            <forward name="success" path="/all.jsp"/>
+            <forward name="failure" path="loginFailure"/>
+            <forward name="success" path="all"/>
         </action>
         <action path="/update" parameter="method" type="com.opitz.action.UpdateAction">
-            <forward name="updated" path="/all.jsp"/>
+            <forward name="updated" path="all"/>
         </action>
         <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
             <forward name="addClaim" path="add"/>

@@ -20,4 +20,19 @@
         <put name="body" value="loginTile.jsp"/>
     </definition>
 
+    <definition name="claimAdded" extends="baseLayout">
+    <put name="title"  value="Claim Added" />
+        <put name="body" value="success.jsp"/>
+    </definition>
+
+    <definition name="loginFailure" extends="baseLayout">
+        <put name="title" value="Login Failure"/>
+        <put name="body" value="loginFailure.jsp"/>
+    </definition>
+
+    <definition name="all" extends="baseLayout">
+        <put name="title" value="All Claims"/>
+        <put name="body" value="allTile.jsp"/>
+    </definition>
+
 </tiles-definitions>

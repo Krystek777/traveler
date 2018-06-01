@@ -13,8 +13,10 @@
 </head>
 <body>
 <html:form action="/login" focus="username">
-    Username : <html:text property="username"/><br/>
-    Password : <html:password property="password"/><br/>
+    <bean:message key="login.username"/>
+    <html:text property="username"/><br/>
+    <bean:message key="login.password"/>
+    <html:password property="password"/><br/>
     <html:submit value="Submit"/>
 </html:form>
 </body>

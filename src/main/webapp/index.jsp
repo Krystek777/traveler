@@ -1,11 +1,10 @@
-<%@page contentType="text/html"%>
-<%@page pageEncoding="UTF-8"%>
-<%@taglib uri="http://struts.apache.org/tags-tiles" prefix="tiles" %>
 
-<tiles:insert page="/baseLayout.jsp" flush="true">
-    <tiles:put name="title" value="Claim Manager" />
-    <tiles:put name="header" value="/header.jsp" />
-    <tiles:put name="menu" value="/menu.jsp" />
-    <tiles:put name="body" value="/addClaim.jsp" />
-    <tiles:put name="footer" value="/footer.jsp" />
-</tiles:insert>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <jsp:forward page="/Link.do?method=addClaim"/>
+</head>
+<body>
+
+</body>
+</html>

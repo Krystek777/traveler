@@ -12,7 +12,7 @@
 <body>
 <table>
     <tr>
-        <th>id</th>
+        <th><bean:message key="claimForm.id"/></th>
         <th><bean:message key="claimForm.name"/></th>
         <th><bean:message key="claimForm.email"/></th>
         <th><bean:message key="claimForm.policy"/></th>
