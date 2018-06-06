@@ -28,16 +28,9 @@ public class UpdateAction extends DispatchAction {
     private ActionForward updateClaim(String status, ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         ClaimService claimService = ServiceLocator.findClaimService();
-        long id = getClaimId(request);
+        long id = Long.valueOf(request.getParameter("id"));
         claimService.setStatus(id, status);
 
         return mapping.findForward("updated");
     }
-
-    private Long getClaimId(HttpServletRequest request) {
-        String query = request.getQueryString();
-        return Long.valueOf(query.substring(query.length() - 1, query.length()));
-    }
-
-
 }

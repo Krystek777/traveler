@@ -11,11 +11,14 @@
     <header>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title><tiles:getAsString name="title" ignore="true" /></title>
-        <link rel="stylesheet" type="text/css" href="styles/styles.css">
+        <link rel="stylesheet" type="text/css" href="styles/globalStyles.css">
     </header>
     <body>
+        <%--<div class="loginPanel">--%>
+            <%--<tiles:insert attribute="loginPanel"/>--%>
+        <%--</div>--%>
         <div class="header">
-            <tiles:insert attribute="header" ignore="true" />
+            <tiles:insert attribute="header"/>
         </div>
         <div class="sidebar">
             <tiles:insert attribute="menu" />

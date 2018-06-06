@@ -35,5 +35,7 @@ public class ClaimAction extends Action {
         session.setAttribute("claims", claimService.getClaims());
         return mapping.findForward("success");
     }
+
+
 }
 

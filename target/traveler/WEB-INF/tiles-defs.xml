@@ -32,7 +32,7 @@
 
     <definition name="all" extends="baseLayout">
         <put name="title" value="All Claims"/>
-        <put name="body" value="allTile.jsp"/>
+        <put name="body" value="allClaimsTile.jsp"/>
     </definition>
 
 </tiles-definitions>

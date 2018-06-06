@@ -5,7 +5,7 @@
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <%@ taglib prefix="c" uri="http://struts.apache.org/tags-html" %>
 
-<p>
+
     <html:form action="/addClaim" focus="name">
 
 <div style="color:red">
@@ -41,6 +41,5 @@
 <html:submit  value="Submit"/><br/><br/>
 
 </html:form>
-</p>
 
 
