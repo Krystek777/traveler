@@ -8,6 +8,7 @@ import org.apache.struts.action.*;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 public class SingUpAction extends Action {
 
@@ -16,26 +17,32 @@ public class SingUpAction extends Action {
 
         ClaimService claimService = ServiceLocator.findClaimService();
         SingUpForm singUpForm = (SingUpForm) form;
+        ActionRedirect failureRedirect = new ActionRedirect(mapping.findForward("failure"));
 
         if (!singUpForm.getPassword().equals(singUpForm.getConfirmPassword())) {
-            ActionRedirect redirect = new ActionRedirect(mapping.findForward("failure"));
-            redirect.addParameter("message","Passwords not equal");
-            return redirect;
+
+            failureRedirect.addParameter("message","Passwords are not equal");
+            return failureRedirect;
         }
 
         for(User user: claimService.getUsers()) {
             if(singUpForm.getUsername().equals(user.getUsername())) {
-                return mapping.findForward("usernameExists");
+                failureRedirect.addParameter("message","Username with this usernname already exists");
+                return failureRedirect;
             }
 
             if(singUpForm.getEmail().equals(user.getEmail())) {
-                return mapping.findForward("emailExists");
+                failureRedirect.addParameter("message","Username with this email already exists");
+                return failureRedirect;
             }
 
         }
 
-        claimService.saveUser(new User(singUpForm.getUsername(), singUpForm.getEmail(), singUpForm.getPassword()));
+        User user = new User(singUpForm.getUsername(), singUpForm.getEmail(), singUpForm.getPassword());
+        claimService.saveUser(user);
 
+        HttpSession session = request.getSession();
+        session.setAttribute("loggedUser",user);
         return mapping.findForward("success");
 
 

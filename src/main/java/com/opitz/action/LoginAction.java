@@ -26,6 +26,8 @@ public class LoginAction extends Action {
                 boolean isValid = logger.isValid(loginForm.getUsername(), loginForm.getPassword());
 
                 if(isValid ) {
+                    HttpSession session = request.getSession();
+                    session.setAttribute("loggedUser",claimService.findUser(loginForm.getUsername()));
                     return mapping.findForward("success");
                 }
 

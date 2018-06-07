@@ -3,14 +3,21 @@
 <%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
 <%@ taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
-<%@ taglib prefix="c" uri="http://struts.apache.org/tags-html" %>
+<%--<%@ taglib prefix="c" uri="http://struts.apache.org/tags-html" %>--%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 
 <html:form action="/singUp" focus="username">
 
-    <%String m = request.getParameter("message");
-        out.print(m);
-    %>
+    <p style="color:red">
+        <%
+            String m = request.getParameter("message");
+            if (m == null)
+                m = "";
+            out.print(m);
+        %>
+    </p>
+
 
     <div style="color:red">
         <html:messages id="errors">
@@ -31,6 +38,6 @@
     <bean:message key="singUpForm.confirm.password"/><br/>
     <html:password property="confirmPassword" value="1234"/><br/>
 
-    <html:submit  value="Submit"/><br/><br/>
+    <html:submit value="Submit"/><br/><br/>
 
 </html:form>

@@ -4,6 +4,15 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
+
+
+<c:choose>
+    <c:when test="${loggedUser == null}">
+        <jsp:forward page="Link.do?method=login"/>
+    </c:when>
+    <c:otherwise>
+
+
 <div>
     <table>
         <tr>
@@ -45,3 +54,6 @@
     </table>
 
 </div>
+
+    </c:otherwise>
+</c:choose>

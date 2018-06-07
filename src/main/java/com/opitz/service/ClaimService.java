@@ -40,4 +40,15 @@ public class ClaimService {
             }
         }
     }
+
+    public User findUser(String username) {
+        for(User user: getUsers()) {
+            if(user.getUsername().equals(username)) {
+                return user;
+            }
+        }
+
+        return null;
+
+    }
 }

@@ -24,7 +24,7 @@
         </action>
 
         <action name="singUpForm" path="/singUp" type="com.opitz.action.SingUpAction" scope="request" input="singUp">
-            <forward name="failure" path="singUp.do" />
+            <forward name="failure" path="Link.do?method=singUp" />
             <forward name="success" path="singUp" />
         </action>
 
@@ -38,8 +38,10 @@
         <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
             <forward name="addClaim" path="add"/>
             <forward name="login" path="login"/>
+            <forward name="all" path="all"/>
             <forward name="welcome" path="welcome"/>
             <forward name="singUp" path="singUp"/>
+            <forward name="singOut" path="welcome"/>
         </action>
         <action path="/onInit" parameter="method" type="com.opitz.action.OnInitAction">
             <forward name="onInit" path="welcome"/>
