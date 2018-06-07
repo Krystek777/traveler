@@ -1,3 +1,5 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<jsp:forward page="/onInit.do"/>
+
+    <h2>Welcome on Claim Manager!</h2>
+

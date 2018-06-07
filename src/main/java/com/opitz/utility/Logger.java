@@ -6,7 +6,7 @@ import com.opitz.repository.InMemoryUserRepository;
 
 public class Logger {
 
-    private UserRepository userRepository = new InMemoryUserRepository();
+    private UserRepository userRepository = ServiceLocator.findUserRepository();
 
     public boolean isValid(String username, String password) {
 

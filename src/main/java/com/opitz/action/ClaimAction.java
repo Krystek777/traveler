@@ -31,8 +31,6 @@ public class ClaimAction extends Action {
         Claim claim = claimConverter.toClaim(claimForm);
         claimService.saveClaim(claim);
 
-        HttpSession session = request.getSession(true);
-        session.setAttribute("claims", claimService.getClaims());
         return mapping.findForward("success");
     }
 

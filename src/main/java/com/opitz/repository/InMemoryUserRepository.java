@@ -9,12 +9,19 @@ public class InMemoryUserRepository implements UserRepository {
 
     private List<User> users;
 
+    public InMemoryUserRepository() {
+        users = new ArrayList<>();
+        users.add(new User("admin", "admin@opitz.com", "admin"));
+        users.add(new User("krystian","krystian@opitz.com","0000"));
+    }
+
     @Override
     public List<User> getUsers() {
-        users = new ArrayList<>();
-
-        users.add(new User("admin", "admin"));
-        users.add(new User("krystian","0000"));
         return users;
+    }
+
+    @Override
+    public void saveUser(User user) {
+        users.add(user);
     }
 }
