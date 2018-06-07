@@ -12,7 +12,7 @@
         <put name="footer" value="/footer.jsp"/>
     </definition>
 
-    <definition name="add" extends="baseLayout">
+    <definition name="addClaim" extends="baseLayout">
         <put name="title" value="Add Claim"/>
     </definition>
 
@@ -31,7 +31,7 @@
         <put name="body" value="loginFailure.jsp"/>
     </definition>
 
-    <definition name="all" extends="baseLayout">
+    <definition name="allClaims" extends="baseLayout">
         <put name="title" value="All Claims"/>
         <put name="body" value="allClaimsTile.jsp"/>
     </definition>

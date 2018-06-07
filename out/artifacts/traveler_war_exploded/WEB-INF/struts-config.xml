@@ -19,7 +19,7 @@
 
     <!--Action Mappings-->
     <action-mappings>
-        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="add">
+        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="addClaim">
             <forward name="success" path="claimAdded" />
         </action>
 
@@ -30,15 +30,15 @@
 
         <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="/loginTile.jsp">
             <forward name="failure" path="loginFailure"/>
-            <forward name="success" path="all"/>
+            <forward name="success" path="allClaims"/>
         </action>
         <action path="/update" parameter="method" type="com.opitz.action.UpdateAction">
-            <forward name="updated" path="all"/>
+            <forward name="updated" path="allClaims"/>
         </action>
         <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
-            <forward name="addClaim" path="add"/>
+            <forward name="addClaim" path="addClaim"/>
             <forward name="login" path="login"/>
-            <forward name="all" path="all"/>
+            <forward name="all" path="allClaims"/>
             <forward name="welcome" path="welcome"/>
             <forward name="singUp" path="singUp"/>
             <forward name="singOut" path="welcome"/>

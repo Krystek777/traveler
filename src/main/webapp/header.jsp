@@ -3,7 +3,6 @@
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-       <div>
-              <h1><bean:message key="header.title"/> </h1>
-       </div>
-
+<div>
+    <h1><bean:message key="header.title"/></h1>
+</div>

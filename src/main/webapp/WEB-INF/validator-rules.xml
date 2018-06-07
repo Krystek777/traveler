@@ -259,7 +259,7 @@
                        org.apache.commons.validator.Validator,
                        javax.servlet.http.HttpServletRequest"
                    depends=""
-                   msg="errors.creditcard"/>
+                   msg="errors.credit.card"/>
 
         <validator name="email"
                    classname="org.apache.struts.validator.FieldChecks"
