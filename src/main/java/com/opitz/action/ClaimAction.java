@@ -35,9 +35,9 @@ public class ClaimAction extends Action {
     }
 
 
-    public ActionForward claims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
+    public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                  HttpServletResponse response) throws Exception {
-        return null;
+        return mapping.findForward("success");
     }
 
 }

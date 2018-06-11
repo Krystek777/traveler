@@ -15,14 +15,6 @@ public class LinkAction extends DispatchAction {
         return mapping.findForward("addClaim");
     }
 
-    public ActionForward login(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return mapping.findForward("login");
-    }
-
-
-    public ActionForward signUp(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
-        return mapping.findForward("signUp");
-    }
 
     public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         return mapping.findForward("all");
