@@ -4,7 +4,7 @@ package com.opitz.form;
 import lombok.Data;
 import org.apache.struts.validator.ValidatorForm;
 
-
+import java.util.List;
 
 
 @Data
@@ -18,5 +18,6 @@ public class ClaimForm extends ValidatorForm {
     private String dateOccurred;
     private String status;
 
+    private List<String> statuses;
 
 }

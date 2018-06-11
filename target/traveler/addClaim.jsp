@@ -6,7 +6,7 @@
 <%@ taglib prefix="c" uri="http://struts.apache.org/tags-html" %>
 
 
-<html:form action="/addClaim" focus="name">
+<html:form action="/addClaimSubmit" focus="name">
 
     <div class="red-text">
         <html:messages id="errors">

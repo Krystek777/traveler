@@ -4,7 +4,6 @@ import com.opitz.form.LoginForm;
 import com.opitz.form.SignUpForm;
 import com.opitz.model.User;
 import com.opitz.service.ClaimService;
-import com.opitz.utility.Logger;
 import com.opitz.utility.ServiceLocator;
 import org.apache.struts.action.*;
 import org.apache.struts.actions.MappingDispatchAction;
@@ -19,34 +18,28 @@ public class UserAction extends MappingDispatchAction {
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
-
+        request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
 
     public ActionForward loginSubmit(ActionMapping mapping, ActionForm form,
-                               HttpServletRequest request, HttpServletResponse response) throws Exception {
+                                     HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         LoginForm loginForm = (LoginForm) form;
-        Logger logger = new Logger();
-        boolean isValid = logger.isValid(loginForm.getUsername(), loginForm.getPassword());
 
-        if (isValid) {
-            HttpSession session = request.getSession();
-            session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
-            return mapping.findForward("success");
-        }
-
-        return mapping.findForward("failure");
+        HttpSession session = request.getSession();
+        session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
+        return mapping.findForward("success");
     }
 
 
     public ActionForward signUp(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+        request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
 
     public ActionForward saveUser(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        ClaimService claimService = ServiceLocator.findClaimService();
         SignUpForm signUpForm = (SignUpForm) form;
 
         User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
@@ -61,6 +54,10 @@ public class UserAction extends MappingDispatchAction {
     public ActionForward signOut(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         HttpSession session = request.getSession();
         session.setAttribute("loggedUser", null);
+        return mapping.findForward("success");
+    }
+
+    public ActionForward welcome(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         return mapping.findForward("success");
     }
 }

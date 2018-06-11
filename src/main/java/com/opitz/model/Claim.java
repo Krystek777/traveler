@@ -1,6 +1,7 @@
 package com.opitz.model;
 
 
+import com.opitz.utility.ClaimConverter;
 import lombok.Data;
 
 import java.text.SimpleDateFormat;
@@ -19,7 +20,7 @@ public class Claim {
     private String status;
 
     public Claim() {
-        this(1, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatusString.NEW);
+        this(1, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatus.NEW);
     }
 
     public Claim(long id, String name, String email, String policy,
@@ -35,12 +36,7 @@ public class Claim {
     }
 
     public String getDateOccurred() {
-        SimpleDateFormat ft = new SimpleDateFormat("yyyy/MM/dd");
-        return (ft.format(dateOccurred));
-    }
-
-    public void setDateOccurred(Date dateOccurred) {
-        this.dateOccurred = dateOccurred;
+        return ClaimConverter.formatDate(dateOccurred);
     }
 
 

@@ -5,10 +5,10 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
 
-<html:link action="Link.do?method=addClaim" >Add Claim</html:link><br>
+<html:link action="/addClaim" >Add Claim</html:link><br>
 <c:choose>
     <c:when test="${loggedUser != null}">
-        <html:link action="Link.do?method=allClaims" >All Claims</html:link><br>
+        <html:link action="/allClaims" >All Claims</html:link><br>
     </c:when>
     <c:otherwise>
         <html:link action="/login" >All Claims</html:link>

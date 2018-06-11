@@ -33,7 +33,7 @@
 
     <definition name="allClaims.td" extends="baseLayout">
         <put name="title" value="All Claims"/>
-        <put name="body" value="allClaimsTile.jsp"/>
+        <put name="body" value="allClaims.jsp"/>
     </definition>
 
     <definition name="welcome.td" extends="baseLayout">

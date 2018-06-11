@@ -6,7 +6,7 @@
 
 <c:choose>
     <c:when test="${loggedUser == null}">
-        <jsp:forward page="Link.do?method=login"/>
+        <jsp:forward page="/login.do"/>
     </c:when>
     <c:otherwise>
 

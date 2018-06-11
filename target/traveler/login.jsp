@@ -5,9 +5,11 @@
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <%@taglib uri="http://struts.apache.org/tags-tiles" prefix="tiles" %>
 
-if
-<h3 class="red-text"><bean:message key="failure.content"/></h3>
-end
+<div class="red-text">
+    <html:messages id="errors">
+        <bean:write name="errors"/><br>
+    </html:messages>
+</div>
 <html:form action="/loginSubmit" focus="username">
     <bean:message key="login.username"/>
     <html:text property="username"/><br>
