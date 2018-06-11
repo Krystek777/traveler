@@ -35,18 +35,18 @@
                         <td><bean:write name="claimItem" property="dateOccurred"/></td>
                         <td><bean:write name="claimItem" property="status"/></td>
                         <td>
-                            <html:link action="/update.do?method=acceptClaim" titleKey="claimForm.approve">
+                            <html:link action="/approveClaim" titleKey="claimForm.approve">
                                 <html:param name="id"><c:out value="${claimItem.id}"/></html:param>
                                 <bean:message key="claimForm.approve"/>
                             </html:link>
 
-                            <html:link action="/update.do?method=rejectClaim" titleKey="claimForm.reject">
+                            <html:link action="/rejectClaim" titleKey="claimForm.reject">
                                 <html:param name="id"><c:out value="${claimItem.id}"/></html:param>
                                 <bean:message key="claimForm.reject"/>
                             </html:link>
 
                         </td>
-                    <tr/>
+                    </tr>
                 </logic:iterate>
             </table>
 

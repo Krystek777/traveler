@@ -4,14 +4,14 @@
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
-<a href="Link.do?method=addClaim"><bean:message key="add.claim.text"/></a><br>
 
+<html:link action="Link.do?method=addClaim" >Add Claim</html:link><br>
 <c:choose>
     <c:when test="${loggedUser != null}">
-        <a href="Link.do?method=allClaims"><bean:message key="all.claims"/></a>
+        <html:link action="Link.do?method=allClaims" >All Claims</html:link><br>
     </c:when>
     <c:otherwise>
-        <a href="Link.do?method=login"><bean:message key="all.claims"/></a>
+        <html:link action="Link.do?method=login" >All Claims</html:link>
     </c:otherwise>
 </c:choose>
 

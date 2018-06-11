@@ -5,7 +5,7 @@
 <tiles-definitions>
     <definition name="baseLayout" path="/baseLayout.jsp">
         <put name="title" value="Tiles Example"/>
-        <put name="loginPanel" value="/loginPanel.jsp"/>
+        <put name="loginPanel" value="/userPanel.jsp"/>
         <put name="header" value="/header.jsp"/>
         <put name="menu" value="/menu.jsp"/>
         <put name="body" value="/addClaim.jsp"/>
@@ -18,7 +18,7 @@
 
     <definition name="login" extends="baseLayout">
         <put name="title" value="Add Claim"/>
-        <put name="body" value="loginTile.jsp"/>
+        <put name="body" value="login.jsp"/>
     </definition>
 
     <definition name="claimAdded" extends="baseLayout">
@@ -41,9 +41,9 @@
         <put name="body" value="welcomeTile.jsp"/>
     </definition>
 
-    <definition name="singUp" extends="baseLayout">
-        <put name="title" value="Sing Up"/>
-        <put name="body" value="singUp.jsp"/>
+    <definition name="signUp.td" extends="baseLayout">
+        <put name="title" value="Sign Up"/>
+        <put name="body" value="signUp.jsp"/>
     </definition>
 
 </tiles-definitions>

@@ -5,27 +5,31 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
 
-<div style="background-color: mediumseagreen;">
+<div class="default">
 
     <c:choose>
         <c:when test="${loggedUser != null}">
-            <div style="display: inline-block;padding:10px;">
+            <div class="panel-block">
                 <bean:message key="hello.text"/>
                 <bean:write name="loggedUser" property="username"/>
             </div>
-
-            <div style="display: inline-block;padding:10px;">
-                <a href="Link.do?method=singOut">Sing Out</a>
+            <div class="panel-block">
+                <html:link action="Link.do?method=singOut">
+                    <bean:message key="sing.out.text"/>
+                </html:link><br>
             </div>
-
         </c:when>
         <c:otherwise>
-            <div style="display: inline-block;padding:10px;">
-                <a href="Link.do?method=login">Log in</a>
+            <div class="panel-block">
+                <html:link action="Link.do?method=login">
+                    <bean:message key="sign.in.text"/>
+                </html:link><br>
             </div>
 
-            <div style="display: inline-block;padding:10px;">
-                <a href="Link.do?method=singUp">Sing Up</a>
+            <div class="panel-block">
+                <html:link action="Link.do?method=signUp">
+                    <bean:message key="sign.up.text"/>
+                </html:link><br>
             </div>
 
         </c:otherwise>

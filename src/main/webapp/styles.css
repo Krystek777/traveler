@@ -8,6 +8,8 @@ table, td, th {
     border-collapse: collapse;
 }
 
+
+
 .header{
     background-color:mediumseagreen;
     padding: 20px;
@@ -44,4 +46,22 @@ table, td, th {
     text-align:center;
     padding: 50px;
     margin:1%;
+}
+
+.green-text{
+    color: green;
+}
+
+.red-text{
+    color: red;
+}
+
+.panel-block{
+    display: inline-block;
+    padding:10px;
+
+}
+
+.default {
+    background-color: mediumseagreen;
 }

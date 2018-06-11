@@ -11,7 +11,7 @@ import org.apache.struts.actions.DispatchAction;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class UpdateAction extends DispatchAction {
+public class UpdateClaimAction extends DispatchAction {
 
 
     public ActionForward acceptClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request,

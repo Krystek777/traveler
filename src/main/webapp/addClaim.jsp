@@ -8,7 +8,7 @@
 
 <html:form action="/addClaim" focus="name">
 
-    <div style="color:red">
+    <div class="red-text">
         <html:messages id="errors">
             <bean:write name="errors"/><br/>
         </html:messages>

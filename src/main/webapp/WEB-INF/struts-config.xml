@@ -9,7 +9,7 @@
     <form-beans>
         <form-bean name="claimForm" type="com.opitz.form.ClaimForm"/>
         <form-bean name="loginForm" type="com.opitz.form.LoginForm"/>
-        <form-bean name="singUpForm" type="com.opitz.form.SingUpForm"/>
+        <form-bean name="signUpForm" type="com.opitz.form.SignUpForm"/>
     </form-beans>
 
     <!-- Global Exceptions -->
@@ -19,28 +19,54 @@
 
     <!--Action Mappings-->
     <action-mappings>
-        <action name="claimForm" path="/addClaim" type="com.opitz.action.ClaimAction" scope="request" input="addClaim">
+        <action path="/addClaim" name="claimForm"  type="com.opitz.action.ClaimAction" scope="request" input="addClaim">
             <forward name="success" path="claimAdded" />
         </action>
-
-        <action name="singUpForm" path="/singUp" type="com.opitz.action.SingUpAction" scope="request" input="singUp">
-            <forward name="failure" path="Link.do?method=singUp" />
-            <forward name="success" path="singUp" />
-        </action>
-
-        <action name="loginForm" path="/login" type="com.opitz.action.LoginAction" scope="request" input="/loginTile.jsp">
-            <forward name="failure" path="loginFailure"/>
-            <forward name="success" path="allClaims"/>
-        </action>
-        <action path="/update" parameter="method" type="com.opitz.action.UpdateAction">
+        <action path="/claims" parameter="method" type="com.opitz.action.ClaimAction">
             <forward name="updated" path="allClaims"/>
         </action>
+        <action path="/approveClaim" type="com.opitz.action.UpdateClaimAction">
+            <forward name="success" path="/claims.do"/>
+        </action>
+        <action path="/rejectClaim" type="com.opitz.action.UpdateClaimAction">
+            <forward name="success" path="/claims.do"/>
+        </action>
+
+
+        <action path="/signUp" name="signUpForm"  type="com.opitz.action.UserAction"
+                parameter="signUp"
+                validate="false">
+            <!--<forward name="failure" path="Link.do?method=signUp" />-->
+            <forward name="success" path="signUp.td" />
+        </action>
+        <action path="/saveUser" name="signUpForm"  type="com.opitz.action.UserAction"
+                parameter="signUp"
+                input="signUp.td"
+                validate="true">
+            <!--<forward name="failure" path="Link.do?method=signUp" />-->
+            <forward name="success" path="/claims.do" />
+        </action>
+        <action path="/signOut" name="signUpForm"  type="com.opitz.action.UserAction" scope="request"
+                parameter="signOut"
+                input="signUp">
+            <!--<forward name="failure" path="Link.do?method=signUp" />-->
+            <forward name="success" path="welcome" />
+        </action>
+
+        <action name="loginForm" path="/login" type="com.opitz.action.UserAction" scope="request"
+                parameter="login"
+                input="/login.jsp">
+            <!--<forward name="failure" path="loginFailure"/>-->
+            <forward name="success" path="/claims.do"/>
+        </action>
+
+
         <action path="/Link" parameter="method" type="com.opitz.action.LinkAction">
             <forward name="addClaim" path="addClaim"/>
             <forward name="login" path="login"/>
             <forward name="all" path="allClaims"/>
             <forward name="welcome" path="welcome"/>
-            <forward name="singUp" path="singUp"/>
+            <forward name="signUp" path="signUp"/>
             <forward name="singOut" path="welcome"/>
         </action>
         <action path="/onInit" parameter="method" type="com.opitz.action.OnInitAction">

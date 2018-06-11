@@ -38,18 +38,18 @@
     </formset>
 
     <formset>
-        <form name="singUpForm">
+        <form name="signUpForm">
 
             <field property="username" depends="required">
-                <arg key="singUpForm.username"/>
+                <arg key="signUpForm.username"/>
             </field>
 
             <field property="email" depends="required, email">
-                <arg key="singUpForm.email"/>
+                <arg key="signUpForm.email"/>
             </field>
 
             <field property="password" depends="required,minlength">
-                <arg0 key="singUpForm.password"/>
+                <arg0 key="signUpForm.password"/>
                 <arg1 key="${var:minlength}" name="minlength" resource="false"/>
                 <var>
                     <var-name>minlength</var-name>
@@ -58,7 +58,7 @@
             </field>
 
             <field property="confirmPassword" depends="required,minlength">
-                <arg0 key="singUpForm.confirm.password"/>
+                <arg0 key="signUpForm.confirm.password"/>
                 <arg1 key="${var:minlength}" name="minlength" resource="false"/>
                 <var>
                     <var-name>minlength</var-name>
