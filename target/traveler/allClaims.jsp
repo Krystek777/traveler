@@ -30,7 +30,15 @@
                         <td><bean:write name="claimItem" property="name"/></td>
                         <td><bean:write name="claimItem" property="email"/></td>
                         <td><bean:write name="claimItem" property="policy"/></td>
-                        <td><bean:write name="claimItem" property="claimType"/></td>
+
+                        <td>
+                            <bean:define id="label" toScope="page" type="java.lang.String">
+                                <bean:message key="claimForm.types.prefix"/><bean:write name="claimItem"
+                                                                                        property="claimType"/>
+                            </bean:define>
+                            <bean:message name="label"/>
+                        </td>
+
                         <td><bean:write name="claimItem" property="claimAmount"/></td>
                         <td><bean:write name="claimItem" property="dateOccurred"/></td>
                         <td><bean:write name="claimItem" property="status"/></td>

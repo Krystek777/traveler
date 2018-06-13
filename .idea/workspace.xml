@@ -7,79 +7,40 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" line="51" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerParseException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/traveler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/OnInitAction.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatusString.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimTypeString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/Logger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/Validator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/success.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/ApplicationResources.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/ClaimAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/LinkAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/OnInitAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/form/ClaimForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/form/ClaimForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/form/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/form/LoginForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimStatusString.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/ClaimTypeString.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/utility/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/utility/Validator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/ApplicationResources.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/ClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/ClaimAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/LinkAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/OnInitAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/ClaimForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/ClaimForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/LoginForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/LoginForm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimStatus.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimStatusString.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/ClaimTypeString.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/Logger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/Validator.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/tiles-defs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/tiles-defs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/addClaim.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/addClaim.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/allClaims.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/allClaims.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/menu.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/baseLayout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/baseLayout.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,107 +66,207 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ClaimService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMemoryUserRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClaimType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClaimForm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InMemoryClaimRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClaimRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="TypeOption.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClaimStatus.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="44">
+                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClaimType.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="324">
+                  <caret line="26" selection-start-line="26" selection-end-line="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="allClaims.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="40" selection-start-line="40" selection-end-line="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="baseLayout.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="660">
+                  <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationResources.properties" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1033">
+                  <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="38" selection-start-line="38" selection-end-line="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="tiles-defs.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="110">
+                  <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="signUp.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="addClaim.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="418">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="726">
+                  <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+            </entry>
+          </file>
+          <file leaf-file-name="tiles-defs.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="660">
+                  <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="154">
+                  <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="44">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="menu.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="374">
+                  <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="baseLayout.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="allClaims.jsp" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="440">
+                  <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="CSS File" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -219,6 +280,10 @@
       <find>SingUp</find>
       <find>signUp</find>
       <find>yyyy/MM/dd</find>
+      <find>&quot;s&quot;</find>
+      <find>TagUtils.</find>
+      <find>messages</find>
+      <find>value</find>
     </findStrings>
     <replaceStrings>
       <replace>signUp</replace>
@@ -231,16 +296,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/allTile.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/loginPanel.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/Logger.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/globalStyles.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
@@ -259,29 +319,34 @@
         <option value="$PROJECT_DIR$/src/main/webapp/signUp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/userPanel.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/menu.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/header.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/OnInitAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerParseException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/PropertyAccessorTest.java" />
+        <option value="$PROJECT_DIR$/tests/opitz/utility/PropertyAccessorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/PropertyAccessor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" />
       </list>
     </option>
   </component>
@@ -325,10 +390,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2568" />
-    <option name="y" value="-2" />
-    <option name="width" value="2576" />
-    <option name="height" value="1416" />
+    <option name="x" value="662" />
+    <option name="width" value="880" />
+    <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -337,9 +401,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -407,24 +471,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler - Kopie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler - Kopie" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
               <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -459,41 +505,53 @@
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler - Kopie" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="struts-taglib-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="struts-taglib-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="struts-taglib-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="tld" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="text" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="struts-taglib-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="taglib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler - Kopie" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.struts:struts-taglib:1.3.10" type="70bed36:NamedLibraryElementNode" />
+              <item name="struts-taglib-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="taglib" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -511,20 +569,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.opitz.utility" />
       <recent name="opitz.utility" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\traveler\src\main\webapp" />
-      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
-      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="opitz.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
@@ -535,8 +591,11 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="opitz.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\traveler\src\main\webapp" />
+      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
+      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -551,9 +610,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8090">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="PropertyAccessorTest.getMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="traveler" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="opitz.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="opitz.utility" />
+      <option name="MAIN_CLASS_NAME" value="opitz.utility.PropertyAccessorTest" />
+      <option name="METHOD_NAME" value="getMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -593,7 +675,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Tomcat 8080" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat 8090" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -667,6 +749,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Tomcat 8090" />
+      <item itemvalue="JUnit.PropertyAccessorTest.getMessage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PropertyAccessorTest.getMessage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -690,66 +781,74 @@
       <workItem from="1528097675876" duration="12511000" />
       <workItem from="1528382953903" duration="352000" />
       <workItem from="1528704002987" duration="9000" />
-      <workItem from="1528705151903" duration="10749000" />
+      <workItem from="1528705151903" duration="24821000" />
+      <workItem from="1528875691145" duration="12233000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="PropertyAccessorTest_getMessage - 2018.06.13 at 10h 41m 42s.xml">
+      <configuration name="PropertyAccessorTest.getMessage" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PropertyAccessorTest_getMessage - 2018.06.13 at 10h 43m 00s.xml">
+      <configuration name="PropertyAccessorTest.getMessage" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140455000" />
+    <option name="totallyTimeSpent" value="166760000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2568" y="-2" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="9" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="16" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="19" />
-      <window_info anchor="right" id="Maven Projects" order="11" weight="0.09018143" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.089825116" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info id="Capture Tool" order="13" />
+      <window_info id="Struts Assistant" order="15" />
       <window_info id="Designer" order="9" />
-      <window_info anchor="right" id="Database" order="13" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="14" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.4256651" />
       <window_info anchor="bottom" id="TODO" order="13" />
       <window_info anchor="bottom" id="Messages" order="22" weight="0.32629108" />
-      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
-      <window_info anchor="right" id="Capture Analysis" order="14" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.37480438" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="21" />
-      <window_info anchor="bottom" id="Terminal" order="18" weight="0.10250391" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16295707" />
+      <window_info anchor="bottom" id="Run" order="4" weight="0.26760563" />
+      <window_info anchor="bottom" id="Terminal" order="18" weight="0.1486698" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.16414945" />
       <window_info id="Web" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32942098" />
-      <window_info anchor="right" id="Theme Preview" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info id="Struts Assistant" order="15" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" id="Application Servers" order="10" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2832551" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26760563" />
       <window_info id="Image Layers" order="5" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Struts Assistant" order="8" />
       <window_info id="UI Designer" order="7" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.15805946" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.1486698" />
       <window_info id="Capture Tool" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32629108" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -757,16 +856,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.09018143" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16295707" />
-      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.089825116" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16414945" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42624357" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4256651" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -780,7 +880,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="53" />
+      <option name="time" value="81" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -791,379 +891,57 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>new SimpleDateFormat(&quot;yyyy/MM/dd&quot;).parse(dateString)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.text.SimpleDateFormat</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>new SimpleDateFormat(&quot;MM/yyyy/MM/dd&quot;).parse(dateString)</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>java.text.SimpleDateFormat</custom-info>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>moduleConfig.getPrefix()</expression-string>
+        <expression-string>getResources(request).getMessage(&quot;claimForm.types.LOST_BAGGAGE&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>moduleConfig.getControllerConfig()</expression-string>
+        <expression-string>getResources(request).getMessage(&quot;claimForm.types.LOST_BAGGAGE2&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>moduleConfig.getControllerConfig().getInputForward()</expression-string>
+        <expression-string>getResources(request)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>actionConfig.findForwardConfig(input)</expression-string>
+        <expression-string>TagUtils.getInstance().message(pageContext, bundle, locale, &quot;claimForm.types.LOST_BAGGAGE&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getParameter(&quot;id&quot;)</expression-string>
+        <expression-string>TagUtils.getInstance().message(pageContext, bundle, locale, &quot;claimForm.types.prefix&quot;)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getAttributeNames()</expression-string>
+        <expression-string>TagUtils.getInstance().message(pageContext, bundle, locale, key)</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getParameterMap()</expression-string>
+        <expression-string>ClaimType.valueOf(claimForm.getClaimType())</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>request.getParameterNames()</expression-string>
+        <expression-string>claimForm.getClaimType()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new ArrayList&lt;&gt;(Arrays.asList(ClaimType.values()))</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/ComposableRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="274" selection-start-line="274" selection-end-line="274" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/contexts/ActionContextBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="216" selection-start-line="216" selection-end-line="216" />
-          <folding>
-            <element signature="e#6427#6428#0" expanded="true" />
-            <element signature="e#6474#6475#0" expanded="true" />
-            <element signature="e#6541#6542#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/commands/AbstractSelectInput.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1464">
-          <caret line="91" column="9" lean-forward="true" selection-start-line="91" selection-start-column="9" selection-end-line="91" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="598" column="42" selection-start-line="598" selection-start-column="42" selection-end-line="598" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/LinkAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/OnInitAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/Validator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userPanel.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcomeTile.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="88" selection-start-line="24" selection-start-column="88" selection-end-line="24" selection-end-column="88" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
-          <folding>
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#1015#1016#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="139" selection-start-line="139" selection-end-line="139" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/text/ParseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="82" selection-start-column="4" selection-end-line="84" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerParseException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="32" column="26" lean-forward="true" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#805#806#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1188,6 +966,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/StrutsAssistant/lib/struts.jar!/dtds/struts-config_1_3.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="458" column="32" selection-start-line="458" selection-start-column="32" selection-end-line="458" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -1195,24 +987,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/DispatchAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="665">
+          <caret line="268" selection-start-line="268" selection-end-line="268" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6">
+          <caret line="57" column="33" lean-forward="true" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10-sources.jar!/org/apache/struts/taglib/html/OptionsCollectionTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3080">
+          <caret line="201" column="50" selection-start-line="201" selection-start-column="50" selection-end-line="201" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10-sources.jar!/org/apache/struts/taglib/html/OptionsTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="50" column="38" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10-sources.jar!/org/apache/struts/taglib/TagUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19052">
+          <caret line="932" column="18" selection-start-line="932" selection-start-column="18" selection-end-line="932" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerParseException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/PropertyAccessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/opitz/utility/PropertyAccessorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="83" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaEE/lib/javaee-impl.jar!/standardSchemas/web-jsptaglibrary_1_2.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="394" column="10" selection-start-line="394" selection-start-column="10" selection-end-line="394" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding>
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,10 +1117,192 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="27" column="47" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10-sources.jar!/org/apache/struts/taglib/html/OptionTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="278" column="7" selection-start-line="278" selection-start-column="7" selection-end-line="278" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-taglib/1.3.10/struts-taglib-1.3.10.jar!/META-INF/tld/struts-html.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="5509" column="54" selection-start-line="5509" selection-start-column="54" selection-end-line="5509" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcomeTile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userPanel.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/StrutsAssistant/lib/struts.jar!/dtds/tiles-config_1_1.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2014">
+          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="29" column="78" lean-forward="true" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1033">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="49" lean-forward="true" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -1249,7 +1325,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (traveler)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

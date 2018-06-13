@@ -14,7 +14,7 @@ public class Claim {
     private String name;
     private String email;
     private String policy;
-    private String claimType;
+    private ClaimType claimType;
     private int claimAmount;
     private Date dateOccurred;
     private String status;
@@ -24,7 +24,7 @@ public class Claim {
     }
 
     public Claim(long id, String name, String email, String policy,
-                 String claimType, int claimAmount, Date dateOccurred, String status) {
+                 ClaimType claimType, int claimAmount, Date dateOccurred, String status) {
         this.id = id;
         this.name = name;
         this.email = email;

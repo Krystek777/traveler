@@ -13,36 +13,27 @@
     </definition>
 
     <definition name="addClaim.td" extends="baseLayout">
-        <put name="title" value="Add Claim"/>
+        <put name="titleKey" value="title.add.claim"/>
     </definition>
 
     <definition name="login.td" extends="baseLayout">
-        <put name="title" value="Add Claim"/>
+        <put name="titleKey" value="title.login"/>
         <put name="body" value="login.jsp"/>
     </definition>
 
-    <definition name="claimAdded.td" extends="baseLayout">
-        <put name="title" value="Claim Added"/>
-        <put name="body" value="success.jsp"/>
-    </definition>
-
-    <definition name="loginFailure.td" extends="baseLayout">
-        <put name="title" value="Login Failure"/>
-        <put name="body" value="loginFailure.jsp"/>
-    </definition>
 
     <definition name="allClaims.td" extends="baseLayout">
-        <put name="title" value="All Claims"/>
+        <put name="titleKey" value="title.all.claims"/>
         <put name="body" value="allClaims.jsp"/>
     </definition>
 
     <definition name="welcome.td" extends="baseLayout">
-        <put name="title" value="Welcome"/>
+        <put name="titleKey" value="title.welcome"/>
         <put name="body" value="welcomeTile.jsp"/>
     </definition>
 
     <definition name="signUp.td" extends="baseLayout">
-        <put name="title" value="Sign Up"/>
+        <put name="titleKey" value="title.sign.up"/>
         <put name="body" value="signUp.jsp"/>
     </definition>
 

@@ -23,17 +23,19 @@
         <!--Claim Action-->
 
         <action path="/addClaimSubmit" name="claimForm" type="com.opitz.action.ClaimAction" scope="request"
-                input="addClaim.td"
+                input="/addClaim.do"
                 parameter="addClaimSubmit">
-            <forward name="success" path="claimAdded.td"/>
+            <forward name="success" path="/addClaim.do"/>
         </action>
 
-        <action path="/addClaim" type="com.opitz.action.ClaimAction" scope="request"
+        <action path="/addClaim" name="claimForm" type="com.opitz.action.ClaimAction" scope="request"
+                input="addClaim.td"
+                validate="false"
                 parameter="addClaim">
             <forward name="success" path="addClaim.td"/>
         </action>
 
-        <action path="/allClaims" type="com.opitz.action.ClaimAction" scope="request"
+        <action path="/allClaims" type="com.opitz.action.ClaimAction"
                 parameter="allClaims">
             <forward name="success" path="allClaims.td"/>
         </action>
@@ -54,19 +56,18 @@
             <forward name="success" path="signUp.td"/>
         </action>
 
-        <action path="/signOut" type="com.opitz.action.UserAction" scope="request"
+        <action path="/signOut" type="com.opitz.action.UserAction"
                 parameter="signOut">
             <forward name="success" path="welcome.td"/>
         </action>
 
 
-        <action path="/login" type="com.opitz.action.UserAction" scope="request"
-                parameter="login" validate="true">
+        <action path="/login" type="com.opitz.action.UserAction"
+                parameter="login" >
             <forward name="success" path="login.td"/>
         </action>
 
-        <action path="/welcome" type="com.opitz.action.UserAction" scope="request"
-                parameter="welcome" validate="true">
+        <action path="/welcome" type="com.opitz.action.UserAction" parameter="welcome" >
             <forward name="success" path="login.td"/>
         </action>
 

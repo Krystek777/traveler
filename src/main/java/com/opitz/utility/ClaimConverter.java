@@ -3,6 +3,7 @@ package com.opitz.utility;
 import com.opitz.form.ClaimForm;
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatus;
+import com.opitz.model.ClaimType;
 import com.opitz.service.ClaimService;
 import lombok.extern.log4j.Log4j;
 
@@ -34,7 +35,7 @@ public class ClaimConverter {
 
 
         Claim claim = new Claim(0, claimForm.getName(), claimForm.getEmail(),
-                claimForm.getPolicy(), claimForm.getClaimType(), Integer.parseInt(claimForm.getClaimAmount()),
+                claimForm.getPolicy(), ClaimType.valueOf(claimForm.getClaimType()), Integer.parseInt(claimForm.getClaimAmount()),
                 null, ClaimStatus.NEW);
 
         claim.setDateOccurred(parseDate(claimForm.getDateOccurred()));
