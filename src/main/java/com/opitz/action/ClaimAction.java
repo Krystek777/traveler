@@ -48,7 +48,7 @@ public class ClaimAction extends MappingDispatchAction {
         Claim claim = claimConverter.convertToClaim(claimForm);
         claimService.saveClaim(claim);
         ActionMessages messages = new ActionMessages();
-        messages.add("claimAdded",new ActionMessage("claim.added"));
+        messages.add(ActionMessages.GLOBAL_MESSAGE,new ActionMessage("claim.added"));
         saveMessages(request, messages);
         return mapping.findForward("success");
     }

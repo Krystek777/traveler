@@ -14,15 +14,6 @@
         </html:messages>
     </div>
 
-    <logic:messagesPresent message="true">
-        <html:messages id="claimAdded" message="true">
-            <logic:present name="claimAdded">
-                <div class="green-text">
-                    <bean:write name="claimAdded" filter="false" />
-                </div>
-            </logic:present>
-        </html:messages>
-    </logic:messagesPresent>
 
 
     <div>

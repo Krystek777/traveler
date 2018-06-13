@@ -33,15 +33,22 @@
 
                         <td>
                             <bean:define id="label" toScope="page" type="java.lang.String">
-                                <bean:message key="claimForm.types.prefix"/><bean:write name="claimItem"
-                                                                                        property="claimType"/>
+                                <bean:message key="claimForm.types.prefix"/><bean:write name="claimItem" property="claimType"/>
                             </bean:define>
                             <bean:message name="label"/>
                         </td>
 
+
                         <td><bean:write name="claimItem" property="claimAmount"/></td>
                         <td><bean:write name="claimItem" property="dateOccurred"/></td>
-                        <td><bean:write name="claimItem" property="status"/></td>
+                        <td>
+
+                                <bean:define id="statusLabel" toScope="page" type="java.lang.String">
+                                    <bean:message key="claimForm.statuses.prefix"/><bean:write name="claimItem" property="status"/>
+                                </bean:define>
+                                <bean:message name="statusLabel"/>
+
+                        </td>
                         <td>
                             <html:link action="/approveClaim" titleKey="claimForm.approve">
                                 <html:param name="id"><c:out value="${claimItem.id}"/></html:param>

@@ -2,6 +2,7 @@ package com.opitz.service;
 
 
 import com.opitz.model.Claim;
+import com.opitz.model.ClaimStatus;
 import com.opitz.model.User;
 import com.opitz.repository.ClaimRepository;
 import com.opitz.repository.UserRepository;
@@ -10,6 +11,9 @@ import com.opitz.utility.ServiceLocator;
 import java.util.List;
 
 public class ClaimService {
+
+
+    private ClaimRepository repository;
 
     public List<Claim> getClaims() {
         ClaimRepository repository = ServiceLocator.findClaimRepository();
@@ -33,7 +37,7 @@ public class ClaimService {
 
     }
 
-    public void setStatus(Long id, String status) {
+    public void setStatus(Long id, ClaimStatus status) {
         for(Claim claim: getClaims()) {
             if(claim.getId() == id) {
                 claim.setStatus(status);

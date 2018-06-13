@@ -25,7 +25,7 @@ public class UpdateClaimAction extends MappingDispatchAction {
         return updateClaim(ClaimStatus.REJECTED, mapping, form, request, response);
     }
 
-    private ActionForward updateClaim(String status, ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+    private ActionForward updateClaim(ClaimStatus status, ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         ClaimService claimService = ServiceLocator.findClaimService();
         long id = Long.valueOf(request.getParameter("id"));

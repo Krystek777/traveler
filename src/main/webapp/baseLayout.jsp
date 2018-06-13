@@ -1,7 +1,8 @@
 <%@page contentType="text/html" pageEncoding="UTF-8" %>
 <%@ taglib prefix="bean" uri="http://struts.apache.org/tags-bean" %>
-<%@taglib uri="http://struts.apache.org/tags-tiles" prefix="html" %>
+<%@taglib uri="http://struts.apache.org/tags-html" prefix="html" %>
 <%@taglib uri="http://struts.apache.org/tags-tiles" prefix="tiles" %>
+<%@taglib uri="http://struts.apache.org/tags-logic" prefix="logic" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -27,6 +28,12 @@
             <tiles:insert attribute="menu"/>
         </div>
         <div class="content">
+            <logic:messagesPresent message="true">
+                <html:messages id="message" message="true">
+                    <div class="green-text"><bean:write name="message"/><br/></div>
+                </html:messages>
+            </logic:messagesPresent>
+
             <tiles:insert attribute="body"/>
         </div>
         <div class="footer">

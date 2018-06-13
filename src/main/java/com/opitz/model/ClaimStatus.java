@@ -1,9 +1,9 @@
 package com.opitz.model;
 
-public class ClaimStatus {
+public enum ClaimStatus {
 
-    public static final String NEW = "New" ,
-    APPROVED = "Approved",
-    REJECTED = "Rejected";
+    NEW,
+    APPROVED,
+    REJECTED
 
 }

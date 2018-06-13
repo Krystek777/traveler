@@ -17,14 +17,14 @@ public class Claim {
     private ClaimType claimType;
     private int claimAmount;
     private Date dateOccurred;
-    private String status;
+    private ClaimStatus status;
 
     public Claim() {
         this(1, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatus.NEW);
     }
 
     public Claim(long id, String name, String email, String policy,
-                 ClaimType claimType, int claimAmount, Date dateOccurred, String status) {
+                 ClaimType claimType, int claimAmount, Date dateOccurred, ClaimStatus status) {
         this.id = id;
         this.name = name;
         this.email = email;

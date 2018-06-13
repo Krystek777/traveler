@@ -1,5 +1,5 @@
 body{
-    background-color:lightblue;
+    background-color:grey;
 }
 
 table, td, th {
@@ -11,14 +11,14 @@ table, td, th {
 
 
 .header{
-    background-color:mediumseagreen;
+    background-color:tomato;
     padding: 20px;
     text-align: center;
     margin:1%;
 }
 
 .sidebar{
-    background-color:mediumseagreen;
+    background-color:tomato;
     float: left;
     width: 15%;
     height: 450px;
@@ -29,7 +29,7 @@ table, td, th {
 }
 
 .content{
-    background-color:mediumseagreen;
+    background-color:tomato;
     width: 72%;
     float:right;
     height: 450px;
@@ -41,7 +41,7 @@ table, td, th {
 }
 
 .footer{
-    background-color:mediumseagreen;
+    background-color:tomato;
     clear: both;
     text-align:center;
     padding: 50px;
@@ -63,5 +63,5 @@ table, td, th {
 }
 
 .default {
-    background-color: mediumseagreen;
+    background-color: tomato;
 }

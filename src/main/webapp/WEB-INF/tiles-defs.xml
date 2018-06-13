@@ -4,7 +4,7 @@
         "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
 <tiles-definitions>
     <definition name="baseLayout" path="/baseLayout.jsp">
-        <put name="title" value="Tiles Example"/>
+        <put name="title" value="title.welcome"/>
         <put name="loginPanel" value="/userPanel.jsp"/>
         <put name="header" value="/header.jsp"/>
         <put name="menu" value="/menu.jsp"/>
