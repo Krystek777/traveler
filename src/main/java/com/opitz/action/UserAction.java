@@ -7,17 +7,17 @@ import com.opitz.service.ClaimService;
 import com.opitz.utility.ServiceLocator;
 import org.apache.struts.action.*;
 import org.apache.struts.actions.MappingDispatchAction;
+import org.springframework.web.struts.MappingDispatchActionSupport;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
-public class UserAction extends MappingDispatchAction {
-
-    private ClaimService claimService = ServiceLocator.findClaimService();
+public class UserAction extends MappingDispatchActionSupport {
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
@@ -26,7 +26,7 @@ public class UserAction extends MappingDispatchAction {
                                      HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         LoginForm loginForm = (LoginForm) form;
-
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         HttpSession session = request.getSession();
         session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
         return mapping.findForward("success");
@@ -34,6 +34,7 @@ public class UserAction extends MappingDispatchAction {
 
 
     public ActionForward signUp(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
@@ -41,7 +42,7 @@ public class UserAction extends MappingDispatchAction {
     public ActionForward saveUser(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         SignUpForm signUpForm = (SignUpForm) form;
-
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
         claimService.saveUser(user);
 

@@ -11,14 +11,14 @@ table, td, th {
 
 
 .header{
-    background-color:tomato;
+    background-color:lightskyblue;
     padding: 20px;
     text-align: center;
     margin:1%;
 }
 
 .sidebar{
-    background-color:tomato;
+    background-color:lightskyblue;
     float: left;
     width: 15%;
     height: 450px;
@@ -29,7 +29,7 @@ table, td, th {
 }
 
 .content{
-    background-color:tomato;
+    background-color:lightskyblue;
     width: 72%;
     float:right;
     height: 450px;
@@ -41,7 +41,7 @@ table, td, th {
 }
 
 .footer{
-    background-color:tomato;
+    background-color:lightskyblue;
     clear: both;
     text-align:center;
     padding: 50px;
@@ -63,5 +63,5 @@ table, td, th {
 }
 
 .default {
-    background-color: tomato;
+    background-color: lightskyblue;
 }

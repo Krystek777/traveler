@@ -6,31 +6,29 @@ import com.opitz.model.ClaimType;
 import com.opitz.model.TypeOption;
 import com.opitz.service.ClaimService;
 import com.opitz.utility.ClaimConverter;
-import com.opitz.utility.ServiceLocator;
-import org.apache.struts.action.*;
-import org.apache.struts.actions.MappingDispatchAction;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
+import org.apache.struts.action.ActionMessage;
+import org.apache.struts.action.ActionMessages;
 import org.apache.struts.util.MessageResources;
+import org.springframework.web.struts.MappingDispatchActionSupport;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.FileInputStream;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Properties;
 
 
-public class ClaimAction extends MappingDispatchAction {
+public class ClaimAction extends MappingDispatchActionSupport {
 
-    private ClaimService claimService = ServiceLocator.findClaimService();
 
-    public ActionForward addClaim (ActionMapping mapping, ActionForm form, HttpServletRequest request,
-    HttpServletResponse response) throws Exception {
+    public ActionForward addClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request,
+                                  HttpServletResponse response) throws Exception {
         ClaimForm claimForm = (ClaimForm) form;
-        List<ClaimType> types = new ArrayList<>(Arrays.asList(ClaimType.values()));
         List<TypeOption> typeOptions = new ArrayList<>();
         MessageResources resources = getResources(request);
-        for(ClaimType type: ClaimType.values()) {
+        for (ClaimType type : ClaimType.values()) {
             typeOptions.add(new TypeOption(type, resources.getMessage("claimForm.types." + type.name())));
         }
         claimForm.setTypeOptions(typeOptions);
@@ -40,23 +38,25 @@ public class ClaimAction extends MappingDispatchAction {
     }
 
     public ActionForward addClaimSubmit(ActionMapping mapping, ActionForm form, HttpServletRequest request,
-                                 HttpServletResponse response) throws Exception {
+                                        HttpServletResponse response) throws Exception {
 
-        ClaimConverter claimConverter = new ClaimConverter();
-        ClaimForm claimForm = (ClaimForm)form;
+        ClaimConverter claimConverter = getWebApplicationContext().getBean("claimConverter", ClaimConverter.class);
+        ClaimForm claimForm = (ClaimForm) form;
 
         Claim claim = claimConverter.convertToClaim(claimForm);
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         claimService.saveClaim(claim);
         ActionMessages messages = new ActionMessages();
-        messages.add(ActionMessages.GLOBAL_MESSAGE,new ActionMessage("claim.added"));
+        messages.add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage("claim.added"));
         saveMessages(request, messages);
         return mapping.findForward("success");
     }
 
 
     public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
-                                 HttpServletResponse response) throws Exception {
-        request.getServletContext().setAttribute("claims",claimService.getClaims());
+                                   HttpServletResponse response) {
+        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
+        request.getServletContext().setAttribute("claims", claimService.getClaims());
         return mapping.findForward("success");
     }
 

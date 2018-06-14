@@ -6,12 +6,14 @@ package com.opitz.repository;
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatus;
 import com.opitz.model.ClaimType;
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 
+@Component
 public class InMemoryClaimRepository implements ClaimRepository {
 
     private List<Claim> claims;

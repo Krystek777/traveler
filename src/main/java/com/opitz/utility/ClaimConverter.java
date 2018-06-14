@@ -5,7 +5,11 @@ import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatus;
 import com.opitz.model.ClaimType;
 import com.opitz.service.ClaimService;
+import lombok.Getter;
+import lombok.Setter;
 import lombok.extern.log4j.Log4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 
 import java.text.ParseException;
@@ -13,7 +17,12 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Log4j
+@Component
 public class ClaimConverter {
+
+
+    @Autowired
+    private ClaimService claimService;
 
     private static final String DATE_FORMAT = "yyyy/MM/dd";
     private static final SimpleDateFormat SIMPLE_DATE_FORMAT = new SimpleDateFormat(DATE_FORMAT);
@@ -28,6 +37,9 @@ public class ClaimConverter {
     }
 
     public static String formatDate(Date date) {
+        if (date == null) {
+            return null;
+        }
         return SIMPLE_DATE_FORMAT.format(date);
     }
 
@@ -39,7 +51,6 @@ public class ClaimConverter {
                 null, ClaimStatus.NEW);
 
         claim.setDateOccurred(parseDate(claimForm.getDateOccurred()));
-        ClaimService claimService = ServiceLocator.findClaimService();
         claim.setId((long) (claimService.getClaims().size()) + 1);
 
         return claim;

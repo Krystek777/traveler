@@ -91,6 +91,11 @@
 
     </action-mappings>
 
+    <!--<controller>-->
+        <!--<set-property property="processorClass"-->
+                      <!--value="org.springframework.web.struts.DelegatingRequestProcessor"/>-->
+    <!--</controller>-->
+
     <!-- Message Resources -->
     <message-resources parameter="com.opitz.ApplicationResources"/>
 
@@ -104,6 +109,11 @@
         <set-property property="definitions-config"
                       value="/WEB-INF/tiles-defs.xml"/>
         <set-property property="moduleAware" value="true"/>
+    </plug-in>
+
+    <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+        <set-property property="contextConfigLocation"
+                      value="/WEB-INF/spring-beans.xml" />
     </plug-in>
 
 
