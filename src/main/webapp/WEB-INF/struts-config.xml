@@ -44,12 +44,12 @@
 
         <!--User Action-->
 
-        <action path="/signUp" type="com.opitz.action.UserAction"
+        <action path="/signUp" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="signUp">
             <forward name="success" path="signUp.td"/>
         </action>
 
-        <action path="/saveUser" name="signUpForm" type="com.opitz.action.UserAction"
+        <action path="/saveUser" name="signUpForm" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="saveUser"
                 input="signUp.td"
                 validate="true">
@@ -62,7 +62,7 @@
         </action>
 
 
-        <action path="/login" type="com.opitz.action.UserAction"
+        <action path="/login" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="login" >
             <forward name="success" path="login.td"/>
         </action>
@@ -71,7 +71,7 @@
             <forward name="success" path="login.td"/>
         </action>
 
-        <action path="/loginSubmit" name="loginForm" type="com.opitz.action.UserAction" scope="request"
+        <action path="/loginSubmit" name="loginForm" type="org.springframework.web.struts.DelegatingActionProxy" scope="request"
                 parameter="loginSubmit"
                 input="login.td">
             <forward name="success" path="welcome.td"/>
