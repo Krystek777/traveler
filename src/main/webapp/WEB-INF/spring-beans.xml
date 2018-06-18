@@ -19,6 +19,17 @@
     <bean name="/saveUser" scope="prototype" autowire="byName"
           class="com.opitz.action.UserAction"/>
 
+    <bean name="/addClaimSubmit" scope="prototype" autowire="byName"
+        class="com.opitz.action.ClaimAction"/>
+
+    <bean name="/allClaims" scope="prototype" autowire="byName"
+          class="com.opitz.action.ClaimAction"/>
+
+    <bean name="/approveClaim" scope="prototype" autowire="byName"
+          class="com.opitz.action.UpdateClaimAction"/>
+
+    <bean name="/rejectClaim" scope="prototype" autowire="byName"
+          class="com.opitz.action.UpdateClaimAction"/>
 
 
     <!--

@@ -16,10 +16,11 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-public class UserAction extends MappingDispatchActionSupport {
+public class UserAction extends MappingDispatchAction {
 
     @Autowired
     private ClaimService claimService;
+
 
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
@@ -46,11 +47,18 @@ public class UserAction extends MappingDispatchActionSupport {
     public ActionForward saveUser(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         SignUpForm signUpForm = (SignUpForm) form;
-        User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
-        claimService.saveUser(user);
 
-        HttpSession session = request.getSession();
-        session.setAttribute("loggedUser", user);
+
+           ActionErrors ers = signUpForm.validate(mapping, request, claimService);
+           saveErrors(request,ers );
+
+        if(getErrors(request).isEmpty()){
+            User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
+            claimService.saveUser(user);
+            HttpSession session = request.getSession();
+            session.setAttribute("loggedUser", user);
+        }
+
         return mapping.findForward("success");
     }
 

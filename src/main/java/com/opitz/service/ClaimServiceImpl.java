@@ -6,11 +6,13 @@ import com.opitz.model.ClaimStatus;
 import com.opitz.model.User;
 import com.opitz.repository.ClaimRepository;
 import com.opitz.repository.UserRepository;
+import lombok.Data;
 import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+
 
 @Service("claimService")
 public class ClaimServiceImpl implements ClaimService {

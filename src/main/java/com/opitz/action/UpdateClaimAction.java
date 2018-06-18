@@ -14,9 +14,10 @@ import org.springframework.web.struts.MappingDispatchActionSupport;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+@Component
+public class UpdateClaimAction extends MappingDispatchAction {
 
-public class UpdateClaimAction extends MappingDispatchActionSupport {
-
+    @Autowired
     private ClaimService claimService;
 
     public ActionForward approveClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request,
@@ -32,7 +33,6 @@ public class UpdateClaimAction extends MappingDispatchActionSupport {
 
     private ActionForward updateClaim(ClaimStatus status, ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         long id = Long.valueOf(request.getParameter("id"));
         claimService.setStatus(id, status);
 

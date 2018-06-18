@@ -13,13 +13,13 @@ import org.apache.struts.action.ActionMessage;
 import org.apache.struts.validator.ValidatorForm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.web.context.support.WebApplicationContextUtils;
 
 import javax.servlet.http.HttpServletRequest;
 
 
 @Data
 @EqualsAndHashCode(callSuper = true)
-@Component
 public class SignUpForm extends ValidatorForm {
 
     private String username;
@@ -27,25 +27,26 @@ public class SignUpForm extends ValidatorForm {
     private String password;
     private String confirmPassword;
 
-    @Autowired
-    ClaimService claimService;
 
-    @Override
-    public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
-//        ClaimService claimService = ServiceLocator.findClaimService();
 
-        ActionErrors errors = super.validate(mapping, request);
+    public ActionErrors validate(ActionMapping mapping, HttpServletRequest request, ClaimService claimService) {
+
+//        ActionErrors errors = super.validate(mapping, request);
+        ActionErrors errors = new ActionErrors();
+        errors.clear();
+
+
         if (!StringUtils.equals(password, confirmPassword)) {
-            errors.add("password", new ActionMessage("error.passwords.not.equal"));
+            errors.add("passwordsEquality", new ActionMessage("error.passwords.not.equal"));
         }
 
         for (User user : claimService.getUsers()) {
             if (username.equals(user.getUsername())) {
-                errors.add("password", new ActionMessage("error.username.exists"));
+                errors.add("usernameError", new ActionMessage("error.username.exists"));
             }
 
             if (email.equals(user.getEmail())) {
-                errors.add("password", new ActionMessage("error.email.exists"));
+                errors.add("emailError", new ActionMessage("error.email.exists"));
             }
         }
 

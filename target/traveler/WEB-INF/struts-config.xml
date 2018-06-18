@@ -22,7 +22,7 @@
 
         <!--Claim Action-->
 
-        <action path="/addClaimSubmit" name="claimForm" type="com.opitz.action.ClaimAction" scope="request"
+        <action path="/addClaimSubmit" name="claimForm" type="org.springframework.web.struts.DelegatingActionProxy" scope="request"
                 input="/addClaim.do"
                 parameter="addClaimSubmit">
             <forward name="success" path="/addClaim.do"/>
@@ -35,7 +35,7 @@
             <forward name="success" path="addClaim.td"/>
         </action>
 
-        <action path="/allClaims" type="com.opitz.action.ClaimAction"
+        <action path="/allClaims" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="allClaims">
             <forward name="success" path="allClaims.td"/>
         </action>
@@ -45,7 +45,7 @@
         <!--User Action-->
 
         <action path="/signUp" type="org.springframework.web.struts.DelegatingActionProxy"
-                parameter="signUp">
+                parameter="signUp" >
             <forward name="success" path="signUp.td"/>
         </action>
 
@@ -79,11 +79,11 @@
 
         <!--Update Claim Action-->
 
-        <action path="/approveClaim" type="com.opitz.action.UpdateClaimAction"
+        <action path="/approveClaim" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="approveClaim">
             <forward name="success" path="/allClaims.do"/>
         </action>
-        <action path="/rejectClaim" type="com.opitz.action.UpdateClaimAction"
+        <action path="/rejectClaim" type="org.springframework.web.struts.DelegatingActionProxy"
                 parameter="rejectClaim">
             <forward name="success" path="/allClaims.do"/>
         </action>
