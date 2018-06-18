@@ -22,7 +22,7 @@
 
         <!--Claim Action-->
 
-        <action path="/addClaimSubmit" name="claimForm" type="org.springframework.web.struts.DelegatingActionProxy" scope="request"
+        <action path="/addClaimSubmit" name="claimForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"
                 input="/addClaim.do"
                 parameter="addClaimSubmit">
             <forward name="success" path="/addClaim.do"/>
@@ -35,7 +35,7 @@
             <forward name="success" path="addClaim.td"/>
         </action>
 
-        <action path="/allClaims" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/allClaims" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="allClaims">
             <forward name="success" path="allClaims.td"/>
         </action>
@@ -44,12 +44,12 @@
 
         <!--User Action-->
 
-        <action path="/signUp" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/signUp" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="signUp" >
             <forward name="success" path="signUp.td"/>
         </action>
 
-        <action path="/saveUser" name="signUpForm" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/saveUser" name="signUpForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="saveUser"
                 input="signUp.td"
                 validate="true">
@@ -62,7 +62,7 @@
         </action>
 
 
-        <action path="/login" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/login" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="login" >
             <forward name="success" path="login.td"/>
         </action>
@@ -71,7 +71,7 @@
             <forward name="success" path="login.td"/>
         </action>
 
-        <action path="/loginSubmit" name="loginForm" type="org.springframework.web.struts.DelegatingActionProxy" scope="request"
+        <action path="/loginSubmit" name="loginForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"
                 parameter="loginSubmit"
                 input="login.td">
             <forward name="success" path="welcome.td"/>
@@ -79,11 +79,11 @@
 
         <!--Update Claim Action-->
 
-        <action path="/approveClaim" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/approveClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="approveClaim">
             <forward name="success" path="/allClaims.do"/>
         </action>
-        <action path="/rejectClaim" type="org.springframework.web.struts.DelegatingActionProxy"
+        <action path="/rejectClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
                 parameter="rejectClaim">
             <forward name="success" path="/allClaims.do"/>
         </action>
@@ -111,7 +111,7 @@
         <set-property property="moduleAware" value="true"/>
     </plug-in>
 
-    <plug-in className="org.springframework.web.struts.ContextLoaderPlugIn">
+    <plug-in className="no.hackeriet.struts1Spring.struts.ContextLoaderPlugIn">
         <set-property property="contextConfigLocation"
                       value="/WEB-INF/spring-beans.xml" />
     </plug-in>

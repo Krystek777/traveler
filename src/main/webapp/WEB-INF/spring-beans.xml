@@ -1,11 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:context="http://www.springframework.org/schema/context"
-       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
+       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
+       <!--xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"-->
+       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">-->
 
-    <context:component-scan base-package="com.opitz" />
 
+
+
+    <beans xmlns="http://www.springframework.org/schema/beans"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:context="http://www.springframework.org/schema/context"
+           xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context-2.5.xsd">
+
+    <context:component-scan base-package="com.opitz"/>
 
     <bean name="/login" scope="prototype" autowire="byName"
           class="com.opitz.action.UserAction"/>
@@ -20,7 +30,7 @@
           class="com.opitz.action.UserAction"/>
 
     <bean name="/addClaimSubmit" scope="prototype" autowire="byName"
-        class="com.opitz.action.ClaimAction"/>
+          class="com.opitz.action.ClaimAction"/>
 
     <bean name="/allClaims" scope="prototype" autowire="byName"
           class="com.opitz.action.ClaimAction"/>
@@ -31,6 +41,40 @@
     <bean name="/rejectClaim" scope="prototype" autowire="byName"
           class="com.opitz.action.UpdateClaimAction"/>
 
+
+    <!--<bean id="myEmf" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">-->
+        <!--<property name="dataSource" ref="dataSource"/>-->
+        <!--<property name="packagesToScan" value="com.opitz.model"/>-->
+        <!--<property name="jpaVendorAdapter">-->
+            <!--<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>-->
+        <!--</property>-->
+        <!--<property name="jpaProperties">-->
+            <!--<props>-->
+                <!--<prop key="hibernate.hbm2ddl.auto">validate</prop>-->
+                <!--<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>-->
+                <!--&lt;!&ndash;<prop key="hibernate.connection.driver_class">org.sqlite.JDBC</prop>-->
+                <!--<prop key="hibernate.connection.url">jdbc:sqlite:sqlite.db</prop>-->
+                <!--<prop key="hibernate.connection.username"></prop>-->
+                <!--<prop key="hibernate.connection.password"></prop>-->
+                <!--<prop key="hibernate.connection.user"></prop>&ndash;&gt;-->
+                <!--<prop key="hibernate.connection.autocommit">true</prop>-->
+                <!--<prop key="hibernate.show_sql">true</prop>-->
+            <!--</props>-->
+        <!--</property>-->
+    <!--</bean>-->
+
+    <!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">-->
+        <!--<property name="driverClassName" value="org.hibernate.dialect.SQLiteDialect"/>-->
+        <!--<property name="url" value="jdbc:sqlite:D:/workspace/TravelerApp/traveler/travelData.db"/>-->
+       <!--&lt;!&ndash; <property name="username" value="tutorialuser"/>-->
+        <!--<property name="password" value="tutorialmy5ql"/>&ndash;&gt;-->
+    <!--</bean>-->
+    <!--<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">-->
+        <!--<property name="entityManagerFactory" ref="myEmf"/>-->
+    <!--</bean>-->
+    <!--<tx:annotation-driven/>-->
+    <!--<bean id="persistenceExceptionTranslationPostProcessor"-->
+          <!--class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor"/>-->
 
     <!--
         <bean name="claimService" class="com.opitz.service.ClaimServiceImpl">

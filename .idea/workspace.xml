@@ -7,29 +7,43 @@
   </component>
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" line="46" />
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" line="60" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" line="59" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java" line="7" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/ApplicationResources.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/ClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/ClaimAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/form/SignUpForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/ApplicationResources.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/ApplicationResources.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/ClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/ClaimAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/SignUpForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/form/SignUpForm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/lib/javax.servlet-api-3.1.0.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/struts-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/traveler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/traveler.iml" afterDir="false" />
     </list>
@@ -53,70 +67,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="travelData.db" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5169107">
+    <splitter split-orientation="horizontal" split-proportion="0.7038596">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+          <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="802">
-                  <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClaimForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#489#490#0" expanded="true" />
-                    <element signature="e#521#522#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UpdateClaimAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SignUpForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="530">
-                  <caret line="53" selection-start-line="53" selection-end-line="53" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClaimType.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                <state relative-caret-position="550">
+                  <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -124,26 +91,11 @@
           <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="spring-beans.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="InMemoryUserRepository.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+                <state relative-caret-position="242">
+                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -157,82 +109,20 @@
               </provider>
             </entry>
           </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ClaimAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+          <file leaf-file-name="TypeOption.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="902">
-                  <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
+                <state relative-caret-position="88">
+                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClaimForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#489#490#0" expanded="true" />
-                    <element signature="e#521#522#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="LoginForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="38" selection-start-line="38" selection-end-line="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UpdateClaimAction.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="110">
-                  <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="512">
-                  <caret line="49" selection-start-line="49" selection-end-line="49" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DispatchAction.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/DispatchAction.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="301">
-                  <caret line="287" selection-start-line="287" selection-end-line="287" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ChainBase.java" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/impl/ChainBase.java">
+          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="308">
-                  <caret line="207" selection-start-line="207" selection-end-line="207" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SignUpForm.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="402">
-                  <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+                  <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -240,11 +130,66 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Claim.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
+          <file leaf-file-name="ClaimRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="616">
-                  <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+                <state relative-caret-position="154">
+                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InMemoryClaimRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InMemoryUserRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="88">
+                  <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JpaClaimRepository.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="264">
+                  <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="281">
+                  <caret line="134" column="43" lean-forward="true" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="tiles-defs.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -252,8 +197,51 @@
           <file leaf-file-name="spring-beans.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="638">
-                  <caret line="29" selection-start-line="29" selection-end-line="29" />
+                <state relative-caret-position="616">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="725">
+                  <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="vcs.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="misc.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1128">
+                  <caret line="171" selection-start-line="171" selection-end-line="171" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ApplicationResources.properties" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="352">
+                  <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -289,6 +277,9 @@
       <find>value</find>
       <find>&quot;success&quot;</find>
       <find>spring-web</find>
+      <find>hibernate.hbm2ddl.auto</find>
+      <find>EventList</find>
+      <find>0.7</find>
     </findStrings>
     <replaceStrings>
       <replace>signUp</replace>
@@ -301,10 +292,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/validation.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/styles/globalStyles.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/footer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/singUp.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/welcomeTile.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/success.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/loginPanel.jsp" />
@@ -334,24 +321,28 @@
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/addClaim.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/baseLayout.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/754db4b0-56bd-4aa4-86b3-2895c836acf1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -387,6 +378,11 @@
           <item name="traveler Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="traveler Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -395,8 +391,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-52" />
-    <option name="y" value="37" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
   </component>
@@ -416,6 +412,17 @@
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
@@ -493,9 +500,15 @@
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
@@ -518,168 +531,18 @@
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-chain:commons-chain:1.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-chain:commons-chain:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-chain-1.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-chain:commons-chain:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-chain-1.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-chain:commons-chain:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-chain-1.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="generic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: commons-chain:commons-chain:1.2" type="70bed36:NamedLibraryElementNode" />
-              <item name="commons-chain-1.2.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="chain" type="462c0819:PsiDirectoryNode" />
-              <item name="commands" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-core:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-core-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="validator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-extras:1.3.10" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-extras:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-extras-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-extras:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-extras-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.struts:struts-extras:1.3.10" type="70bed36:NamedLibraryElementNode" />
-              <item name="struts-extras-1.3.10.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-context:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-context-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="springframework" type="462c0819:PsiDirectoryNode" />
-              <item name="stereotype" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-struts:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-struts:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-struts-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-struts:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-struts-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-struts:3.2.18.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-struts-3.2.18.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="struts" type="462c0819:PsiDirectoryNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="754db4b0-56bd-4aa4-86b3-2895c836acf1" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
             </path>
           </expand>
           <select />
@@ -690,25 +553,30 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL&#10;Oracle" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="D:/Spring3HibernateIntegration" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="diff.base" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.opitz.utility" />
       <recent name="opitz.utility" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="opitz.model" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\traveler\src\main\webapp" />
+      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
+      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
+      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
@@ -719,11 +587,8 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workspace\traveler\src\main\webapp" />
-      <recent name="D:\workspace\traveler\src\main\webapp\WEB-INF" />
-      <recent name="D:\workspace\traveler\src\main\resources\com\opitz" />
-      <recent name="D:\workspace\traveler\src\main\java\com\opitz\form" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="opitz.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -915,7 +780,7 @@
       <workItem from="1528978692624" duration="69000" />
       <workItem from="1528978993394" duration="32000" />
       <workItem from="1528979082156" duration="5716000" />
-      <workItem from="1529308033121" duration="8349000" />
+      <workItem from="1529308033121" duration="24352000" />
     </task>
     <servers />
   </component>
@@ -928,20 +793,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186447000" />
+    <option name="totallyTimeSpent" value="202450000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50039744" side_tool="true" weight="0.2824726" />
+      <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50039744" side_tool="true" weight="0.4765258" />
       <window_info anchor="bottom" id="Application Servers" order="19" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.015103338" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.1518283" />
       <window_info anchor="bottom" id="Database Changes" order="20" show_stripe_button="false" />
       <window_info id="Capture Tool" order="13" />
       <window_info id="Designer" order="9" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.10373609" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="14" />
@@ -953,16 +818,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="21" />
-      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49960256" visible="true" weight="0.5422535" />
-      <window_info anchor="bottom" id="Spring" order="22" />
-      <window_info anchor="bottom" id="Terminal" order="18" weight="0.08607199" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.19753577" />
+      <window_info active="true" anchor="bottom" id="Run" order="4" sideWeight="0.49960256" visible="true" weight="0.31846637" />
+      <window_info anchor="bottom" id="Spring" order="22" weight="0.32942098" />
+      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.49960256" weight="0.4765258" />
+      <window_info anchor="bottom" id="Database Console" sideWeight="0.49960256" weight="0.32942098" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.28179651" />
       <window_info id="Web" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
       <window_info id="Struts Assistant" order="15" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1012,30 +878,20 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="114" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="117" />
+      <option name="time" value="119" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
         <watch expression="((java.util.ArrayList)((InMemoryClaimRepository)claimService.repository).claims).get(2)" custom="opitz.repository.InMemoryClaimRepository,java.util.ArrayList" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -1096,590 +952,88 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="52" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
-        </state>
-      </provider>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/727a129d-8f87-477c-b272-c046a73e74fe/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/TravelerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ServiceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-struts/3.2.18.RELEASE/spring-struts-3.2.18.RELEASE-sources.jar!/org/springframework/web/struts/MappingDispatchActionSupport.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.7.RELEASE/spring-orm-5.0.7.RELEASE.jar!/org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
+        <state relative-caret-position="132">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/MappingDispatchAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.7.RELEASE/spring-orm-5.0.7.RELEASE-sources.jar!/org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+        <state relative-caret-position="277">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/Action.java">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/754db4b0-56bd-4aa4-86b3-2895c836acf1/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="70" column="13" lean-forward="true" selection-start-line="70" selection-start-column="13" selection-end-line="70" selection-end-column="13" />
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/BaseAction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/xerial/sqlite-jdbc/3.23.1/sqlite-jdbc-3.23.1.jar!/org/sqlite/BusyHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="86" selection-start-line="14" selection-start-column="86" selection-end-line="14" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-struts/3.2.18.RELEASE/spring-struts-3.2.18.RELEASE-sources.jar!/org/springframework/web/struts/ContextLoaderPlugIn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/sqldialects.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
-          <caret line="33" column="45" lean-forward="true" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/action/ActionForward.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.18.RELEASE/spring-web-3.2.18.RELEASE-sources.jar!/org/springframework/web/context/WebApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-struts/3.2.18.RELEASE/spring-struts-3.2.18.RELEASE-sources.jar!/org/springframework/web/struts/DelegatingRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-672">
-          <caret line="116" column="34" selection-start-line="116" selection-start-column="34" selection-end-line="116" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/3.2.18.RELEASE/spring-web-3.2.18.RELEASE-sources.jar!/org/springframework/web/context/support/WebApplicationContextUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="631">
-          <caret line="105" column="40" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-struts/3.2.18.RELEASE/spring-struts-3.2.18.RELEASE-sources.jar!/org/springframework/web/struts/DelegatingActionProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="83" column="83" lean-forward="true" selection-start-line="83" selection-start-column="83" selection-end-line="83" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/mock/MockServletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar!/javax/servlet/ServletContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="97" column="17" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/Resources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-205">
-          <caret line="90" column="20" selection-start-line="90" selection-start-column="20" selection-end-line="90" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="39" column="24" lean-forward="true" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="550.0" y="732.0">com.opitz:traveler:1.0-SNAPSHOT</node>
-            <node x="970.7708333333334" y="613.0">org.springframework:spring-struts:jar:3.2.18.RELEASE</node>
-            <node x="601.9218266687014" y="346.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="605.4218266687014" y="267.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0/commons-logging:commons-logging:jar:1.0.3</node>
-            <node x="1040.9208333333333" y="178.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE</node>
-            <node x="1168.5732956857964" y="346.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE</node>
-            <node x="1162.9208333333333" y="267.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE</node>
-            <node x="1161.9208333333333" y="178.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="1285.9208333333333" y="267.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-expression:jar:3.2.18.RELEASE</node>
-            <node x="1177.329125330688" y="79.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE</node>
-            <node x="1157.829125330688" y="0.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="1007.4857956857963" y="435.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE</node>
-            <node x="1195.4208333333333" y="524.0">org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE</node>
-            <node x="398.00000000000006" y="524.0">org.apache.struts:struts-core:jar:1.3.10</node>
-            <node x="140.0" y="435.0">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
-            <node x="373.0" y="435.0">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="0.0" y="435.0">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
-            <node x="650.7134933353682" y="435.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
-            <node x="760.9218266687014" y="346.0">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
-            <node x="422.33849333536824" y="346.0">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="216.0" y="435.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
-            <node x="220.2551600020348" y="346.0">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
-            <node x="580.7134933353682" y="435.0">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
-            <node x="256.0" y="613.0">org.apache.struts:struts-tiles:jar:1.3.10</node>
-            <node x="479.00000000000006" y="613.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
-            <node x="363.0" y="613.0">org.apache.struts:struts-extras:jar:1.3.10</node>
-            <node x="189.0" y="613.0">javax.servlet:jstl:jar:1.2</node>
-            <node x="789.7708333333334" y="613.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
-            <node x="653.7708333333334" y="613.0">javax.servlet:javax.servlet-api:jar:3.1.0</node>
-            <node x="1229.7708333333335" y="613.0">commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="1089.7708333333335" y="613.0">org.apache.commons:commons-lang3:jar:3.0</node>
-            <node x="35.0" y="613.0">log4j:log4j:jar:1.2.17</node>
-            <node x="113.0" y="613.0">junit:junit:jar:4.11</node>
-            <node x="86.5" y="524.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="877.7708333333334" y="613.0">org.projectlombok:lombok:jar:1.16.20</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
-              <point x="-45.66666666666674" y="-14.5" />
-              <point x="238.83333333333326" y="395.0" />
-              <point x="286.7551600020348" y="395.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE/aopalliance:aopalliance:jar:1.0">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="0.0" y="-14.5" />
-              <point x="284.5" y="405.0" />
-              <point x="455.33849333536824" y="405.0" />
-              <point x="-33.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE">
-              <point x="-8.25" y="-14.5" />
-              <point x="1012.0208333333334" y="573.0" />
-              <point x="996.9857956857963" y="573.0" />
-              <point x="996.9857956857963" y="237.0" />
-              <point x="1051.0208333333333" y="237.0" />
-              <point x="-40.400000000000006" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-taglib:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="0.0" y="-14.5" />
-              <point x="527.0" y="593.0" />
-              <point x="453.62500000000006" y="593.0" />
-              <point x="11.125" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.0">
-              <point x="27.30769230769249" y="-14.5" />
-              <point x="612.8076923076924" y="702.0" />
-              <point x="1149.7708333333335" y="702.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.1.0">
-              <point x="5.4615384615385665" y="-14.5" />
-              <point x="590.9615384615386" y="662.0" />
-              <point x="711.7708333333334" y="662.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
-              <point x="-25.42857142857133" y="-14.5" />
-              <point x="417.0714285714287" y="494.0" />
-              <point x="168.0" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
-              <point x="25.42857142857133" y="-14.5" />
-              <point x="467.9285714285714" y="494.0" />
-              <point x="605.7134933353682" y="494.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="-24.75" y="-14.5" />
-              <point x="995.5208333333334" y="583.0" />
-              <point x="903.4218266687014" y="583.0" />
-              <point x="903.4218266687014" y="138.0" />
-              <point x="1183.9719824735453" y="138.0" />
-              <point x="-39.85714285714283" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="30.0" y="-14.5" />
-              <point x="1237.9208333333333" y="247.0" />
-              <point x="1264.4208333333333" y="247.0" />
-              <point x="1264.4208333333333" y="158.0" />
-              <point x="1223.829125330688" y="158.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE">
-              <point x="8.25" y="-14.5" />
-              <point x="1028.5208333333335" y="593.0" />
-              <point x="1030.4857956857963" y="593.0" />
-              <point x="-23.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="46.0" y="-14.5" />
-              <point x="1298.9208333333333" y="504.0" />
-              <point x="1421.4208333333333" y="504.0" />
-              <point x="1421.4208333333333" y="128.0" />
-              <point x="1263.6862681878308" y="128.0" />
-              <point x="39.85714285714283" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE">
-              <point x="-30.0" y="-14.5" />
-              <point x="1177.9208333333333" y="227.0" />
-              <point x="1131.8208333333334" y="227.0" />
-              <point x="40.400000000000034" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0">
-              <point x="-33.25" y="-14.5" />
-              <point x="683.9634933353682" y="415.0" />
-              <point x="671.4218266687014" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-expression:jar:3.2.18.RELEASE">
-              <point x="23.0" y="-14.5" />
-              <point x="1275.9208333333333" y="494.0" />
-              <point x="1379.6708333333333" y="494.0" />
-              <point x="31.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE">
-              <point x="-23.0" y="-14.5" />
-              <point x="1229.9208333333333" y="494.0" />
-              <point x="1109.9857956857963" y="494.0" />
-              <point x="1109.9857956857963" y="247.0" />
-              <point x="1091.4208333333333" y="247.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE">
-              <point x="-11.5" y="-14.5" />
-              <point x="1041.9857956857963" y="247.0" />
-              <point x="1071.2208333333333" y="247.0" />
-              <point x="-20.19999999999999" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE/commons-logging:commons-logging:jar:1.1.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-expression:jar:3.2.18.RELEASE">
-              <point x="40.875" y="-14.5" />
-              <point x="1263.9482956857964" y="326.0" />
-              <point x="1317.1708333333333" y="326.0" />
-              <point x="-31.25" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE">
-              <point x="-40.875" y="-14.5" />
-              <point x="1182.1982956857964" y="316.0" />
-              <point x="1127.5482956857963" y="316.0" />
-              <point x="1127.5482956857963" y="237.0" />
-              <point x="1111.6208333333334" y="237.0" />
-              <point x="20.200000000000045" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE">
-              <point x="-13.625" y="-14.5" />
-              <point x="1209.4482956857964" y="326.0" />
-              <point x="1230.4208333333333" y="326.0" />
-              <point x="22.5" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-extras:jar:1.3.10">
-              <point x="-10.923076923076792" y="-14.5" />
-              <point x="574.5769230769231" y="672.0" />
-              <point x="411.0" y="672.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE">
-              <point x="24.75" y="-14.5" />
-              <point x="1045.0208333333335" y="583.0" />
-              <point x="1252.9208333333333" y="583.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE">
-              <point x="41.25" y="-14.5" />
-              <point x="1061.5208333333335" y="593.0" />
-              <point x="1432.4208333333333" y="593.0" />
-              <point x="1432.4208333333333" y="415.0" />
-              <point x="1259.4066290191297" y="415.0" />
-              <point x="36.33333333333337" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
-              <point x="33.25" y="-14.5" />
-              <point x="750.4634933353682" y="415.0" />
-              <point x="826.9218266687014" y="415.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-aop:jar:3.2.18.RELEASE">
-              <point x="11.5" y="-14.5" />
-              <point x="1064.9857956857963" y="415.0" />
-              <point x="1052.9857956857963" y="415.0" />
-              <point x="1052.9857956857963" y="326.0" />
-              <point x="1185.4208333333333" y="326.0" />
-              <point x="-22.5" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
-              <point x="16.384615384615586" y="-14.5" />
-              <point x="601.8846153846155" y="682.0" />
-              <point x="914.2708333333334" y="682.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
-              <point x="-5.461538461538339" y="-14.5" />
-              <point x="580.0384615384617" y="662.0" />
-              <point x="527.0" y="662.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="0.0" y="-14.5" />
-              <point x="299.5" y="583.0" />
-              <point x="409.12500000000006" y="583.0" />
-              <point x="-33.375" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
-              <point x="10.92307692307702" y="-14.5" />
-              <point x="596.4230769230769" y="672.0" />
-              <point x="823.7708333333334" y="672.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0/commons-logging:commons-logging:jar:1.0.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-extras:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="1.1368683772161603E-13" y="-14.5" />
-              <point x="411.0000000000001" y="593.0" />
-              <point x="431.37500000000006" y="593.0" />
-              <point x="-11.125" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="1252.9208333333333" y="484.0" />
-              <point x="1223.0732956857964" y="484.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:jstl:jar:1.2">
-              <point x="-21.846153846153697" y="-14.5" />
-              <point x="563.6538461538462" y="692.0" />
-              <point x="212.5" y="692.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8">
-              <point x="38.14285714285711" y="-14.5" />
-              <point x="480.64285714285717" y="504.0" />
-              <point x="717.2134933353682" y="504.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-tiles:jar:1.3.10">
-              <point x="-16.384615384615245" y="-14.5" />
-              <point x="569.1153846153848" y="682.0" />
-              <point x="299.5" y="682.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-webmvc:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE">
-              <point x="-46.0" y="-14.5" />
-              <point x="1206.9208333333333" y="504.0" />
-              <point x="1076.4857956857963" y="504.0" />
-              <point x="23.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
-              <point x="-32.7692307692306" y="-14.5" />
-              <point x="552.7307692307693" y="712.0" />
-              <point x="64.0" y="712.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="-34.5" y="-14.5" />
-              <point x="1018.9857956857963" y="415.0" />
-              <point x="1029.3857956857964" y="415.0" />
-              <point x="1029.3857956857964" y="148.0" />
-              <point x="1197.2576967592595" y="148.0" />
-              <point x="-26.571428571428612" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.springframework:spring-struts:jar:3.2.18.RELEASE">
-              <point x="21.846153846153925" y="-14.5" />
-              <point x="607.3461538461538" y="692.0" />
-              <point x="1020.2708333333334" y="692.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="13.625" y="-14.5" />
-              <point x="1236.6982956857964" y="316.0" />
-              <point x="1275.4208333333333" y="316.0" />
-              <point x="1275.4208333333333" y="148.0" />
-              <point x="1237.1148396164022" y="148.0" />
-              <point x="13.285714285714278" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
-              <point x="-27.30769230769215" y="-14.5" />
-              <point x="558.1923076923078" y="702.0" />
-              <point x="141.0" y="702.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-beans:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="1091.4208333333333" y="158.0" />
-              <point x="1210.5434110449737" y="158.0" />
-              <point x="-13.285714285714278" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0">
-              <point x="-41.25" y="-14.5" />
-              <point x="979.0208333333334" y="593.0" />
-              <point x="805.0884933353682" y="593.0" />
-              <point x="805.0884933353682" y="405.0" />
-              <point x="717.7551600020349" y="405.0" />
-              <point x="46.33333333333337" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2">
-              <point x="-38.14285714285711" y="-14.5" />
-              <point x="404.35714285714295" y="504.0" />
-              <point x="60.0" y="504.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/commons-beanutils:commons-beanutils:jar:1.7.0">
-              <point x="45.66666666666674" y="-14.5" />
-              <point x="330.16666666666674" y="415.0" />
-              <point x="625.0884933353682" y="415.0" />
-              <point x="-46.33333333333337" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
-              <point x="32.76923076923083" y="-14.5" />
-              <point x="618.2692307692307" y="712.0" />
-              <point x="1303.7708333333335" y="712.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-core:jar:1.3.10">
-              <point x="1.1368683772161603E-13" y="-14.5" />
-              <point x="585.5" y="583.0" />
-              <point x="475.87500000000006" y="583.0" />
-              <point x="33.375" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
-              <point x="12.71428571428578" y="-14.5" />
-              <point x="455.21428571428584" y="484.0" />
-              <point x="522.5" y="484.0" />
-              <point x="522.5" y="405.0" />
-              <point x="521.3384933353682" y="405.0" />
-              <point x="33.0" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE">
-              <point x="34.5" y="-14.5" />
-              <point x="1087.9857956857963" y="415.0" />
-              <point x="1186.739962352463" y="415.0" />
-              <point x="-36.33333333333334" y="14.5" />
-            </edge>
-            <edge source="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-context:jar:3.2.18.RELEASE/org.springframework:spring-expression:jar:3.2.18.RELEASE" target="org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-core:jar:3.2.18.RELEASE">
-              <point x="0.0" y="-14.5" />
-              <point x="1348.4208333333333" y="138.0" />
-              <point x="1250.4005539021166" y="138.0" />
-              <point x="26.571428571428555" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
-              <point x="0.0" y="-14.5" />
-              <point x="0.0" y="14.5" />
-            </edge>
-            <edge source="org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1">
-              <point x="-12.71428571428578" y="-14.5" />
-              <point x="429.7857142857143" y="484.0" />
-              <point x="284.5" y="484.0" />
-              <point x="0.0" y="14.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="774.9857956857963" y="338.5" />
-          <SelectedNodes>
-            <node>org.springframework:spring-struts:jar:3.2.18.RELEASE/org.springframework:spring-web:jar:3.2.18.RELEASE</node>
-          </SelectedNodes>
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/commands/AbstractValidateActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="119" selection-start-line="119" selection-end-line="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/commands/ActionCommandBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/generic/LookupCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="304" selection-start-line="304" selection-end-line="304" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/ComposableRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/commands/servlet/ValidateActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/validator/ValidatorForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1430">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
+        <state relative-caret-position="66">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1690,44 +1044,627 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66" />
+        <state relative-caret-position="352">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/userPanel.jsp">
+    <entry file="file://$PROJECT_DIR$/traveler.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
+    <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="1308.855460858586" y="663.0">com.opitz:traveler:1.0-SNAPSHOT</node>
+            <node x="986.261710858586" y="455.0">org.apache.struts:struts-taglib:jar:1.3.10</node>
+            <node x="1130.511710858586" y="346.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10</node>
+            <node x="1220.011710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
+            <node x="1296.011710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="1299.511710858586" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="1455.011710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
+            <node x="997.011710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
+            <node x="916.261710858586" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node x="1075.261710858586" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
+            <node x="764.261710858586" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="609.261710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
+            <node x="452.26171085858596" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+            <node x="611.261710858586" y="178.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
+            <node x="1150.011710858586" y="257.0">org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
+            <node x="1792.228235653236" y="554.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="2188.15625" y="554.0">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="351.44921085858607" y="554.0">commons-collections:commons-collections:jar:3.2.1</node>
+            <node x="211.44921085858596" y="554.0">org.apache.commons:commons-lang3:jar:3.0</node>
+            <node x="1880.228235653236" y="554.0">log4j:log4j:jar:1.2.17</node>
+            <node x="2112.15625" y="554.0">junit:junit:jar:4.11</node>
+            <node x="2085.65625" y="455.0">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="1307.855460858586" y="554.0">org.projectlombok:lombok:jar:1.16.20</node>
+            <node x="1546.761710858586" y="554.0">no.hackeriet:struts1-spring5:jar:1.0.0</node>
+            <node x="1669.1117108585859" y="178.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
+            <node x="1968.4867108585859" y="346.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE</node>
+            <node x="1791.1117108585859" y="257.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE</node>
+            <node x="1901.1117108585859" y="257.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-expression:jar:5.0.0.RELEASE</node>
+            <node x="1802.7589285714284" y="79.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
+            <node x="1808.2589285714284" y="0.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE/org.springframework:spring-jcl:jar:5.0.0.RELEASE</node>
+            <node x="1596.011710858586" y="257.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-web:jar:5.0.0.RELEASE</node>
+            <node x="1751.3958333333333" y="455.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE</node>
+            <node x="1102.261710858586" y="455.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-tiles:jar:1.3.10</node>
+            <node x="1209.261710858586" y="455.0">no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-extras:jar:1.3.10</node>
+            <node x="611.9492108585861" y="455.0">org.hibernate:hibernate-core:jar:4.1.9.Final</node>
+            <node x="691.699210858586" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/antlr:antlr:jar:2.7.7</node>
+            <node x="471.69921085858596" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA</node>
+            <node x="596.699210858586" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.javassist:javassist:jar:3.17.1-GA</node>
+            <node x="0.0" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final</node>
+            <node x="931.699210858586" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/dom4j:dom4j:jar:1.6.1</node>
+            <node x="767.699210858586" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final</node>
+            <node x="213.0" y="346.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final</node>
+            <node x="265.0" y="257.0">org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2</node>
+            <node x="519.4492108585861" y="554.0">org.hibernate:hibernate-entitymanager:jar:4.1.9.Final</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+              <point x="31.42857142857133" y="-14.5" />
+              <point x="698.3777822871574" y="425.0" />
+              <point x="803.699210858586" y="425.0" />
+              <point x="-36.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+              <point x="-25.428571428571445" y="-14.5" />
+              <point x="1149.5831394300144" y="316.0" />
+              <point x="863.261710858586" y="316.0" />
+              <point x="33.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final">
+              <point x="23.42857142857133" y="-14.5" />
+              <point x="624.8777822871574" y="534.0" />
+              <point x="639.4492108585861" y="534.0" />
+              <point x="-27.5" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.commons:commons-lang3:jar:3.0">
+              <point x="-32.27272727272725" y="-14.5" />
+              <point x="1312.0827335858587" y="643.0" />
+              <point x="271.44921085858596" y="643.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-expression:jar:5.0.0.RELEASE">
+              <point x="-13.625" y="-14.5" />
+              <point x="2009.3617108585859" y="326.0" />
+              <point x="1994.8617108585859" y="326.0" />
+              <point x="31.25" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE">
+              <point x="48.5625" y="-14.5" />
+              <point x="1650.824210858586" y="534.0" />
+              <point x="2050.236710858586" y="534.0" />
+              <point x="27.25" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="no.hackeriet:struts1-spring5:jar:1.0.0">
+              <point x="6.454545454545496" y="-14.5" />
+              <point x="1350.8100063131315" y="603.0" />
+              <point x="1602.261710858586" y="603.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0">
+              <point x="-45.66666666666663" y="-14.5" />
+              <point x="632.0950441919193" y="237.0" />
+              <point x="521.761710858586" y="237.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final">
+              <point x="46.85714285714289" y="-14.5" />
+              <point x="648.306353715729" y="524.0" />
+              <point x="875.699210858586" y="524.0" />
+              <point x="36.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="47.14285714285711" y="-14.5" />
+              <point x="714.0920680014432" y="435.0" />
+              <point x="948.199210858586" y="435.0" />
+              <point x="-16.5" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE">
+              <point x="-40.875" y="-14.5" />
+              <point x="1982.1117108585859" y="326.0" />
+              <point x="1858.6117108585859" y="326.0" />
+              <point x="22.5" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0">
+              <point x="25.428571428571445" y="-14.5" />
+              <point x="1200.4402822871575" y="316.0" />
+              <point x="1365.511710858586" y="316.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-extras:jar:1.3.10">
+              <point x="-34.6875" y="-14.5" />
+              <point x="1567.574210858586" y="524.0" />
+              <point x="1257.261710858586" y="524.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8">
+              <point x="-12.71428571428578" y="-14.5" />
+              <point x="1162.2974251443002" y="306.0" />
+              <point x="1063.511710858586" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="-15.71428571428578" y="-14.5" />
+              <point x="651.2349251443003" y="405.0" />
+              <point x="550.449210858586" y="405.0" />
+              <point x="26.25" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.hibernate:hibernate-core:jar:4.1.9.Final">
+              <point x="-12.909090909090992" y="-14.5" />
+              <point x="1331.446369949495" y="613.0" />
+              <point x="694.4492108585861" y="613.0" />
+              <point x="27.5" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="-9.583333333333314" y="-14.5" />
+              <point x="1799.3125" y="415.0" />
+              <point x="1780.6117108585859" y="415.0" />
+              <point x="1780.6117108585859" y="158.0" />
+              <point x="1849.2589285714284" y="158.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="13.625" y="-14.5" />
+              <point x="2036.6117108585859" y="227.0" />
+              <point x="1760.011710858586" y="227.0" />
+              <point x="40.400000000000034" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-expression:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="1963.6117108585859" y="158.0" />
+              <point x="1875.8303571428569" y="158.0" />
+              <point x="26.571428571428555" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2">
+              <point x="38.14285714285711" y="-14.5" />
+              <point x="1213.154568001443" y="326.0" />
+              <point x="1515.011710858586" y="326.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="1719.6117108585859" y="148.0" />
+              <point x="1835.9732142857142" y="148.0" />
+              <point x="-13.285714285714278" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-tiles:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10">
+              <point x="0.0" y="-14.5" />
+              <point x="1145.761710858586" y="435.0" />
+              <point x="1163.886710858586" y="435.0" />
+              <point x="-11.125" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-web:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="-23.0" y="-14.5" />
+              <point x="1619.011710858586" y="138.0" />
+              <point x="1822.6875" y="138.0" />
+              <point x="-26.571428571428555" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="22.5" y="-14.5" />
+              <point x="1858.6117108585859" y="158.0" />
+              <point x="1862.5446428571427" y="158.0" />
+              <point x="13.28571428571422" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+              <point x="-31.42857142857133" y="-14.5" />
+              <point x="635.5206394300147" y="415.0" />
+              <point x="369.75" y="415.0" />
+              <point x="52.25" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+              <point x="-70.28571428571422" y="-14.5" />
+              <point x="531.1634965728718" y="534.0" />
+              <point x="48.25" y="534.0" />
+              <point x="-48.25" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.projectlombok:lombok:jar:1.16.20">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1">
+              <point x="33.25" y="-14.5" />
+              <point x="1096.761710858586" y="237.0" />
+              <point x="1141.261710858586" y="237.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final/org.jboss.logging:jboss-logging:jar:3.1.0.CR2">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.apache.struts:struts-taglib:jar:1.3.10">
+              <point x="-6.454545454545496" y="-14.5" />
+              <point x="1337.9009154040405" y="603.0" />
+              <point x="1034.261710858586" y="603.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1">
+              <point x="-38.14285714285711" y="-14.5" />
+              <point x="1136.8688537157288" y="326.0" />
+              <point x="677.761710858586" y="326.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-expression:jar:5.0.0.RELEASE">
+              <point x="28.75" y="-14.5" />
+              <point x="1837.6458333333333" y="425.0" />
+              <point x="1932.3617108585859" y="425.0" />
+              <point x="-31.25" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
+              <point x="12.909090909090992" y="-14.5" />
+              <point x="1357.264551767677" y="613.0" />
+              <point x="1826.228235653236" y="613.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="junit:junit:jar:4.11" target="junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final">
+              <point x="-47.14285714285711" y="-14.5" />
+              <point x="619.806353715729" y="425.0" />
+              <point x="144.75" y="425.0" />
+              <point x="48.25" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final">
+              <point x="-19.36363636363626" y="-14.5" />
+              <point x="1324.9918244949497" y="623.0" />
+              <point x="601.4492108585861" y="623.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.0.1">
+              <point x="32.27272727272725" y="-14.5" />
+              <point x="1376.6281881313132" y="643.0" />
+              <point x="2246.15625" y="643.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="20.8125" y="-14.5" />
+              <point x="1623.074210858586" y="514.0" />
+              <point x="1698.511710858586" y="514.0" />
+              <point x="-20.19999999999999" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-web:jar:5.0.0.RELEASE">
+              <point x="6.9375" y="-14.5" />
+              <point x="1609.199210858586" y="504.0" />
+              <point x="1619.011710858586" y="504.0" />
+              <point x="-23.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="-6.9375" y="-14.5" />
+              <point x="1595.324210858586" y="504.0" />
+              <point x="1585.511710858586" y="504.0" />
+              <point x="1585.511710858586" y="128.0" />
+              <point x="1809.4017857142856" y="128.0" />
+              <point x="-39.85714285714289" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="-22.5" y="-14.5" />
+              <point x="1813.6117108585859" y="237.0" />
+              <point x="1739.8117108585861" y="237.0" />
+              <point x="20.200000000000017" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-web:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="23.0" y="-14.5" />
+              <point x="1665.011710858586" y="237.0" />
+              <point x="1679.211710858586" y="237.0" />
+              <point x="-40.400000000000006" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.javassist:javassist:jar:3.17.1-GA">
+              <point x="0.0" y="-14.5" />
+              <point x="666.9492108585861" y="395.0" />
+              <point x="652.9492108585862" y="395.0" />
+              <point x="18.750000000000227" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE">
+              <point x="47.916666666666686" y="-14.5" />
+              <point x="1856.8125" y="435.0" />
+              <point x="1995.7367108585859" y="435.0" />
+              <point x="-27.25" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-tiles:jar:1.3.10">
+              <point x="-48.5625" y="-14.5" />
+              <point x="1553.699210858586" y="534.0" />
+              <point x="1145.761710858586" y="534.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE">
+              <point x="9.583333333333314" y="-14.5" />
+              <point x="1818.4791666666665" y="435.0" />
+              <point x="1813.6117108585859" y="435.0" />
+              <point x="-22.5" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.apache.struts:struts-extras:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10">
+              <point x="0.0" y="-14.5" />
+              <point x="1257.261710858586" y="435.0" />
+              <point x="1186.136710858586" y="435.0" />
+              <point x="11.125" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-web:jar:5.0.0.RELEASE">
+              <point x="-47.916666666666686" y="-14.5" />
+              <point x="1760.9791666666665" y="435.0" />
+              <point x="1709.511710858586" y="435.0" />
+              <point x="1709.511710858586" y="326.0" />
+              <point x="1665.011710858586" y="326.0" />
+              <point x="23.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-beans:jar:5.0.0.RELEASE">
+              <point x="-28.75" y="-14.5" />
+              <point x="1780.1458333333333" y="425.0" />
+              <point x="1720.511710858586" y="425.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4">
+              <point x="45.66666666666674" y="-14.5" />
+              <point x="723.4283775252527" y="237.0" />
+              <point x="797.261710858586" y="237.0" />
+              <point x="-33.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE">
+              <point x="34.6875" y="-14.5" />
+              <point x="1636.949210858586" y="524.0" />
+              <point x="1808.8958333333333" y="524.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.javassist:javassist:jar:3.17.1-GA">
+              <point x="0.0" y="-14.5" />
+              <point x="601.4492108585861" y="435.0" />
+              <point x="615.449210858586" y="435.0" />
+              <point x="-18.75" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="log4j:log4j:jar:1.2.17">
+              <point x="19.36363636363626" y="-14.5" />
+              <point x="1363.7190972222222" y="623.0" />
+              <point x="1909.228235653236" y="623.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/dom4j:dom4j:jar:1.6.1">
+              <point x="70.28571428571422" y="-14.5" />
+              <point x="671.7349251443003" y="534.0" />
+              <point x="981.199210858586" y="534.0" />
+              <point x="16.5" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10">
+              <point x="0.0" y="-14.5" />
+              <point x="1034.261710858586" y="425.0" />
+              <point x="1141.636710858586" y="425.0" />
+              <point x="-33.375" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE/org.springframework:spring-jcl:jar:5.0.0.RELEASE">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="junit:junit:jar:4.11">
+              <point x="25.818181818181756" y="-14.5" />
+              <point x="1370.1736426767677" y="633.0" />
+              <point x="2140.15625" y="633.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="com.opitz:traveler:1.0-SNAPSHOT" target="commons-collections:commons-collections:jar:3.2.1">
+              <point x="-25.818181818181756" y="-14.5" />
+              <point x="1318.5372790404042" y="633.0" />
+              <point x="425.44921085858607" y="633.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0">
+              <point x="-33.25" y="-14.5" />
+              <point x="1030.261710858586" y="237.0" />
+              <point x="985.761710858586" y="237.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final">
+              <point x="-46.85714285714289" y="-14.5" />
+              <point x="554.5920680014432" y="524.0" />
+              <point x="265.25" y="524.0" />
+              <point x="-52.25" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE" target="no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-core:jar:5.0.0.RELEASE">
+              <point x="40.875" y="-14.5" />
+              <point x="2063.861710858586" y="326.0" />
+              <point x="2047.6117108585859" y="326.0" />
+              <point x="2047.6117108585859" y="148.0" />
+              <point x="1889.1160714285713" y="148.0" />
+              <point x="39.85714285714289" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-core:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/antlr:antlr:jar:2.7.7">
+              <point x="15.71428571428578" y="-14.5" />
+              <point x="682.6634965728718" y="415.0" />
+              <point x="719.699210858586" y="415.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="no.hackeriet:struts1-spring5:jar:1.0.0" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10">
+              <point x="-20.8125" y="-14.5" />
+              <point x="1581.449210858586" y="514.0" />
+              <point x="1315.761710858586" y="514.0" />
+              <point x="1315.761710858586" y="425.0" />
+              <point x="1208.386710858586" y="425.0" />
+              <point x="33.375" y="14.5" />
+            </edge>
+            <edge source="org.hibernate:hibernate-entitymanager:jar:4.1.9.Final" target="org.hibernate:hibernate-core:jar:4.1.9.Final/org.jboss.logging:jboss-logging:jar:3.1.0.GA">
+              <point x="-23.42857142857133" y="-14.5" />
+              <point x="578.0206394300147" y="514.0" />
+              <point x="497.94921085858596" y="514.0" />
+              <point x="-26.25" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2">
+              <point x="12.714285714285666" y="-14.5" />
+              <point x="1187.7259965728717" y="306.0" />
+              <point x="1248.011710858586" y="306.0" />
+              <point x="0.0" y="14.5" />
+            </edge>
+            <edge source="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0" target="org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="-14.5" />
+              <point x="0.0" y="14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8163440860215054" x="142.13664226370122" y="145.38260355742977" />
+          <SelectedNodes>
+            <node>org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
+            <node>org.apache.struts:struts-taglib:jar:1.3.10/org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="616">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
       <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-550">
-          <caret line="56" column="17" lean-forward="true" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        <state relative-caret-position="725">
+          <caret line="56" column="17" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/welcomeTile.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/userPanel.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/signUp.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/menu.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/baseLayout.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/allClaims.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1747,78 +1684,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/ClaimForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="68" column="5" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/DispatchAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/impl/ChainBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="207" selection-start-line="207" selection-end-line="207" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="59" column="9" selection-start-line="59" selection-start-column="9" selection-end-line="59" selection-end-column="9" />
+        <state relative-caret-position="308">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="134" column="43" lean-forward="true" selection-start-line="134" selection-start-column="43" selection-end-line="134" selection-end-column="43" />
         </state>
       </provider>
     </entry>

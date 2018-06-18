@@ -4,6 +4,7 @@ package com.opitz.model;
 import com.opitz.utility.ClaimConverter;
 import lombok.Data;
 
+import javax.persistence.Entity;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 

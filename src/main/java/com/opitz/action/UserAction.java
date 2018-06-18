@@ -4,12 +4,11 @@ import com.opitz.form.LoginForm;
 import com.opitz.form.SignUpForm;
 import com.opitz.model.User;
 import com.opitz.service.ClaimService;
-import com.opitz.utility.ServiceLocator;
-import org.apache.struts.action.*;
+import org.apache.struts.action.ActionForm;
+import org.apache.struts.action.ActionForward;
+import org.apache.struts.action.ActionMapping;
 import org.apache.struts.actions.MappingDispatchAction;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-import org.springframework.web.struts.MappingDispatchActionSupport;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -48,9 +47,7 @@ public class UserAction extends MappingDispatchAction {
 
         SignUpForm signUpForm = (SignUpForm) form;
 
-
-           ActionErrors ers = signUpForm.validate(mapping, request, claimService);
-           saveErrors(request,ers );
+           saveErrors(request,signUpForm.validate(mapping, request, claimService) );
 
         if(getErrors(request).isEmpty()){
             User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());

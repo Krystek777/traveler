@@ -15,7 +15,6 @@ import org.apache.struts.actions.MappingDispatchAction;
 import org.apache.struts.util.MessageResources;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.struts.MappingDispatchActionSupport;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -27,7 +26,7 @@ public class ClaimAction extends MappingDispatchAction {
 
     @Autowired
     private ClaimService claimService;
-    
+
     @Autowired
     private ClaimConverter claimConverter;
 
