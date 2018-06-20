@@ -2,6 +2,7 @@ package com.opitz.form;
 
 import com.opitz.model.User;
 import com.opitz.repository.UserRepository;
+import com.opitz.service.ClaimService;
 import com.opitz.utility.ServiceLocator;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -9,6 +10,7 @@ import org.apache.struts.action.ActionErrors;
 import org.apache.struts.action.ActionMapping;
 import org.apache.struts.action.ActionMessage;
 import org.apache.struts.validator.ValidatorForm;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -19,14 +21,13 @@ public class LoginForm extends ValidatorForm {
     private String username;
     private String password;
 
-    @Override
-    public ActionErrors validate(ActionMapping mapping, HttpServletRequest request) {
 
-        UserRepository userRepository = ServiceLocator.findUserRepository();
-        ActionErrors errors = super.validate(mapping, request);
+    public ActionErrors validate(ActionMapping mapping, HttpServletRequest request, ClaimService claimService) {
+
+        ActionErrors errors = new ActionErrors();
 
         boolean isUserFound = false;
-        for (User user : userRepository.getUsers()) {
+        for (User user : claimService.getUsers()) {
             if (user.getUsername().equals(username) && user.getPassword().equals(password)) {
                 isUserFound = true;
                 break;
@@ -34,7 +35,7 @@ public class LoginForm extends ValidatorForm {
         }
 
         if (!isUserFound) {
-            errors.add("password", new ActionMessage("error.wrong.username.password"));
+            errors.add("loginImpossible", new ActionMessage("error.wrong.username.password"));
         }
 
         return errors;

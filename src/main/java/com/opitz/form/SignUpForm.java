@@ -31,10 +31,8 @@ public class SignUpForm extends ValidatorForm {
 
     public ActionErrors validate(ActionMapping mapping, HttpServletRequest request, ClaimService claimService) {
 
-//        ActionErrors errors = super.validate(mapping, request);
-        ActionErrors errors = new ActionErrors();
-        errors.clear();
 
+        ActionErrors errors = new ActionErrors();
 
         if (!StringUtils.equals(password, confirmPassword)) {
             errors.add("passwordsEquality", new ActionMessage("error.passwords.not.equal"));

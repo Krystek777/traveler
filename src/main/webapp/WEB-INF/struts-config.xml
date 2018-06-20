@@ -75,6 +75,7 @@
                 parameter="loginSubmit"
                 input="login.td">
             <forward name="success" path="welcome.td"/>
+            <forward name="failure" path="login.td"/>
         </action>
 
         <!--Update Claim Action-->

@@ -15,5 +15,6 @@
 		<property name="hibernate.hbm2ddl.auto">update</property>
 
 		<mapping class="com.opitz.model.User"/>
+		<mapping class="com.opitz.model.Claim"/>
 	</session-factory>
 </hibernate-configuration>

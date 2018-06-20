@@ -1,5 +1,6 @@
 package com.opitz.model;
 
+import com.sun.istack.internal.NotNull;
 import lombok.Data;
 
 import javax.persistence.Column;
@@ -12,6 +13,19 @@ import javax.persistence.Table;
 @Table(name = "users")
 public class User {
 
+    @Id
+    @NotNull
+    private String username;
+    @Column
+    @NotNull
+    //@Email
+    //@Pattern((regexp="[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}")
+    private String email;
+    @Column
+    //@Size(max=256)
+    private String password;
+
+
     public User() {
     }
 
@@ -21,16 +35,6 @@ public class User {
         this.password = password;
     }
 
-    @Id
-    private String username;
-    @Column
-    //@NotNull
-    //@Email
-    //@Pattern((regexp="[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}")
-    private String email;
-    @Column
-    //@Size(max=256)
-    private String password;
 
 
 

@@ -13,7 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
-import java.util.List;
+
 
 
 public class UserAction extends MappingDispatchAction {
@@ -21,15 +21,9 @@ public class UserAction extends MappingDispatchAction {
     @Autowired
     private ClaimService claimService;
 
-
-
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
 
-        List<User> userList = claimService.listUsers();
-
-
-        request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
 
@@ -37,14 +31,19 @@ public class UserAction extends MappingDispatchAction {
                                      HttpServletRequest request, HttpServletResponse response) throws Exception {
 
         LoginForm loginForm = (LoginForm) form;
-        HttpSession session = request.getSession();
-        session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
-        return mapping.findForward("success");
+
+        saveErrors(request,loginForm.validate(mapping, request, claimService) );
+
+        if(getErrors(request).isEmpty()) {
+            HttpSession session = request.getSession();
+            session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
+            return mapping.findForward("success");
+        }
+        return mapping.findForward("failure");
     }
 
 
     public ActionForward signUp(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
-        request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }
 

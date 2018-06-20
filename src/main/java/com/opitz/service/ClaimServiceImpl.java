@@ -27,15 +27,13 @@ import java.util.Properties;
 @Service("claimService")
 public class ClaimServiceImpl implements ClaimService {
 
-    private static SessionFactory sessionFactoryXML = null;
-    private static ServiceRegistry serviceRegistryXML= null;
-
 
     @Autowired
+    @Qualifier("HibernateClaimRepository")
     private ClaimRepository claimRepository;
 
     @Autowired
-    @Qualifier("InMemoryUserRepository")
+    @Qualifier("HibernateUserRepository")
     private UserRepository userRepository;
 
     public List<Claim> getClaims() {
@@ -61,6 +59,8 @@ public class ClaimServiceImpl implements ClaimService {
                 claim.setStatus(status);
             }
         }
+
+        claimRepository.setStatus(id, status);
     }
 
     public User findUser(String username) {
@@ -72,46 +72,9 @@ public class ClaimServiceImpl implements ClaimService {
         return null;
     }
 
-    private static SessionFactory configureSessionFactory() throws HibernateException {
-        Configuration configuration = new Configuration();
-        configuration.configure();
-
-        Properties properties = configuration.getProperties();
-
-        serviceRegistryXML = new ServiceRegistryBuilder().applySettings(properties).buildServiceRegistry();
-
-        sessionFactoryXML = configuration.buildSessionFactory(serviceRegistryXML);
-
-        return sessionFactoryXML;
-    }
 
 
-    public List<User> listUsers() {
-        configureSessionFactory();
-        Session session = null;
 
-        List<User> userList = new ArrayList<>();
 
-        try {
-            session = sessionFactoryXML.openSession();
-            List userL = session.createQuery("from User where username='Kazik'").list();
-
-            for (Object object : userL) {
-                userList.add((User)object);
-                User user = (User)object;
-                System.out.println("Username: " + user.getUsername() + " | Email:"  + user.getEmail() + " Password:" + user.getPassword());
-            }
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-
-        } finally{
-            if(session != null) {
-                session.close();
-            }
-        }
-        return userList;
-
-    }
 
 }

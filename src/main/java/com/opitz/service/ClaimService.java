@@ -22,5 +22,4 @@ public interface ClaimService {
 
     public User findUser(String username);
 
-    public List<User> listUsers();
 }
