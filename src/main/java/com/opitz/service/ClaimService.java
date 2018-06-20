@@ -21,4 +21,6 @@ public interface ClaimService {
     public void setStatus(Long id, ClaimStatus status);
 
     public User findUser(String username);
+
+    public List<User> listUsers();
 }

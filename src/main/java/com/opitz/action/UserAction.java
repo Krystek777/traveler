@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.util.List;
 
 
 public class UserAction extends MappingDispatchAction {
@@ -24,6 +25,10 @@ public class UserAction extends MappingDispatchAction {
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
+
+        List<User> userList = claimService.listUsers();
+
+
         request.getServletContext().setAttribute("users", claimService.getUsers());
         return mapping.findForward("success");
     }

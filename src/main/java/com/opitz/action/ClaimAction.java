@@ -4,6 +4,7 @@ import com.opitz.form.ClaimForm;
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimType;
 import com.opitz.model.TypeOption;
+import com.opitz.model.User;
 import com.opitz.service.ClaimService;
 import com.opitz.utility.ClaimConverter;
 import org.apache.struts.action.ActionForm;
