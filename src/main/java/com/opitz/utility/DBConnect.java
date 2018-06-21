@@ -6,6 +6,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
+
+@Deprecated
 public class DBConnect  {
 
     private Connection con;

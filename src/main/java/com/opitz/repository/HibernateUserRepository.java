@@ -1,16 +1,12 @@
 package com.opitz.repository;
 
 import com.opitz.model.User;
-import com.opitz.utility.HibernateSessionFactory;
-import com.opitz.utility.SessionFactoryConfig;
+import com.opitz.utility.HibernateUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.Transaction;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.TypedQuery;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -18,21 +14,21 @@ import java.util.List;
 public class HibernateUserRepository implements UserRepository {
 
 
-
-
     public List<User> getUsers() throws HibernateException {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
 
         List<User> userList = new ArrayList<>();
-
-        Session session = HibernateSessionFactory.getSessionFactory().openSession();
         List userL = session.createQuery("from User").list();
 
         for (Object object : userL) {
             userList.add((User) object);
         }
 
-        HibernateSessionFactory.shutdown();
-        System.out.println(userList);
+
+        session.getTransaction().commit();
+        session.close();
+
 
      return userList;
 
@@ -41,8 +37,12 @@ public class HibernateUserRepository implements UserRepository {
 
     @Override
     public void saveUser(User user) throws HibernateException {
-
-
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        session.beginTransaction();
+        session.save(user);
+        session.flush();
+        session.getTransaction().commit();
+        session.close();
 
     }
 }

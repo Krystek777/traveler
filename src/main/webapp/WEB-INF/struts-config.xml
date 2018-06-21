@@ -68,7 +68,7 @@
         </action>
 
         <action path="/welcome" type="com.opitz.action.UserAction" parameter="welcome" >
-            <forward name="success" path="login.td"/>
+            <forward name="success" path="welcome.td"/>
         </action>
 
         <action path="/loginSubmit" name="loginForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"

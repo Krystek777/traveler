@@ -4,6 +4,7 @@ import com.opitz.form.LoginForm;
 import com.opitz.form.SignUpForm;
 import com.opitz.model.User;
 import com.opitz.service.ClaimService;
+import com.opitz.utility.App;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
@@ -23,7 +24,6 @@ public class UserAction extends MappingDispatchAction {
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
-
         return mapping.findForward("success");
     }
 
