@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.Properties;
 
+@Deprecated
 @Log4j
 @Component
 public class SessionFactoryConfig {

@@ -44,8 +44,8 @@ public class InMemoryClaimRepository implements ClaimRepository {
     }
 
 
+    @Override
+    public void setStatus(Long id, ClaimStatus status) {
 
-
-
-
+    }
 }

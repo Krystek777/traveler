@@ -10,6 +10,8 @@ import java.util.List;
 @Repository("JpaUserRepository")
 public interface JpaUserRepository extends JpaRepository<User, Long>, UserRepository  {
 
+
+
     @Override
     default List<User> getUsers() {
         return findAll();
