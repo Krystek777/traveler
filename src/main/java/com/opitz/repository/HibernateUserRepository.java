@@ -1,9 +1,10 @@
 package com.opitz.repository;
 
 import com.opitz.model.User;
-import com.opitz.utility.HibernateUtil;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 
@@ -14,8 +15,11 @@ import java.util.List;
 public class HibernateUserRepository implements UserRepository {
 
 
+    @Autowired
+    private SessionFactory sessionFactory;
+
     public List<User> getUsers() throws HibernateException {
-        Session session = HibernateUtil.getSessionFactory().openSession();
+        Session session = sessionFactory.openSession();
         session.beginTransaction();
 
         List<User> userList = new ArrayList<>();
@@ -37,12 +41,12 @@ public class HibernateUserRepository implements UserRepository {
 
     @Override
     public void saveUser(User user) throws HibernateException {
-        Session session = HibernateUtil.getSessionFactory().openSession();
-        session.beginTransaction();
-        session.save(user);
-        session.flush();
-        session.getTransaction().commit();
-        session.close();
+//        Session session = HibernateUtil.getSessionFactory().openSession();
+//        session.beginTransaction();
+//        session.save(user);
+//        session.flush();
+//        session.getTransaction().commit();
+//        session.close();
 
     }
 }
