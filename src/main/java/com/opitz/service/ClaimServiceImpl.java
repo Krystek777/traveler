@@ -16,6 +16,7 @@ import org.hibernate.service.ServiceRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.TypedQuery;
 import java.util.ArrayList;
@@ -35,40 +36,34 @@ public class ClaimServiceImpl implements ClaimService {
     @Qualifier("HibernateUserRepository")
     private UserRepository userRepository;
 
+    @Override
     public List<Claim> getClaims() {
         return claimRepository.getClaims();
     }
 
-
+    @Override
     public List<User> getUsers() {
         return userRepository.getUsers();
     }
 
+    @Override
     public void saveClaim(Claim claim) {
         claimRepository.saveClaim(claim);
     }
 
+    @Override
     public void saveUser(User user) {
         userRepository.saveUser(user);
     }
 
-    public void setStatus(Long id, ClaimStatus status) {
-        for(Claim claim: getClaims()) {
-            if(claim.getId() == id) {
-                claim.setStatus(status);
-            }
-        }
-
+    @Override
+    public void setStatus(long id, ClaimStatus status) {
         claimRepository.setStatus(id, status);
     }
 
+    @Override
     public User findUser(String username) {
-        for(User user: getUsers()) {
-            if(user.getUsername().equals(username)) {
-                return user;
-            }
-        }
-        return null;
+        return userRepository.findUser(username);
     }
 
 

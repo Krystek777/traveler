@@ -13,6 +13,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.DecimalMax;
+import javax.validation.constraints.DecimalMin;
+import javax.validation.constraints.PastOrPresent;
+import javax.validation.constraints.Pattern;
+import javax.validation.constraints.Size;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -22,23 +27,27 @@ import java.util.Date;
 public class Claim {
 
     @Id
-    @NotNull
+    @GeneratedValue(strategy=GenerationType.IDENTITY)
     private long id;
 
     @Column
-    @NotNull
+//    @Size(min = 3, max = 32)
     private String name;
 
     @Column
     @NotNull
+//    @Pattern(regexp="[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}")
     private String email;
 
     @Column
     @NotNull
+//    @Size(min = 3, max = 32)
     private String policy;
 
     @Column
     @NotNull
+//    @DecimalMin("0")
+//    @DecimalMax("4")
     private ClaimType claimType;
 
     @Column
@@ -47,6 +56,7 @@ public class Claim {
 
     @Column
     @NotNull
+    @PastOrPresent
     private Date dateOccurred;
 
     @Column
@@ -55,7 +65,7 @@ public class Claim {
 
 
     public Claim() {
-        this(1, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatus.NEW);
+        this(0, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatus.NEW);
     }
 
     public Claim(long id, String name, String email, String policy,

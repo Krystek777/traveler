@@ -12,7 +12,8 @@ import java.util.List;
  */
 
 
-@Repository
+
+@Repository("JpaClaimRepository")
 public interface JpaClaimRepository extends JpaRepository<Claim, Long>, ClaimRepository {
 
     @Override

@@ -18,8 +18,9 @@ public interface ClaimService {
 
     public void saveUser(User user);
 
-    public void setStatus(Long id, ClaimStatus status);
+    public void setStatus(long id, ClaimStatus status);
 
     public User findUser(String username);
+
 
 }
