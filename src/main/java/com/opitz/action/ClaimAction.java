@@ -5,6 +5,7 @@ import com.opitz.model.Claim;
 import com.opitz.model.ClaimType;
 import com.opitz.model.TypeOption;
 import com.opitz.model.User;
+import com.opitz.repository.UserRepository;
 import com.opitz.service.ClaimService;
 import com.opitz.utility.ClaimConverter;
 import org.apache.struts.action.ActionForm;
@@ -31,11 +32,14 @@ public class ClaimAction extends MappingDispatchAction {
     @Autowired
     private ClaimConverter claimConverter;
 
+
+
     public ActionForward addClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                   HttpServletResponse response) throws Exception {
         ClaimForm claimForm = (ClaimForm) form;
         List<TypeOption> typeOptions = new ArrayList<>();
         MessageResources resources = getResources(request);
+
         for (ClaimType type : ClaimType.values()) {
             typeOptions.add(new TypeOption(type, resources.getMessage("claimForm.types." + type.name())));
         }

@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
@@ -19,67 +21,32 @@ import java.util.List;
 @Repository(value = "HibernateUserRepository")
 public class HibernateUserRepository implements UserRepository {
 
-
-    @Autowired
-    private SessionFactory sessionFactory;
+    @PersistenceContext
+    private EntityManager entityManager;
 
     public List<User> getUsers() throws HibernateException {
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
-
-        List<User> userList = new ArrayList<>();
-        List userL = session.createQuery("from User").list();
-
-        for (Object object : userL) {
-            userList.add((User) object);
-        }
-
-
-        session.getTransaction().commit();
-        session.close();
-
-
-        return userList;
+        return entityManager.createQuery( "from User", User.class ).getResultList();
 
     }
 
 
     @Override
     public void saveUser(User user) throws HibernateException {
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
-        session.save(user);
-        session.flush();
-        session.getTransaction().commit();
-        session.close();
+
+        entityManager.persist(user);
 
     }
 
     @Override
     public User findUser(String username) {
-        List<User> users = new ArrayList<>();
 
-        try {
+        CriteriaBuilder builder = entityManager.getCriteriaBuilder();
+        CriteriaQuery<User> query = builder.createQuery(User.class);
+        Root<User> root = query.from(User.class);
+        query.where(builder.equal(root.get("username"), username));
 
-            Session session = sessionFactory.openSession();
-            session.beginTransaction();
+        return entityManager.createQuery(query).getSingleResult();
 
-            CriteriaBuilder builder = session.getCriteriaBuilder();
-            CriteriaQuery<User> query = builder.createQuery(User.class);
-            Root<User> root = query.from(User.class);
-            query.select(root);
-            query.where(builder.equal(root.get("username"), username));
-            Query<User> q = session.createQuery(query);
-            users = q.getResultList();
-
-            session.getTransaction().commit();
-            session.close();
-
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-
-        return users.get(0);
     }
 
 }

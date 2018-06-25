@@ -3,12 +3,14 @@ package com.opitz.action;
 import com.opitz.form.LoginForm;
 import com.opitz.form.SignUpForm;
 import com.opitz.model.User;
+import com.opitz.repository.UserRepository;
 import com.opitz.service.ClaimService;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
 import org.apache.struts.actions.MappingDispatchAction;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -20,6 +22,10 @@ public class UserAction extends MappingDispatchAction {
 
     @Autowired
     private ClaimService claimService;
+
+    @Autowired
+    @Qualifier("HibernateUserRepository")
+    private UserRepository userRepository;
 
     public ActionForward login(ActionMapping mapping, ActionForm form,
                                HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -50,7 +56,7 @@ public class UserAction extends MappingDispatchAction {
 
         SignUpForm signUpForm = (SignUpForm) form;
 
-           saveErrors(request,signUpForm.validate(mapping, request, claimService) );
+        saveErrors(request,signUpForm.validate(mapping, request, claimService) );
 
         if(getErrors(request).isEmpty()){
             User user = new User(0, signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());

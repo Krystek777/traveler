@@ -1,8 +1,6 @@
 package com.opitz.repository;
 
-import com.opitz.model.Claim;
 import com.opitz.model.User;
-import org.hibernate.Session;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;

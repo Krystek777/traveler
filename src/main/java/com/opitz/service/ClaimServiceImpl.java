@@ -41,21 +41,25 @@ public class ClaimServiceImpl implements ClaimService {
         return claimRepository.getClaims();
     }
 
+    @Transactional
     @Override
     public List<User> getUsers() {
         return userRepository.getUsers();
     }
 
+    @Transactional
     @Override
     public void saveClaim(Claim claim) {
         claimRepository.saveClaim(claim);
     }
 
+    @Transactional
     @Override
     public void saveUser(User user) {
         userRepository.saveUser(user);
     }
 
+    @Transactional
     @Override
     public void setStatus(long id, ClaimStatus status) {
         claimRepository.setStatus(id, status);
@@ -65,10 +69,5 @@ public class ClaimServiceImpl implements ClaimService {
     public User findUser(String username) {
         return userRepository.findUser(username);
     }
-
-
-
-
-
 
 }
