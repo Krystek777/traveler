@@ -12,37 +12,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/ClaimRepository.java" line="7" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/HibernateConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/HibernateConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/service/ClaimService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/service/ClaimService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UpdateClaimAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/service/ClaimService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/service/ClaimService.class" afterDir="false" />
-    </list>
+    <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -948,7 +918,7 @@
       <workItem from="1528978993394" duration="32000" />
       <workItem from="1528979082156" duration="5716000" />
       <workItem from="1529308033121" duration="53607000" />
-      <workItem from="1529914562499" duration="16648000" />
+      <workItem from="1529914562499" duration="17697000" />
     </task>
     <servers />
   </component>
@@ -985,7 +955,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="264479000" />
+    <option name="totallyTimeSpent" value="265528000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
