@@ -6,25 +6,14 @@ import com.opitz.model.ClaimStatus;
 import com.opitz.model.User;
 import com.opitz.repository.ClaimRepository;
 import com.opitz.repository.UserRepository;
-import lombok.Data;
-import lombok.Setter;
-import org.hibernate.HibernateException;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Service;
+
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.TypedQuery;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Properties;
 
 
-@Service("claimService")
 public class ClaimServiceImpl implements ClaimService {
 
 
@@ -35,6 +24,9 @@ public class ClaimServiceImpl implements ClaimService {
     @Autowired
     @Qualifier("HibernateUserRepository")
     private UserRepository userRepository;
+
+//    @Autowired
+//    JPAUserRepository jpaUserRepository;
 
     @Override
     public List<Claim> getClaims() {

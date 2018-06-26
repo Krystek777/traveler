@@ -23,7 +23,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+
 public class ClaimAction extends MappingDispatchAction {
 
     @Autowired

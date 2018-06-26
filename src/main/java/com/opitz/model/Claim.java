@@ -27,27 +27,25 @@ import java.util.Date;
 public class Claim {
 
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
     @Column
-//    @Size(min = 3, max = 32)
+    @Size(min = 3, max = 32)
     private String name;
 
     @Column
     @NotNull
-//    @Pattern(regexp="[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}")
+    @Pattern(regexp = "[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}")
     private String email;
 
     @Column
     @NotNull
-//    @Size(min = 3, max = 32)
+    @Size(min = 3, max = 32)
     private String policy;
 
     @Column
     @NotNull
-//    @DecimalMin("0")
-//    @DecimalMax("4")
     private ClaimType claimType;
 
     @Column
