@@ -44,4 +44,11 @@ public class HibernateUserRepository implements UserRepository {
 
     }
 
+    @Override
+    public User findUser(long id) {
+        return entityManager.find(User.class, id);
+    }
+
+
+
 }

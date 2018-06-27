@@ -23,6 +23,8 @@ import java.util.Date;
 
 @Data
 @Entity
+@lombok.EqualsAndHashCode(of = {"name", "email","policy","claimType",
+        "claimAmount", "dateOccurred", "status"})
 @Table(name = "claims")
 public class Claim {
 
@@ -62,13 +64,9 @@ public class Claim {
     private ClaimStatus status;
 
 
-    public Claim() {
-        this(0, "", "", "", null, 0, new Date(2010, 10, 10), ClaimStatus.NEW);
-    }
+    public Claim() {}
 
-    public Claim(long id, String name, String email, String policy,
-                 ClaimType claimType, int claimAmount, Date dateOccurred, ClaimStatus status) {
-        this.id = id;
+    public Claim(@Size(min = 3, max = 32) String name, @Pattern(regexp = "[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}") String email, @Size(min = 3, max = 32) String policy, ClaimType claimType, int claimAmount, @PastOrPresent Date dateOccurred, ClaimStatus status) {
         this.name = name;
         this.email = email;
         this.policy = policy;
@@ -82,5 +80,8 @@ public class Claim {
         return ClaimConverter.formatDate(dateOccurred);
     }
 
+    public Date getDateOccurredRaw() {
+        return dateOccurred;
+    }
 
 }

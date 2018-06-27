@@ -6,6 +6,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
+@Deprecated
 @Component(value="InMemoryUserRepository")
 public class InMemoryUserRepository implements UserRepository {
 
@@ -13,8 +14,8 @@ public class InMemoryUserRepository implements UserRepository {
 
     public InMemoryUserRepository() {
         users = new ArrayList<>();
-        users.add(new User(0,"admin", "admin@opitz.com", "admin"));
-        users.add(new User(1,"krystian","krystian@opitz.com","0000"));
+        users.add(new User("admin", "admin@opitz.com", "admin"));
+        users.add(new User("krystian","krystian@opitz.com","0000"));
     }
 
     @Override
@@ -29,6 +30,11 @@ public class InMemoryUserRepository implements UserRepository {
 
     @Override
     public User findUser(String username) {
+        return null;
+    }
+
+    @Override
+    public User findUser(long id) {
         return null;
     }
 }

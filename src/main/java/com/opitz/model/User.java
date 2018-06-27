@@ -22,7 +22,7 @@ public class User {
     private long id;
 
 
-    @Column
+    @Column(unique = true)
     @Size(min = 3, max = 32)
     private String username;
 
@@ -38,12 +38,12 @@ public class User {
     public User() {
     }
 
+    public User(@Size(min = 3, max = 32) String username,
+                @Pattern(regexp = "[A-Za-z0-9._%-+]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,4}") String email,
+                @Size(min = 4, max = 32) String password) {
 
-    public User(long id, String username, String email, String password) {
-        this.id = id;
         this.username = username;
         this.email = email;
         this.password = password;
     }
-
 }

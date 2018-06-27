@@ -59,7 +59,7 @@ public class UserAction extends MappingDispatchAction {
         saveErrors(request,signUpForm.validate(mapping, request, claimService) );
 
         if(getErrors(request).isEmpty()){
-            User user = new User(0, signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
+            User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
             claimService.saveUser(user);
             HttpSession session = request.getSession();
             session.setAttribute("loggedUser", user);

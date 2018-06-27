@@ -46,7 +46,7 @@ public class ClaimConverter {
     public Claim convertToClaim(ClaimForm claimForm) throws TravelerException {
 
 
-        Claim claim = new Claim(0, claimForm.getName(), claimForm.getEmail(),
+        Claim claim = new Claim( claimForm.getName(), claimForm.getEmail(),
                 claimForm.getPolicy(), ClaimType.valueOf(claimForm.getClaimType()), Integer.parseInt(claimForm.getClaimAmount()),
                 null, ClaimStatus.NEW);
 

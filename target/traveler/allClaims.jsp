@@ -38,7 +38,6 @@
                             <bean:message name="label"/>
                         </td>
 
-
                         <td><bean:write name="claimItem" property="claimAmount"/></td>
                         <td><bean:write name="claimItem" property="dateOccurred"/></td>
                         <td>

@@ -12,4 +12,6 @@ public interface UserRepository {
 
     User findUser(String username);
 
+    User findUser(long id);
+
 }
