@@ -13,37 +13,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a67f8198-548e-4da8-a13a-8eb62abce2e5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateClaimRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateUserRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/tests/com/opitz/service/ClaimServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/tests/com/opitz/action/UpdateClaimActionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/traveler_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/Claim.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryClaimRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/InMemoryUserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/opitz/utility/PersistenceContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opitz/utility/PersistenceContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/tests/com/opitz/repository/InMemoryUserRepositoryTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/allClaims.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/Claim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/InMemoryUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opitz/utility/ClaimConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/action/UserAction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/Claim.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryClaimRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryUserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/InMemoryUserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/WEB-INF/classes/com/opitz/utility/ClaimConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/traveler/allClaims.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/traveler/allClaims.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,14 +43,14 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5821545">
+    <splitter split-orientation="horizontal" split-proportion="0.3313384">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="HibernateClaimRepository.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="440">
-                  <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+                  <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -84,16 +58,26 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="UserAction.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="754">
+                <state relative-caret-position="462">
                   <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="65">
+                  <caret line="71" selection-start-line="71" selection-end-line="71" />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
             </entry>
           </file>
           <file leaf-file-name="ClaimRepository.java" pinned="false" current-in-tab="false">
@@ -139,7 +123,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="22">
-                  <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+                  <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -173,75 +157,15 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserRepository.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/UserRepository.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="286">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="ClaimConverter.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/ClaimConverter.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="809">
-                  <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="691">
-                  <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClaimService.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimService.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="462">
-                  <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClaimServiceImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="352">
-                  <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ClaimServiceImplTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/service/ClaimServiceImplTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="484">
-                  <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="HibernateClaimRepositoryTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="HibernateClaimRepositoryTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateClaimRepositoryTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
+                <state relative-caret-position="110">
+                  <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="57" />
                   <folding>
                     <element signature="e#1407#1408#0" expanded="true" />
                     <element signature="e#1444#1445#0" expanded="true" />
@@ -250,11 +174,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HibernateUserRepositoryTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateUserRepositoryTest.java">
+          <file leaf-file-name="UpdateClaimActionTest.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/action/UpdateClaimActionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="383">
-                  <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+                <state relative-caret-position="515">
+                  <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -262,29 +186,48 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="TypeOption.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/TypeOption.java">
+          <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+                <state relative-caret-position="264">
+                  <caret line="15" selection-start-line="15" selection-end-line="15" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClaimType.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimType.java">
+          <file leaf-file-name="MockStrutsTestCase.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/strutstestcase/strutstestcase/2.1.4-1.2-2.4/strutstestcase-2.1.4-1.2-2.4.jar!/servletunit/struts/MockStrutsTestCase.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                <state relative-caret-position="402">
+                  <caret line="75" selection-start-line="75" selection-end-line="75" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ClaimStatus.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/ClaimStatus.java">
+          <file leaf-file-name="SpringJUnit4ClassRunner.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.7.RELEASE/spring-test-5.0.7.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+                <state relative-caret-position="265">
+                  <caret line="66" selection-start-line="66" selection-end-line="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="507">
+                  <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+                </state>
+              </provider>
+              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+            </entry>
+          </file>
+          <file leaf-file-name="spring-beans.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="286">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -300,9 +243,9 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -329,6 +272,8 @@
       <find>Contact</find>
       <find>user</find>
       <find>User</find>
+      <find>WEB</find>
+      <find>getConte</find>
     </findStrings>
     <replaceStrings>
       <replace>signUp</replace>
@@ -341,9 +286,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/HibernateConf.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/model/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/SignUpForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/form/LoginForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/SessionFactoryXML.java" />
@@ -375,7 +317,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/service/ClaimServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/action/UpdateClaimAction.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/opitz/utility/PersistenceContext.java" />
@@ -392,6 +333,10 @@
         <option value="$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateUserRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateClaimRepositoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/tests/com/opitz/service/ClaimServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/tests/com/opitz/com/opitz/action/UpdateClaimActionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/tests/com/opitz/UpdateClaimActionTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/tests/com/opitz/action/UpdateClaimActionTest.java" />
       </list>
     </option>
   </component>
@@ -490,7 +435,21 @@
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="traveler" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -498,7 +457,7 @@
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
               <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -507,143 +466,191 @@
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="form" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="traveler" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="opitz" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="utility" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="opitz" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="traveler" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="junit" type="462c0819:PsiDirectoryNode" />
+              <item name="runners" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="orm" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.springframework:spring-orm:5.0.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
-              <item name="spring-orm-5.0.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="orm" type="462c0819:PsiDirectoryNode" />
-              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="junit4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework:spring-test:5.0.7.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-test-5.0.7.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="springframework" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="junit4" type="462c0819:PsiDirectoryNode" />
+              <item name="statements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: strutstestcase:strutstestcase:2.1.4-1.2-2.4" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: strutstestcase:strutstestcase:2.1.4-1.2-2.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="strutstestcase-2.1.4-1.2-2.4.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: strutstestcase:strutstestcase:2.1.4-1.2-2.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="strutstestcase-2.1.4-1.2-2.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servletunit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: strutstestcase:strutstestcase:2.1.4-1.2-2.4" type="70bed36:NamedLibraryElementNode" />
+              <item name="strutstestcase-2.1.4-1.2-2.4.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="servletunit" type="462c0819:PsiDirectoryNode" />
+              <item name="struts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="traveler" type="b2602c69:ProjectViewProjectNode" />
@@ -684,16 +691,17 @@
       <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.opitz.repository" />
+      <recent name="com.opitz.action" />
       <recent name="com.opitz" />
+      <recent name="com.opitz.repository" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\TravelerApp\traveler\src\main\webapp" />
       <recent name="D:\workspace\TravelerApp\traveler\src\main" />
       <recent name="D:\workspace\TravelerApp\traveler\src\main\java\com\opitz\action" />
       <recent name="D:\workspace\TravelerApp\traveler\src\main\resources" />
       <recent name="D:\workspace\TravelerApp\traveler\src\main\java\com\opitz\utility" />
-      <recent name="D:\workspace\traveler\src\main\webapp" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\workspace\TravelerApp\traveler\src\main\resources\com\opitz" />
@@ -718,7 +726,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 8082">
+  <component name="RunManager" selected="JUnit.UpdateClaimActionTest.testLoginLink">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -791,20 +799,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HibernateClaimRepositoryTest.getClaims" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateClaimActionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="traveler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opitz.repository.*" />
+          <option name="PATTERN" value="com.opitz.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.opitz.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.opitz.repository.HibernateClaimRepositoryTest" />
-      <option name="METHOD_NAME" value="getClaims" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.opitz.action" />
+      <option name="MAIN_CLASS_NAME" value="com.opitz.action.UpdateClaimActionTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -814,19 +822,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="HibernateClaimRepositoryTest.saveClaim" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UpdateClaimActionTest.testLoginLink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="traveler" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.opitz.repository.*" />
+          <option name="PATTERN" value="com.opitz.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.opitz.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.opitz.repository.HibernateClaimRepositoryTest" />
-      <option name="METHOD_NAME" value="saveClaim" />
+      <option name="PACKAGE_NAME" value="com.opitz.action" />
+      <option name="MAIN_CLASS_NAME" value="com.opitz.action.UpdateClaimActionTest" />
+      <option name="METHOD_NAME" value="testLoginLink" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -950,19 +958,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8082" />
-      <item itemvalue="JUnit.HibernateClaimRepositoryTest.getClaims" />
-      <item itemvalue="JUnit.HibernateClaimRepositoryTest.saveClaim" />
       <item itemvalue="JUnit.ClaimServiceImplTest" />
       <item itemvalue="JUnit.ClaimServiceImplTest.saveUser" />
       <item itemvalue="JUnit.ClaimServiceImplTest.saveClaim" />
+      <item itemvalue="JUnit.UpdateClaimActionTest.testLoginLink" />
+      <item itemvalue="JUnit.UpdateClaimActionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UpdateClaimActionTest.testLoginLink" />
+        <item itemvalue="JUnit.UpdateClaimActionTest" />
         <item itemvalue="JUnit.ClaimServiceImplTest.saveClaim" />
         <item itemvalue="JUnit.ClaimServiceImplTest" />
         <item itemvalue="JUnit.ClaimServiceImplTest.saveUser" />
-        <item itemvalue="JUnit.HibernateClaimRepositoryTest.saveClaim" />
-        <item itemvalue="JUnit.HibernateClaimRepositoryTest.getClaims" />
       </list>
     </recent_temporary>
   </component>
@@ -997,44 +1005,44 @@
       <workItem from="1528979082156" duration="5716000" />
       <workItem from="1529308033121" duration="53607000" />
       <workItem from="1529914562499" duration="17697000" />
-      <workItem from="1530018227534" duration="27538000" />
+      <workItem from="1530018227534" duration="31819000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HibernateClaimRepositoryTest - 2018.06.27 at 13h 31m 11s.xml">
-      <configuration name="HibernateClaimRepositoryTest" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 30m 19s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateClaimRepositoryTest_getClaims - 2018.06.27 at 13h 36m 48s.xml">
-      <configuration name="HibernateClaimRepositoryTest.getClaims" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 31m 09s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HibernateClaimRepositoryTest_saveClaim - 2018.06.27 at 13h 36m 57s.xml">
-      <configuration name="HibernateClaimRepositoryTest.saveClaim" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 31m 21s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest - 2018.06.27 at 13h 37m 57s.xml">
-      <configuration name="ClaimServiceImplTest" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 31m 34s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveUser - 2018.06.27 at 13h 37m 59s.xml">
-      <configuration name="ClaimServiceImplTest.saveUser" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 31m 51s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveClaim - 2018.06.27 at 13h 43m 04s.xml">
-      <configuration name="ClaimServiceImplTest.saveClaim" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest - 2018.06.27 at 15h 32m 03s.xml">
+      <configuration name="UpdateClaimActionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveClaim - 2018.06.27 at 13h 44m 01s.xml">
-      <configuration name="ClaimServiceImplTest.saveClaim" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest - 2018.06.27 at 15h 35m 11s.xml">
+      <configuration name="UpdateClaimActionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveUser - 2018.06.27 at 13h 47m 02s.xml">
-      <configuration name="ClaimServiceImplTest.saveUser" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest - 2018.06.27 at 15h 37m 15s.xml">
+      <configuration name="UpdateClaimActionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveUser - 2018.06.27 at 13h 50m 14s.xml">
-      <configuration name="ClaimServiceImplTest.saveUser" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 38m 13s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ClaimServiceImplTest_saveClaim - 2018.06.27 at 13h 56m 04s.xml">
-      <configuration name="ClaimServiceImplTest.saveClaim" configurationId="JUnit" />
+    <history-entry file="UpdateClaimActionTest_testLoginLink - 2018.06.27 at 15h 38m 27s.xml">
+      <configuration name="UpdateClaimActionTest.testLoginLink" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="306943000" />
+    <option name="totallyTimeSpent" value="311224000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1047,6 +1055,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="16" sideWeight="0.50039744" side_tool="true" weight="0.4765258" />
@@ -1062,17 +1071,17 @@
       <window_info id="UI Designer" order="14" />
       <window_info anchor="bottom" id="Debug" order="5" weight="0.3881064" />
       <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="bottom" id="Messages" order="22" weight="0.30125195" />
+      <window_info active="true" anchor="bottom" id="Messages" order="22" visible="true" weight="0.30125195" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info id="Image Layers" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49960256" visible="true" weight="0.37245697" />
+      <window_info anchor="bottom" id="Run" order="4" sideWeight="0.49960256" weight="0.3568075" />
       <window_info anchor="bottom" id="Version Control" order="21" />
       <window_info anchor="bottom" id="Spring" order="22" weight="0.32942098" />
-      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.49960256" weight="0.23943663" />
+      <window_info anchor="bottom" id="Terminal" order="18" sideWeight="0.49960256" weight="0.2746479" />
       <window_info id="Persistence" order="17" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.22694753" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.22694753" />
       <window_info anchor="right" id="Bean Validation" order="10" />
       <window_info id="Web" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32942098" />
@@ -1130,10 +1139,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://$MAVEN_REPOSITORY$/strutstestcase/strutstestcase/2.1.4-1.2-2.4/strutstestcase-2.1.4-1.2-2.4.jar!/servletunit/struts/MockStrutsTestCase.class</url>
+          <line>33</line>
+          <properties field="context" class="servletunit.struts.MockStrutsTestCase" />
+          <option name="timeStamp" value="180" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="179" />
+      <option name="time" value="181" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory">
@@ -1205,177 +1222,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/utility/HibernateConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/JPAUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-core/1.3.10/struts-core-1.3.10-sources.jar!/org/apache/struts/chain/ComposableRequestProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/struts/struts-extras/1.3.10/struts-extras-1.3.10-sources.jar!/org/apache/struts/actions/DispatchAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="284" selection-start-line="284" selection-end-line="284" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-chain/commons-chain/1.2/commons-chain-1.2-sources.jar!/org/apache/commons/chain/impl/ChainBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="473">
-          <caret line="195" selection-start-line="195" selection-end-line="195" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/JpaClaimRepository.java" />
-    <entry file="uml://MAVEN/com.opitz:traveler:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.opitz:traveler:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.opitz:traveler:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework:spring-core:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:5.0.0.RELEASE/org.springframework:spring-jcl:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:5.0.0.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/antlr:antlr:jar:2.7.2</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-beanutils:commons-beanutils:jar:1.8.0/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-chain:commons-chain:jar:1.2</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-beanutils:commons-beanutils:jar:1.7.0</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-digester:commons-digester:jar:1.8/commons-logging:commons-logging:jar:1.1</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-beanutils:commons-beanutils:jar:1.8.0</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/commons-validator:commons-validator:jar:1.3.1/commons-digester:commons-digester:jar:1.6</node>
-            <node x="" y="">org.apache.struts:struts-core:jar:1.3.10/oro:oro:jar:2.0.8</node>
-            <node x="" y="">org.apache.struts:struts-tiles:jar:1.3.10</node>
-            <node x="" y="">org.apache.struts:struts-taglib:jar:1.3.10</node>
-            <node x="" y="">org.apache.struts:struts-extras:jar:1.3.10</node>
-            <node x="" y="">javax.servlet:jstl:jar:1.2</node>
-            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
-            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.0.1</node>
-            <node x="" y="">commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.0</node>
-            <node x="" y="">log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.projectlombok:lombok:jar:1.16.20</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/commons-beanutils:commons-beanutils-core:jar:1.8.3</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/commons-beanutils:commons-beanutils-core:jar:1.8.3/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.0.RELEASE</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-context:jar:5.0.0.RELEASE/org.springframework:spring-expression:jar:5.0.0.RELEASE</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE</node>
-            <node x="" y="">no.hackeriet:struts1-spring5:jar:1.0.0/org.springframework:spring-webmvc:jar:5.0.0.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework.data:spring-data-commons:jar:2.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework.data:spring-data-commons:jar:2.0.8.RELEASE/org.springframework:spring-core:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework.data:spring-data-commons:jar:2.0.8.RELEASE/org.springframework:spring-beans:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-orm:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-context:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-aop:jar:5.0.7.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.aspectj:aspectjrt:jar:1.8.13</node>
-            <node x="" y="">org.springframework.data:spring-data-jpa:jar:2.0.8.RELEASE/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/javax.persistence:javax.persistence-api:jar:2.2</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.javassist:javassist:jar:3.22.0-GA</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/net.bytebuddy:byte-buddy:jar:1.8.12</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:jar:1.1.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.jboss:jandex:jar:2.0.3.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/com.fasterxml:classmate:jar:1.3.4</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/dom4j:dom4j:jar:1.6.1</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.3.Final</node>
-            <node x="" y="">org.hibernate:hibernate-core:jar:5.3.1.Final/org.hibernate.common:hibernate-commons-annotations:jar:5.0.3.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
-            <node x="" y="">org.hibernate:hibernate-entitymanager:jar:5.3.1.Final</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-jdbc:jar:5.0.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-jdbc:jar:5.0.2.RELEASE/org.springframework:spring-beans:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-jdbc:jar:5.0.2.RELEASE/org.springframework:spring-core:jar:5.0.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-jdbc:jar:5.0.2.RELEASE/org.springframework:spring-tx:jar:5.0.2.RELEASE</node>
-            <node x="" y="">org.springframework:spring-orm:jar:5.0.2.RELEASE/org.springframework:spring-tx:jar:5.0.7.RELEASE</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.31</node>
-            <node x="" y="">org.apache.tomcat:tomcat-dbcp:jar:9.0.1</node>
-            <node x="" y="">org.apache.tomcat:tomcat-dbcp:jar:9.0.1/org.apache.tomcat:tomcat-juli:jar:9.0.1</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final</node>
-            <node x="" y="">org.hibernate.validator:hibernate-validator:jar:6.0.10.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
-            <node x="" y="">antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">junit:junit:jar:4.11</node>
-            <node x="" y="">junit:junit:jar:4.11/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework:spring-test:jar:4.3.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-test:jar:4.3.0.RELEASE/org.springframework:spring-core:jar:4.3.0.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="3152.4755952380956" y="400.5" />
-          <SelectedNodes />
-          <Categories />
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/traveler.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/StrutsAssistant/lib/struts.jar!/dtds/struts-config_1_3.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="685" column="56" selection-start-line="685" selection-start-column="56" selection-end-line="685" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/validator-rules.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tiles-defs.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/5.0.2.RELEASE/spring-orm-5.0.2.RELEASE.jar!/org/springframework/orm/jpa/SharedEntityManagerCreator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -1397,21 +1243,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="114" lean-forward="true" selection-start-line="114" selection-end-line="114" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1531,7 +1362,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="691">
-          <caret line="34" column="28" lean-forward="true" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1552,7 +1383,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateUserRepositoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="383">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1562,18 +1393,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/service/ClaimServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateClaimRepositoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="54" column="33" lean-forward="true" selection-start-line="54" selection-start-column="33" selection-end-line="54" selection-end-column="33" />
-          <folding>
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-          </folding>
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1446,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/repository/HibernateClaimRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1667,7 +1487,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/ClaimAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="29" column="23" lean-forward="true" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1676,8 +1496,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opitz/action/UserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
+        <state relative-caret-position="462">
           <caret line="51" column="39" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/opitz/ApplicationResources.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/addClaim.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="61" column="17" lean-forward="true" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/repository/HibernateClaimRepositoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="21" selection-start-line="21" selection-end-line="22" selection-end-column="57" />
+          <folding>
+            <element signature="e#1407#1408#0" expanded="true" />
+            <element signature="e#1444#1445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.7.RELEASE/spring-test-5.0.7.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/junit/framework/TestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/strutstestcase/strutstestcase/2.1.4-1.2-2.4/strutstestcase-2.1.4-1.2-2.4.jar!/servletunit/ServletContextSimulator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/strutstestcase/strutstestcase/2.1.4-1.2-2.4/strutstestcase-2.1.4-1.2-2.4.jar!/servletunit/struts/MockStrutsTestCase.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/5.0.7.RELEASE/spring-test-5.0.7.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/RunBefores.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#870#1063#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/tests/com/opitz/action/UpdateClaimActionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1690,7 +1640,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>traveler:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1762,7 +1712,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Java EE 6-Java EE 6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
