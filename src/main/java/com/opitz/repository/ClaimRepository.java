@@ -14,4 +14,6 @@ public interface ClaimRepository {
     void saveClaim(Claim claim);
 
     void setStatus(Long id, ClaimStatus status);
+
+    Claim findClaim(long id);
 }

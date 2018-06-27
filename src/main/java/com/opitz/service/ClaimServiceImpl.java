@@ -62,4 +62,14 @@ public class ClaimServiceImpl implements ClaimService {
         return userRepository.findUser(username);
     }
 
+    @Override
+    public User findUser(long id) {
+        return userRepository.findUser(id);
+    }
+
+    @Override
+    public Claim findClaim(long id) {
+        return claimRepository.findClaim(id);
+
+    }
 }

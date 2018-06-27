@@ -22,5 +22,11 @@ public interface ClaimService {
 
     public User findUser(String username);
 
+    public User findUser(long id);
+
+    public Claim findClaim(long id);
+
+
+
 
 }

@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 
-
 public class UserAction extends MappingDispatchAction {
 
     @Autowired
@@ -37,9 +36,9 @@ public class UserAction extends MappingDispatchAction {
 
         LoginForm loginForm = (LoginForm) form;
 
-        saveErrors(request,loginForm.validate(mapping, request, claimService) );
+        saveErrors(request, loginForm.validate(mapping, request, claimService));
 
-        if(getErrors(request).isEmpty()) {
+        if (getErrors(request).isEmpty()) {
             HttpSession session = request.getSession();
             session.setAttribute("loggedUser", claimService.findUser(loginForm.getUsername()));
             return mapping.findForward("success");
@@ -56,9 +55,9 @@ public class UserAction extends MappingDispatchAction {
 
         SignUpForm signUpForm = (SignUpForm) form;
 
-        saveErrors(request,signUpForm.validate(mapping, request, claimService) );
+        saveErrors(request, signUpForm.validate(mapping, request, claimService));
 
-        if(getErrors(request).isEmpty()){
+        if (getErrors(request).isEmpty()) {
             User user = new User(signUpForm.getUsername(), signUpForm.getEmail(), signUpForm.getPassword());
             claimService.saveUser(user);
             HttpSession session = request.getSession();

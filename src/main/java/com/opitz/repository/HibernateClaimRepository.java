@@ -22,8 +22,13 @@ public class HibernateClaimRepository implements ClaimRepository {
 
     @Override
     public void setStatus(Long id, ClaimStatus status) {
-        Claim claim = entityManager.find(Claim.class, id);
+        Claim claim = findClaim(id);
         claim.setStatus(status);
         entityManager.merge(claim);
+    }
+
+    @Override
+    public Claim findClaim(long id) {
+        return  entityManager.find(Claim.class, id);
     }
 }

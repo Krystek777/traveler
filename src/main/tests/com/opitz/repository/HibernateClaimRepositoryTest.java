@@ -79,8 +79,8 @@ public class HibernateClaimRepositoryTest {
         claimRepository.setStatus(first.getId(), ClaimStatus.APPROVED);
         assertEquals(first.getStatus(), ClaimStatus.APPROVED);
 
-        claimRepository.setStatus(first.getId(), ClaimStatus.REJECTED);
-        assertEquals(first.getStatus(), ClaimStatus.REJECTED);
+//        claimRepository.setStatus(first.getId(), ClaimStatus.REJECTED);
+//        assertEquals(first.getStatus(), ClaimStatus.REJECTED);
 
     }
 }
