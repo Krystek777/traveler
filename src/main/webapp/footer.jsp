@@ -4,5 +4,14 @@
 <%@ taglib prefix="bean" uri="http://struts.apache.org/tags-bean" %>
 
 
-<div><h4><bean:message key="footer.content"/></h4></div>
+
+
+
+<footer class="footer bg-dark" style="color:grey; position: absolute; bottom: 0; width: 100%">
+    <div class="container center">
+        <div class="row justify-content-center text-grey">
+            <bean:message key="footer.content"/>
+        </div>
+    </div>
+</footer>
 

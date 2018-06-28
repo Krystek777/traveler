@@ -8,7 +8,7 @@
 
 <html:form action="/addClaimSubmit" focus="name">
 
-    <div class="red-text">
+    <div class="text-danger">
         <html:messages id="errors">
             <bean:write name="errors"/><br/>
         </html:messages>
@@ -16,18 +16,26 @@
 
 
 
-    <div>
+    <div class="p-2">
 
+    <div class="m-1">
     <bean:message key="claimForm.name"/><br/>
     <html:text property="name" value="someClaim"/><br/>
+    </div>
 
+    <div class="m-1">
     <bean:message key="claimForm.email"/><br/>
     <html:text property="email" value="john@opitz.com"/><br/>
+    </div>
 
+    <div class="m-1">
     <bean:message key="claimForm.policy"/><br />
     <html:text property="policy" value="123"/><br /><br/>
+    </div>
 
+    <div class="m-1">
     <bean:message key="claimForm.claimType"/><br />
+    </div>
 
     <%--<html:select multiple="true" property="claimType">--%>
         <%--<logic:iterate name="claimForm" property="typeOptions" id="option">--%>
@@ -42,19 +50,26 @@
 
     <%--</html:select><br/><br/>--%>
 
+    <div class="m-1">
     <html:select property="claimType">
         <html:optionsCollection property="typeOptions" label="label"  value="key" />
     </html:select>
+    </div>
 
-
-
+    <div class="m-1">
     <bean:message key="claimForm.claimAmount"/><br />
     <html:text property="claimAmount" value="1"/><br />
+    </div>
 
+    <div class="m-1">
     <bean:message key="claimForm.dateOccurred"/>
     <bean:message key="date.format"/><br />
     <html:text property="dateOccurred" value="2008/07/10"/><br />
+    </div>
+
+    <div class="m-1">
     <html:submit value="Submit"/><br /><br />
+    </div>
 
 </html:form>
 </div>

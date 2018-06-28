@@ -74,7 +74,7 @@
         <action path="/loginSubmit" name="loginForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"
                 parameter="loginSubmit"
                 input="login.td">
-            <forward name="success" path="welcome.td"/>
+            <forward name="success" path="/allClaims.do"/>
             <forward name="failure" path="login.td"/>
         </action>
 

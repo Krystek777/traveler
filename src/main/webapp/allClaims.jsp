@@ -11,7 +11,7 @@
     <c:otherwise>
 
         <div>
-            <table>
+            <table class="table">
                 <tr>
                     <th><bean:message key="claimForm.id"/></th>
                     <th><bean:message key="claimForm.name"/></th>

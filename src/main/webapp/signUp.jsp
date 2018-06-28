@@ -5,30 +5,39 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jstl/core" %>
 
 <div class="red-text">
-    <h4><c:out value="${param['message']}"></c:out></h4>
+    <h4><c:out value="${param['message']}"/></h4>
 </div>
 
 <html:form action="/saveUser" focus="username">
 
-    <div class="red-text">
+    <div class="text-danger">
         <html:messages id="errors">
             <bean:write name="errors"/><br>
         </html:messages>
     </div>
 
+    <div class="m-1">
+        <bean:message key="signUpForm.username"/><br>
+        <html:text property="username" value="mark"/><br>
+    </div>
 
-    <bean:message key="signUpForm.username"/><br>
-    <html:text property="username" value="mark"/><br>
+    <div class="m-1">
+        <bean:message key="signUpForm.email"/><br>
+        <html:text property="email" value="john@tr.pl"/><br>
+    </div>
 
-    <bean:message key="signUpForm.email"/><br>
-    <html:text property="email" value="john@tr.pl"/><br>
+    <div class="m-1">
+        <bean:message key="signUpForm.password"/><br>
+        <html:password property="password" value="1234"/><br>
+    </div>
 
-    <bean:message key="signUpForm.password"/><br>
-    <html:password property="password" value="1234"/><br>
+    <div class="m-1">
+        <bean:message key="signUpForm.confirm.password"/><br>
+        <html:password property="confirmPassword" value="1234"/><br>
+    </div>
 
-    <bean:message key="signUpForm.confirm.password"/><br>
-    <html:password property="confirmPassword" value="1234"/><br>
-
-    <html:submit value="Submit"/><br><br>
+    <div class="m-1">
+        <html:submit value="Submit"/><br>
+    </div>
 
 </html:form>
