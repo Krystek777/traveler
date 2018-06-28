@@ -27,6 +27,7 @@ public interface ClaimService {
     public Claim findClaim(long id);
 
 
+    void remove(User user);
 
-
+    void remove(Claim claim);
 }

@@ -14,4 +14,5 @@ public interface UserRepository {
 
     User findUser(long id);
 
+    void remove(User user);
 }

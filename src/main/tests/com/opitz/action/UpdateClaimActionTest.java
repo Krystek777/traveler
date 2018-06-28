@@ -4,13 +4,13 @@ import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatus;
 import com.opitz.service.ClaimService;
 import com.opitz.utility.PersistenceContext;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.transaction.annotation.Transactional;
 import servletunit.struts.MockStrutsTestCase;
 
 
@@ -23,7 +23,13 @@ import java.util.List;
 public class UpdateClaimActionTest extends MockStrutsTestCase {
 
     @Autowired
-    ClaimService claimService;
+    private ClaimService claimService;
+
+    private ClaimStatus claimStatusDefault;
+
+    private List<Claim> claims;
+
+    private Claim claim;
 
     @Before
     public void initialize() {
@@ -34,49 +40,54 @@ public class UpdateClaimActionTest extends MockStrutsTestCase {
         }
 
         setContextDirectory(new File("src/main/webapp"));
-    }
-
-    @Test
-    public void rejectClaim() {
 
         List<Claim> claims = claimService.getClaims();
-        Claim claim = claims.get(0);
-        ClaimStatus claimStatus = claim.getStatus();
-        setStatus("rejectClaim");
-        claims = claimService.getClaims();
         claim = claims.get(0);
-        assertEquals(claim.getStatus(), ClaimStatus.REJECTED);
-        claimService.setStatus(claim.getId(), claimStatus);
-    }
+        claimStatusDefault = claim.getStatus();
 
-    @Test
-    public void approveClaim() {
-        List<Claim> claims = claimService.getClaims();
-        Claim claim = claims.get(0);
-        ClaimStatus claimStatus = claim.getStatus();
-        setStatus("approveClaim");
         claims = claimService.getClaims();
-        claim = claims.get(0);
-        assertEquals(claim.getStatus(), ClaimStatus.APPROVED);
-        claimService.setStatus(claim.getId(), claimStatus);
-
-    }
-
-
-    @Transactional
-    public void setStatus(String actionType) {
-        List<Claim> claims = claimService.getClaims();
         if (claims.isEmpty()) {
             fail();
         }
 
-        Claim claim = claims.get(0);
+        claim = claims.get(0);
 
-        setRequestPathInfo("/" + actionType);
+
+    }
+
+    @Test
+    public void rejectClaim() {
+        setRequestPathInfo("/rejectClaim");
         request.addParameter("id", Long.toString(claim.getId()));
         actionPerform();
 
+        claims = claimService.getClaims();
+        claim = claims.get(0);
+        assertEquals(claim.getStatus(), ClaimStatus.REJECTED);
     }
+
+    @Test
+    public void approveClaim() {
+
+        setRequestPathInfo("/approveClaim");
+        request.addParameter("id", Long.toString(claim.getId()));
+        actionPerform();
+
+        claims = claimService.getClaims();
+        claim = claims.get(0);
+        assertEquals(claim.getStatus(), ClaimStatus.APPROVED);
+
+
+    }
+
+
+
+    @After
+    public void runAfter() {
+        claimService.setStatus(claim.getId(), claimStatusDefault);
+
+    }
+
 
 
 }

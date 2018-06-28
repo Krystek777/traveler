@@ -13,14 +13,13 @@ import javax.persistence.criteria.Root;
 import java.util.List;
 
 
-
 public class HibernateUserRepository implements UserRepository {
 
     @PersistenceContext
     private EntityManager entityManager;
 
     public List<User> getUsers() throws HibernateException {
-        return entityManager.createQuery( "from User", User.class ).getResultList();
+        return entityManager.createQuery("from User", User.class).getResultList();
 
     }
 
@@ -50,5 +49,8 @@ public class HibernateUserRepository implements UserRepository {
     }
 
 
-
+    @Override
+    public void remove(User user) {
+        entityManager.remove(entityManager.contains(user) ? user : entityManager.merge(user));
+    }
 }

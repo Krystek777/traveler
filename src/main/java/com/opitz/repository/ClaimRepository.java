@@ -16,4 +16,6 @@ public interface ClaimRepository {
     void setStatus(Long id, ClaimStatus status);
 
     Claim findClaim(long id);
+
+    void remove(Claim claim);
 }

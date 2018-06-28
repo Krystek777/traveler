@@ -68,7 +68,7 @@ public class ClaimAction extends MappingDispatchAction {
     public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                    HttpServletResponse response) {
         //ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
-        request.getServletContext().setAttribute("claims", claimService.getClaims());
+        request.setAttribute("claims", claimService.getClaims());
         return mapping.findForward("success");
     }
 

@@ -53,4 +53,9 @@ public class InMemoryClaimRepository implements ClaimRepository {
     public Claim findClaim(long id) {
         return null;
     }
+
+    @Override
+    public void remove(Claim claim) {
+
+    }
 }

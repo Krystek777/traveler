@@ -3,6 +3,7 @@ package com.opitz.repository;
 import com.opitz.model.User;
 import org.springframework.stereotype.Component;
 
+import javax.jws.soap.SOAPBinding;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,5 +37,10 @@ public class InMemoryUserRepository implements UserRepository {
     @Override
     public User findUser(long id) {
         return null;
+    }
+
+    @Override
+    public void remove(User user) {
+
     }
 }

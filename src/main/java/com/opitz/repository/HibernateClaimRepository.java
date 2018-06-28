@@ -1,6 +1,8 @@
 package com.opitz.repository;
+
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimStatus;
+
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import java.util.List;
@@ -29,6 +31,11 @@ public class HibernateClaimRepository implements ClaimRepository {
 
     @Override
     public Claim findClaim(long id) {
-        return  entityManager.find(Claim.class, id);
+        return entityManager.find(Claim.class, id);
+    }
+
+    @Override
+    public void remove(Claim claim) {
+        entityManager.remove(entityManager.contains(claim)?claim:entityManager.merge(claim));
     }
 }

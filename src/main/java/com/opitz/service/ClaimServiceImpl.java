@@ -72,4 +72,17 @@ public class ClaimServiceImpl implements ClaimService {
         return claimRepository.findClaim(id);
 
     }
+
+    @Transactional
+    @Override
+    public void remove(User user) {
+        userRepository.remove(user);
+    }
+
+
+    @Transactional
+    @Override
+    public void remove(Claim claim) {
+        claimRepository.remove(claim);
+    }
 }
