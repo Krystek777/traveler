@@ -10,6 +10,8 @@
     </c:when>
     <c:otherwise>
 
+
+
         <div>
             <table class="table">
                 <tr>
@@ -21,7 +23,7 @@
                     <th><bean:message key="claimForm.claimAmount"/></th>
                     <th><bean:message key="claimForm.dateOccurred"/></th>
                     <th><bean:message key="claimForm.status"/></th>
-                    <th><bean:message key="claimForm.changeStatus"/></th>
+                    <th colspan="2"><bean:message key="claimForm.changeStatus"/></th>
 
                 </tr>
                 <logic:iterate name="claims" id="claimItem">
@@ -33,7 +35,8 @@
 
                         <td>
                             <bean:define id="label" toScope="page" type="java.lang.String">
-                                <bean:message key="claimForm.types.prefix"/><bean:write name="claimItem" property="claimType"/>
+                                <bean:message key="claimForm.types.prefix"/><bean:write name="claimItem"
+                                                                                        property="claimType"/>
                             </bean:define>
                             <bean:message name="label"/>
                         </td>
@@ -42,19 +45,26 @@
                         <td><bean:write name="claimItem" property="dateOccurred"/></td>
                         <td>
 
-                                <bean:define id="statusLabel" toScope="page" type="java.lang.String">
-                                    <bean:message key="claimForm.statuses.prefix"/><bean:write name="claimItem" property="status"/>
-                                </bean:define>
-                                <bean:message name="statusLabel"/>
+                            <bean:define id="statusLabel" toScope="page" type="java.lang.String">
+                                <bean:message key="claimForm.statuses.prefix"/><bean:write name="claimItem"
+                                                                                           property="status"/>
+                            </bean:define>
+                            <bean:message name="statusLabel"/>
 
                         </td>
                         <td>
-                            <html:link action="/approveClaim" titleKey="claimForm.approve">
+
+                            <html:link styleClass="btn btn-sm btn-outline-success mt-2" action="/approveClaim"
+                                       titleKey="claimForm.approve">
                                 <html:param name="id"><c:out value="${claimItem.id}"/></html:param>
                                 <bean:message key="claimForm.approve"/>
                             </html:link>
+                        </td>
 
-                            <html:link action="/rejectClaim" titleKey="claimForm.reject">
+                        <td>
+
+                            <html:link styleClass="btn btn-sm btn-outline-danger mt-2" action="/rejectClaim"
+                                       titleKey="claimForm.reject">
                                 <html:param name="id"><c:out value="${claimItem.id}"/></html:param>
                                 <bean:message key="claimForm.reject"/>
                             </html:link>
@@ -65,6 +75,5 @@
             </table>
 
         </div>
-
     </c:otherwise>
 </c:choose>

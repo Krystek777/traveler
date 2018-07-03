@@ -51,7 +51,6 @@ public class ClaimConverter {
                 null, ClaimStatus.NEW);
 
         claim.setDateOccurred(parseDate(claimForm.getDateOccurred()));
-        claim.setId((long) (claimService.getClaims().size()) + 1);
 
         return claim;
 

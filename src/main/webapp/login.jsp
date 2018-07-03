@@ -15,17 +15,17 @@
 <html:form action="/loginSubmit" focus="username">
 
     <div class="m-1">
-    <bean:message key="login.username"/>
-    <html:text property="username"/><br>
+    <bean:message key="login.username"/><br />
+    <html:text property="username"/><br />
     </div>
 
     <div class="m-1">
-    <bean:message key="login.password"/>
-    <html:password property="password"/><br>
+    <bean:message key="login.password"/><br />
+    <html:password property="password"/><br />
     </div>
 
-    <div class="m-1">
-    <html:submit value="Submit"/>
+    <div class="m-2">
+    <html:submit styleClass="btn btn-outline-light" value="Submit"/>
     </div>
 
 </html:form>

@@ -4,8 +4,6 @@ import com.opitz.form.ClaimForm;
 import com.opitz.model.Claim;
 import com.opitz.model.ClaimType;
 import com.opitz.model.TypeOption;
-import com.opitz.model.User;
-import com.opitz.repository.UserRepository;
 import com.opitz.service.ClaimService;
 import com.opitz.utility.ClaimConverter;
 import org.apache.struts.action.ActionForm;
@@ -16,7 +14,6 @@ import org.apache.struts.action.ActionMessages;
 import org.apache.struts.actions.MappingDispatchAction;
 import org.apache.struts.util.MessageResources;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -61,11 +58,10 @@ public class ClaimAction extends MappingDispatchAction {
         ActionMessages messages = new ActionMessages();
         messages.add(ActionMessages.GLOBAL_MESSAGE, new ActionMessage("claim.added"));
         saveMessages(request, messages);
-        return mapping.findForward("success");
+          return mapping.findForward("success");
     }
 
-
-    public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
+  public ActionForward allClaims(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                    HttpServletResponse response) {
         //ClaimService claimService = getWebApplicationContext().getBean("claimService", ClaimService.class);
         request.setAttribute("claims", claimService.getClaims());

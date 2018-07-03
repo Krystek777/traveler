@@ -67,7 +67,7 @@ public class HibernateUserRepositoryTest {
     public void saveUser() {
 
         userRepository.saveUser(user);
-        assertNotNull(userRepository.findUser(user.getUsername()));
+        assertNotNull(userRepository.findByUsername(user.getUsername()));
 
         User newUser = new User(user.getUsername(), user.getEmail(), user.getPassword());
         userRepository.saveUser(newUser);
@@ -76,16 +76,16 @@ public class HibernateUserRepositoryTest {
     @Test
     @Transactional
     public void findUserByUsername() {
-        userRepository.findUser(existingUsername);
+        userRepository.findByUsername(existingUsername);
         userRepository.saveUser(user);
-        userRepository.findUser(user.getUsername());
+        userRepository.findByUsername(user.getUsername());
     }
 
     @Test
     @Transactional
     public void findUserById () {
         userRepository.saveUser(user);
-        User foundUser = userRepository.findUser(user.getId());
+        User foundUser = userRepository.findById(user.getId());
         assertEquals(foundUser.getUsername(), user.getUsername());
     }
 }

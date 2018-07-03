@@ -30,7 +30,7 @@
 
     <link rel="stylesheet" type="text/css" href="../resources/com/opitz/styles.css"/>
 </head>
-<body style="background-color: lightseagreen" style="height: 100%;">
+<body style="background-color: lightsalmon" style="height: 100%;">
 
 <div class="container">
 

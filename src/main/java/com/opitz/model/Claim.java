@@ -4,7 +4,8 @@ package com.opitz.model;
 import com.opitz.utility.ClaimConverter;
 import com.sun.istack.internal.NotNull;
 import lombok.Data;
-import org.springframework.context.annotation.Primary;
+import lombok.EqualsAndHashCode;
+
 
 
 import javax.persistence.Column;
@@ -13,17 +14,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-import javax.validation.constraints.DecimalMax;
-import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.PastOrPresent;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
-import java.text.SimpleDateFormat;
 import java.util.Date;
 
 @Data
 @Entity
-@lombok.EqualsAndHashCode(of = {"name", "email","policy","claimType",
+@EqualsAndHashCode(of = {"name", "email","policy","claimType",
         "claimAmount", "dateOccurred", "status"})
 @Table(name = "claims")
 public class Claim {

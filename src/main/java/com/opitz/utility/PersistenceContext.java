@@ -3,24 +3,22 @@ package com.opitz.utility;
 import com.opitz.action.ClaimAction;
 import com.opitz.action.UpdateClaimAction;
 import com.opitz.action.UserAction;
-import com.opitz.model.Claim;
 import com.opitz.repository.ClaimRepository;
 import com.opitz.repository.HibernateClaimRepository;
 import com.opitz.repository.HibernateUserRepository;
 import com.opitz.repository.UserRepository;
 import com.opitz.service.ClaimService;
 import com.opitz.service.ClaimServiceImpl;
+import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
-import org.apache.tomcat.dbcp.dbcp2.BasicDataSource;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.orm.jpa.JpaTransactionManager;
 import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
-import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.persistence.EntityManagerFactory;
@@ -28,10 +26,9 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 @Configuration
-@EnableJpaRepositories
+@EnableJpaRepositories("com.opitz.repository")
 @EnableTransactionManagement
 @ComponentScan("com.opitz")
-@WebAppConfiguration
 public class PersistenceContext {
 
 

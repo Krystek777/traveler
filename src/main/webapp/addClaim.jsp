@@ -16,7 +16,7 @@
 
 
 
-    <div class="p-2">
+    <div class="p-3">
 
     <div class="m-1">
     <bean:message key="claimForm.name"/><br/>
@@ -67,8 +67,8 @@
     <html:text property="dateOccurred" value="2008/07/10"/><br />
     </div>
 
-    <div class="m-1">
-    <html:submit value="Submit"/><br /><br />
+    <div class="m-2">
+    <html:submit styleClass="btn btn-outline-light" value="Submit"/><br /><br />
     </div>
 
 </html:form>

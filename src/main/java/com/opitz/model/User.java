@@ -1,6 +1,7 @@
 package com.opitz.model;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -14,6 +15,7 @@ import javax.validation.constraints.Size;
 
 @Data
 @Entity
+@EqualsAndHashCode(of = {"username", "email","password"})
 @Table(name = "users")
 public class User {
 

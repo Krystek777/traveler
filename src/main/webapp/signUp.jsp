@@ -37,7 +37,7 @@
     </div>
 
     <div class="m-1">
-        <html:submit value="Submit"/><br>
+        <html:submit styleClass="btn btn-outline-light" value="Submit"/><br>
     </div>
 
 </html:form>

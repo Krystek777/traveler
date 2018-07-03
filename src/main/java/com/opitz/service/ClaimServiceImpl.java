@@ -6,27 +6,30 @@ import com.opitz.model.ClaimStatus;
 import com.opitz.model.User;
 import com.opitz.repository.ClaimRepository;
 import com.opitz.repository.UserRepository;
+import lombok.Setter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.Resource;
 import java.util.List;
 
 
 public class ClaimServiceImpl implements ClaimService {
 
 
+    @Setter
     @Autowired
     @Qualifier("HibernateClaimRepository")
     private ClaimRepository claimRepository;
 
+    @Setter
     @Autowired
-    @Qualifier("HibernateUserRepository")
+    @Qualifier("jpaUserRepository")
+    @Resource
     private UserRepository userRepository;
 
-//    @Autowired
-//    JPAUserRepository jpaUserRepository;
 
     @Override
     public List<Claim> getClaims() {
@@ -59,12 +62,12 @@ public class ClaimServiceImpl implements ClaimService {
 
     @Override
     public User findUser(String username) {
-        return userRepository.findUser(username);
+        return userRepository.findByUsername(username);
     }
 
     @Override
     public User findUser(long id) {
-        return userRepository.findUser(id);
+        return userRepository.findById(id);
     }
 
     @Override
@@ -76,7 +79,7 @@ public class ClaimServiceImpl implements ClaimService {
     @Transactional
     @Override
     public void remove(User user) {
-        userRepository.remove(user);
+        userRepository.removeUser(user);
     }
 
 

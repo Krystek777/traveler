@@ -30,17 +30,17 @@ public class InMemoryUserRepository implements UserRepository {
     }
 
     @Override
-    public User findUser(String username) {
+    public User findByUsername(String username) {
         return null;
     }
 
     @Override
-    public User findUser(long id) {
+    public User findById(long id) {
         return null;
     }
 
     @Override
-    public void remove(User user) {
+    public void removeUser(User user) {
 
     }
 }

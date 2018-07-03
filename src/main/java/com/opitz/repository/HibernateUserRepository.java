@@ -32,7 +32,7 @@ public class HibernateUserRepository implements UserRepository {
     }
 
     @Override
-    public User findUser(String username) {
+    public User findByUsername(String username) {
 
         CriteriaBuilder builder = entityManager.getCriteriaBuilder();
         CriteriaQuery<User> query = builder.createQuery(User.class);
@@ -44,13 +44,13 @@ public class HibernateUserRepository implements UserRepository {
     }
 
     @Override
-    public User findUser(long id) {
+    public User findById(long id) {
         return entityManager.find(User.class, id);
     }
 
 
     @Override
-    public void remove(User user) {
+    public void removeUser(User user) {
         entityManager.remove(entityManager.contains(user) ? user : entityManager.merge(user));
     }
 }
