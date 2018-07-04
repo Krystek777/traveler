@@ -23,4 +23,5 @@ public interface JpaUserRepository extends JpaRepository<User, Long>, UserReposi
     default void removeUser(User user) {
         delete(user);
     }
+
 }

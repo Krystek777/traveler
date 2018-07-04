@@ -12,6 +12,7 @@ import org.springframework.stereotype.Component;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.PrintWriter;
 
 public class UpdateClaimAction extends MappingDispatchAction {
 
@@ -20,6 +21,7 @@ public class UpdateClaimAction extends MappingDispatchAction {
 
     public ActionForward approveClaim(ActionMapping mapping, ActionForm form, HttpServletRequest request,
                                      HttpServletResponse response) throws Exception {
+
         return updateClaim(ClaimStatus.APPROVED, mapping, form, request, response);
 
     }
@@ -30,10 +32,9 @@ public class UpdateClaimAction extends MappingDispatchAction {
     }
 
     private ActionForward updateClaim(ClaimStatus status, ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
-
         long id = Long.valueOf(request.getParameter("id"));
         claimService.setStatus(id, status);
+        return null;
 
-        return mapping.findForward("success");
     }
 }

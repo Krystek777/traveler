@@ -10,6 +10,7 @@
         <form-bean name="claimForm" type="com.opitz.form.ClaimForm"/>
         <form-bean name="loginForm" type="com.opitz.form.LoginForm"/>
         <form-bean name="signUpForm" type="com.opitz.form.SignUpForm"/>
+        <form-bean name="ajaxForm" type="com.opitz.form.AjaxForm"/>
     </form-beans>
 
     <!-- Global Exceptions -->
@@ -81,14 +82,13 @@
         <!--Update Claim Action-->
 
         <action path="/approveClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
-                parameter="approveClaim">
-            <forward name="success" path="/allClaims.do"/>
-        </action>
-        <action path="/rejectClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
-                parameter="rejectClaim">
-            <forward name="success" path="/allClaims.do"/>
-        </action>
+                parameter="approveClaim"/>
 
+        <action path="/rejectClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="rejectClaim"/>
+
+        <action name="ajaxForm" path="/AjaxSubmit" input="/AjaxExample.jsp"
+                type="com.opitz.action.AjaxAction"/>
 
     </action-mappings>
 

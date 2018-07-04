@@ -78,8 +78,4 @@ public class Claim {
         return ClaimConverter.formatDate(dateOccurred);
     }
 
-    public Date getDateOccurredRaw() {
-        return dateOccurred;
-    }
-
 }

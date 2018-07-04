@@ -73,7 +73,6 @@ public class ClaimServiceImpl implements ClaimService {
     @Override
     public Claim findClaim(long id) {
         return claimRepository.findClaim(id);
-
     }
 
     @Transactional
