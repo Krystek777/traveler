@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="traveler:war exploded">
+  <artifact type="exploded-war" build-on-make="true" name="traveler:war exploded">
     <output-path>$PROJECT_DIR$/target/traveler</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
@@ -25,7 +25,8 @@
           <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.0.1" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.1" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.0" />
-          <element id="library" level="project" name="Maven: log4j:log4j:1.2.17" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.6.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.6.1" />
           <element id="library" level="project" name="Maven: no.hackeriet:struts1-spring5:1.0.0" />
           <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils-core:1.8.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.0.RELEASE" />
@@ -64,6 +65,7 @@
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.6" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.6" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-jdk14:1.7.25" />
         </element>
       </element>
       <element id="directory" name="META-INF">

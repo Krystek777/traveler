@@ -6,7 +6,6 @@
 
 
 
-
 <footer class="footer bg-dark p-3" style="color:grey; position: absolute; bottom: 0; width: 100%">
     <div class="container center">
         <div class="row justify-content-center text-grey">
