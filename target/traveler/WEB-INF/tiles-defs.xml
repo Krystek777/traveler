@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 1.1//EN"
+        "http://struts.apache.org/dtds/tiles-config_1_1.dtd">
+<tiles-definitions>
+    <definition name="baseLayout" path="/baseLayout.jsp">
+        <put name="title" value="title.welcome"/>
+        <put name="loginPanel" value="/userPanel.jsp"/>
+        <put name="header" value="/header.jsp"/>
+        <put name="body" value="/addClaim.jsp"/>
+        <put name="footer" value="/footer.jsp"/>
+    </definition>
+
+    <definition name="addClaim.td" extends="baseLayout">
+        <put name="titleKey" value="title.add.claim"/>
+    </definition>
+
+    <definition name="login.td" extends="baseLayout">
+        <put name="titleKey" value="title.login"/>
+        <put name="body" value="login.jsp"/>
+    </definition>
+
+
+    <definition name="allClaims.td" extends="baseLayout">
+        <put name="titleKey" value="title.all.claims"/>
+        <put name="body" value="allClaims.jsp"/>
+    </definition>
+
+    <definition name="welcome.td" extends="baseLayout">
+        <put name="titleKey" value="title.welcome"/>
+        <put name="body" value="welcomeTile.jsp"/>
+    </definition>
+
+    <definition name="signUp.td" extends="baseLayout">
+        <put name="titleKey" value="title.sign.up"/>
+        <put name="body" value="signUp.jsp"/>
+    </definition>
+
+</tiles-definitions>

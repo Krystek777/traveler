@@ -1,0 +1,31 @@
+schema {
+    query: Query
+
+}
+
+type Query {
+    users: [User]
+    user(id: Int): User
+    claims: [Claim]
+    claim(id :Int): Claim
+}
+
+
+type User {
+    id: Int
+    username: String
+    password: String
+}
+
+type Claim {
+    id: Int
+    name: String
+    email: String
+    policy: String
+    claimType: String
+    claimAmount: Int
+    dateOccurred: String
+    status: String
+
+}
+

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts-config PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+        "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+    <!-- Form Beans -->
+    <form-beans>
+        <form-bean name="claimForm" type="com.opitz.form.ClaimForm"/>
+        <form-bean name="loginForm" type="com.opitz.form.LoginForm"/>
+        <form-bean name="signUpForm" type="com.opitz.form.SignUpForm"/>
+        <form-bean name="ajaxForm" type="com.opitz.form.AjaxForm"/>
+    </form-beans>
+
+    <!-- Global Exceptions -->
+    <global-exceptions>
+    </global-exceptions>
+
+
+    <!--Action Mappings-->
+    <action-mappings>
+
+        <!--Claim Action-->
+
+        <action path="/addClaimSubmit" name="claimForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"
+                input="/addClaim.do"
+                parameter="addClaimSubmit">
+            <forward name="success" path="/addClaim.do"/>
+        </action>
+
+        <action path="/addClaim" name="claimForm" type="com.opitz.action.ClaimAction" scope="request"
+                input="addClaim.td"
+                validate="false"
+                parameter="addClaim">
+            <forward name="success" path="addClaim.td"/>
+        </action>
+
+        <action path="/allClaims" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="allClaims">
+            <forward name="success" path="allClaims.td"/>
+        </action>
+
+
+
+        <!--User Action-->
+
+        <action path="/signUp" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="signUp" >
+            <forward name="success" path="signUp.td"/>
+        </action>
+
+        <action path="/saveUser" name="signUpForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="saveUser"
+                input="signUp.td"
+                validate="true">
+            <forward name="success" path="signUp.td"/>
+        </action>
+
+        <action path="/signOut" type="com.opitz.action.UserAction"
+                parameter="signOut">
+            <forward name="success" path="welcome.td"/>
+        </action>
+
+
+        <action path="/login" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="login" >
+            <forward name="success" path="login.td"/>
+        </action>
+
+        <action path="/welcome" type="com.opitz.action.UserAction" parameter="welcome" >
+            <forward name="success" path="welcome.td"/>
+        </action>
+
+        <action path="/loginSubmit" name="loginForm" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy" scope="request"
+                parameter="loginSubmit"
+                input="login.td">
+            <forward name="success" path="/allClaims.do"/>
+            <forward name="failure" path="login.td"/>
+        </action>
+
+        <!--Update Claim Action-->
+
+        <action path="/approveClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="approveClaim"/>
+
+        <action path="/rejectClaim" type="no.hackeriet.struts1Spring.struts.DelegatingActionProxy"
+                parameter="rejectClaim"/>
+
+        <action name="ajaxForm" path="/AjaxSubmit" input="/AjaxExample.jsp"
+                type="com.opitz.action.AjaxAction"/>
+
+    </action-mappings>
+
+
+    <!-- Message Resources -->
+    <message-resources parameter="com.opitz.ApplicationResources"/>
+
+    <!--Validator Configuration -->
+    <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+        <set-property property="pathnames"
+                      value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+    </plug-in>
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin">
+        <set-property property="definitions-config"
+                      value="/WEB-INF/tiles-defs.xml"/>
+        <set-property property="moduleAware" value="true"/>
+    </plug-in>
+
+    <plug-in className="no.hackeriet.struts1Spring.struts.ContextLoaderPlugIn">
+        <set-property property="contextConfigLocation"
+                      value="/WEB-INF/spring-beans.xml" />
+    </plug-in>
+
+
+</struts-config>
