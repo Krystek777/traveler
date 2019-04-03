@@ -95,9 +95,9 @@ public class PersistenceContext {
     DataSource dataSource(Environment env) {
         BasicDataSource dataSource = new BasicDataSource();
         dataSource.setDriverClassName("com.mysql.jdbc.Driver");
-        dataSource.setUrl("jdbc:mysql://localhost:3306/traveldb");
-        dataSource.setUsername("root");
-        dataSource.setPassword("");
+        dataSource.setUrl("jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7286450");
+        dataSource.setUsername("sql7286450");
+        dataSource.setPassword("uEszMXk2dQ");
 
         return dataSource;
     }
@@ -114,7 +114,7 @@ public class PersistenceContext {
 
         jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 
-        jpaProperties.put("hibernate.hbm2ddl.auto", "create-drop");
+        jpaProperties.put("hibernate.hbm2ddl.auto", "update");
 
         jpaProperties.put("hibernate.ejb.naming_strategy", "org.hibernate.cfg.ImprovedNamingStrategy");
 
