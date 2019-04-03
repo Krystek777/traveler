@@ -11,6 +11,7 @@
     </c:when>
     <c:otherwise>
 
+
         <div>
             <table class="table">
                 <tr>

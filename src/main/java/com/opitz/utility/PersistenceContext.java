@@ -114,7 +114,7 @@ public class PersistenceContext {
 
         jpaProperties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
 
-        jpaProperties.put("hibernate.hbm2ddl.auto", "update");
+        jpaProperties.put("hibernate.hbm2ddl.auto", "create-drop");
 
         jpaProperties.put("hibernate.ejb.naming_strategy", "org.hibernate.cfg.ImprovedNamingStrategy");
 

@@ -30,5 +30,4 @@ public class GraphQlController {
         return ResponseEntity.ok(result.getData());
     }
 
-
 }

@@ -20,7 +20,6 @@
         <put name="body" value="login.jsp"/>
     </definition>
 
-
     <definition name="allClaims.td" extends="baseLayout">
         <put name="titleKey" value="title.all.claims"/>
         <put name="body" value="allClaims.jsp"/>
